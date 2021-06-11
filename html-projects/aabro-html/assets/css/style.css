@@ -664,11 +664,12 @@ header.navbar-fixed-top nav.aabbro-navbar {
     position: relative;
     padding-top: 63px;
 }
-
+.er-btn {
+    text-align: right;
+}
 .single-category-block {
     position: relative;
-    background: #FFFFFF;
-/* Shadows/Shadow1 */
+    background: #FFFFFF; 
     box-shadow: 0px 25px 99px rgba(149, 149, 149, 0.1);
     border-radius: 15px;
     margin-bottom: 30px;
