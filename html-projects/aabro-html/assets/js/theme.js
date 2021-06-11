@@ -78,11 +78,11 @@
     });
 
     /*---------------------
-    owl carousel
+    Testimonial carousel
     --------------------- */
-    function owl_carousel() {
-        var owl = $(".owl-carousel");
-        owl.owlCarousel({
+    function testimonial_carousel() {
+        var owl = $(".testimonial-carousel");
+        owl.testimonialCarousel({
             loop: true,
             margin: 20,
             responsiveClass: true,
@@ -103,12 +103,12 @@
                     items: 1
                 },
                 760: {
-                    items: 3
+                    items: 2
                 }
             }
         });
     }
-    owl_carousel();
+    testimonial_carousel();
 
 
 }(jQuery));
