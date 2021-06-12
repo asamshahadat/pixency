@@ -565,12 +565,14 @@ header.navbar-fixed-top nav.aabbro-navbar {
     background: linear-gradient(98.11deg, #6235E5 0.36%, #B37AFB 131.41%);
     padding: 170px 0px 0px;
     text-align: center;
+    background-image: url(../img/hero-bg-min.jpg);
+    background-position: center center;
+    background-size: cover;
 }
 
 .hero-content {
     position: relative;
-    text-align: center;
-    margin-bottom: 50px;
+    text-align: center; 
 }
 
 .hero-content h1 {
@@ -587,7 +589,7 @@ header.navbar-fixed-top nav.aabbro-navbar {
     text-align: center;
     color: #fff;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .hero-video-play-btn a {
@@ -651,7 +653,7 @@ header.navbar-fixed-top nav.aabbro-navbar {
 
 .hero-img-video {
     position: relative;
-    margin-top: 90px;
+    margin-top: 60px;
     margin-bottom: -360px;
     z-index: 1;
     text-align: center;
@@ -816,10 +818,7 @@ ul.atia-list li {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-/* identical to box height, or 150% */
-
-
-/* Neutral/Black */
+    letter-spacing: 0px;
     color: #000248;
     margin: 10px auto;
 }
@@ -1027,8 +1026,11 @@ ul.atia-list li img {
     box-shadow: 0px 25px 99px rgba(149, 149, 149, 0.1);
     border-radius: 30px;
     padding: 40px;
+    transition: .5s ease;
 }
-
+.single-pricing:hover {
+    box-shadow: 0px 20px 99px rgb(149 149 149 / 16%);
+}
 .sprice-head {
     position: relative;
     padding-bottom: 30px;
@@ -1310,7 +1312,17 @@ ul.footer-social li a {
     text-align: center;
     margin-right: 5px;
 }
+ul.footer-social li a.social-facebook {
+    background-color: #3472F6;
+}
 
+ul.footer-social li a.social-twitter {
+    background-color: #42B7FF;
+}
+
+ul.footer-social li a.social-linkedin {
+    background-color: #058ED7;
+}
 .nl-form {
     position: relative;
 }
@@ -1343,8 +1355,8 @@ ul.footer-social li a {
     width: 45px;
     color: #fff;
     cursor: pointer;
+    border: 1px solid #6235e5;
 }
-
 .nlip-field button i {
     color: #fff;
 }
