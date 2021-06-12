@@ -540,7 +540,9 @@ header.navbar-fixed-top nav.aabbro-navbar {
 }
  
 
-
+.aabbro-navbar ul.navbar-nav li a:hover {
+    color: #000 !important;
+}
 
 .aabbro-navbar ul.navbar-nav li:last-child {
     margin-right: 0px;
@@ -596,7 +598,12 @@ header.navbar-fixed-top .aabbro-navbar ul.navbar-nav li a.sign-in-btn {
     background-position: center center;
     background-size: cover;
 }
-
+.hero-img-video video.aabbro-video-player {
+    width: 100%;
+    margin-bottom: -360px;
+    height: 735px;
+    background-color: #000;
+}
 .hero-content {
     position: relative;
     text-align: center; 
@@ -676,7 +683,27 @@ header.navbar-fixed-top .aabbro-navbar ul.navbar-nav li a.sign-in-btn {
     color: #fff !important;
     display: inline-block;
 }
-
+.aabbro-btn-c {
+    position: relative;
+    background: rgb(255 138 0 / 0%);
+    border-radius: 10px;
+    padding: 24px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff !important;
+    display: inline-block;
+    border: 1px solid #fff;
+}
+.aabbro-btn-b:hover,
+.aabbro-btn-a:hover,
+.aabbro-btn-c:hover{
+    background-color: #000;
+}
 
 .hero-img-video {
     position: relative;
@@ -710,6 +737,7 @@ header.navbar-fixed-top .aabbro-navbar ul.navbar-nav li a.sign-in-btn {
 .er-btn {
     text-align: right;
 }
+.er-btn-mobile{ display: none;}
 .single-category-block {
     position: relative;
     background: #FFFFFF; 
@@ -807,6 +835,15 @@ header.navbar-fixed-top .aabbro-navbar ul.navbar-nav li a.sign-in-btn {
     border-radius: 18px;
     padding: 24px;
 }
+.atia-img video.aabbro-video-player {
+    height: 530px;
+    max-width: 698px;
+    width: 100%;
+    background: #000000;
+    box-shadow: 0px 50px 80px rgb(0 2 72 / 5%);
+    border-radius: 18px;
+    border: 24px solid #fff;
+}
 .atia-text {
     position: relative;
     background-color: #fff;
@@ -866,7 +903,16 @@ ul.atia-list li img {
     position: relative;
     padding-bottom: 0px;
 }
-
+.testimonial-modal .btn-close {
+    position: absolute;
+    right: 2px;
+    top: 1px;
+    z-index: 1;
+    background-color: #fff;
+    color: #fff !important;
+    border-radius: 50%;
+    padding: 10px;
+}
 .testimonial-slider {
     position: relative;
     /* margin-left: -80px; */
@@ -1181,8 +1227,11 @@ a.pricing-btn.pbtn-1 {
 a.pricing-btn.pbtn-2 {
     background-color: #FF8A00;
 }
-
-
+a.pricing-btn.pbtn-1:hover,
+a.pricing-btn.pbtn-2:hover,
+a.pricing-btn:hover {
+    background-color: #000;
+}
 
 
 
@@ -1204,22 +1253,7 @@ a.pricing-btn.pbtn-2 {
     margin-bottom: 40px;
 }
 
-.aabbro-btn-c {
-    position: relative;
-    background: rgb(255 138 0 / 0%);
-    border-radius: 10px;
-    padding: 24px;
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #fff !important;
-    display: inline-block;
-    border: 1px solid #fff;
-}
+
 
 .call-to-action-area .cta-text a {
     margin-right: 15px;
@@ -1304,6 +1338,9 @@ ul.sf-links li a {
     color: #757589;
     letter-spacing: 0px;
     position: relative;
+}
+ul.sf-links li a:hover {
+    color: #000;
 }
 
 .sf-widget p {

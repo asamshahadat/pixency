@@ -50,7 +50,7 @@
     /*------------------------------
          counter
     ------------------------------ */
-    $('.counter-up').counterUp();
+    // $('.counter-up').counterUp();
 
 
     /*---------------------
@@ -69,13 +69,13 @@
     /*---------------------
     countdown
     --------------------- */
-    $('[data-countdown]').each(function() {
-        var $this = $(this),
-            finalDate = $(this).data('countdown');
-        $this.countdown(finalDate, function(event) {
-            $this.html(event.strftime('<span class="cdown days"><span class="time-count">%-D</span> <p>Days</p></span> <span class="cdown hour"><span class="time-count">%-H</span> <p>Hour</p></span> <span class="cdown minutes"><span class="time-count">%M</span> <p>Min</p></span> <span class="cdown second"> <span><span class="time-count">%S</span> <p>Sec</p></span>'));
-        });
-    });
+    // $('[data-countdown]').each(function() {
+    //     var $this = $(this),
+    //         finalDate = $(this).data('countdown');
+    //     $this.countdown(finalDate, function(event) {
+    //         $this.html(event.strftime('<span class="cdown days"><span class="time-count">%-D</span> <p>Days</p></span> <span class="cdown hour"><span class="time-count">%-H</span> <p>Hour</p></span> <span class="cdown minutes"><span class="time-count">%M</span> <p>Min</p></span> <span class="cdown second"> <span><span class="time-count">%S</span> <p>Sec</p></span>'));
+    //     });
+    // });
 
     /*---------------------
     Testimonial carousel
@@ -110,5 +110,20 @@
     }
     testimonial_carousel();
 
+
+
+    // Testimonial Video Play Pause On click
+    $('#testimonialVideoPopup').on('hidden.bs.modal', function () {
+        $('#testimonial-vid-1').trigger('pause'); 
+    }) 
+    $('#testimonialVideoPopup').on('show.bs.modal', function () {
+        $('#testimonial-vid-1').trigger('play');
+    });
+
+
+    // Init Wow jS 
+    if ($('.wow').length > 0) {
+        new WOW().init();
+    }
 
 }(jQuery));
