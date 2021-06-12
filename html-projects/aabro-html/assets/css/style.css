@@ -612,9 +612,9 @@ header.navbar-fixed-top .aabbro-navbar ul.navbar-nav li a.sign-in-btn {
 
 .hero-img-video video.aabbro-video-player {
     border-radius: 30px;
-    border: 30px solid #f9f9f9;
+    border: 15px solid #ffffff;
     box-shadow: 0px 25px 99px rgb(149 149 149 / 10%);
-    background-color: #000;
+    background-color: #000000;
 }
 .hero-content {
     position: relative;
