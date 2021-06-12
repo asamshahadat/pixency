@@ -82,7 +82,7 @@
     --------------------- */
     function testimonial_carousel() {
         var owl = $(".testimonial-carousel");
-        owl.testimonialCarousel({
+        owl.owlCarousel({
             loop: true,
             margin: 20,
             responsiveClass: true,
@@ -94,7 +94,7 @@
             dots: true,
             autoplay: true,
             autoplayTimeout: 4000,
-            center: true,
+            center: false,
             responsive: {
                 0: {
                     items: 1
