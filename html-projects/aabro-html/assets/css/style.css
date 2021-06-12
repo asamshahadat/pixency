@@ -1000,6 +1000,153 @@ ul.atia-list li img {
     background-color: #6235E5;
     color: #fff;
 }
+
+
+
+
+
+.aabbro-pricing-area {
+    position: relative;
+    background-color: #F9F9F9;
+    padding: 150px 0px;
+}
+
+.pricing-section-head {
+    position: relative;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.single-pricing {
+    position: relative;
+    margin: 15px auto;
+/* White */
+    background: #FFFFFF;
+/* Shadows/Shadow1 */
+    box-shadow: 0px 25px 99px rgba(149, 149, 149, 0.1);
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.sprice-head {
+    position: relative;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #d7f0e1;
+    border-radius: 0px;
+}
+
+.sprice-head ul {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.sprice-head ul li {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sprice-head ul li:last-child {
+    float: right;
+}
+
+.sprice-head ul li:last-child h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+/* identical to box height, or 36px */
+    text-align: right;
+
+/* Neutral/Black */
+    color: #000248;
+    letter-spacing: 0px;
+    padding-top: 10px;
+}
+
+.sprice-head ul li:nth-child(2) {
+    padding-left: 15px;
+}
+
+.sprice-head ul li h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+/* identical to box height, or 150% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    letter-spacing: 0px;
+}
+
+.sprice-head ul li p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+}
+
+.sprice-head ul li img {
+    margin-top: -5px;
+}
+
+.sprice-features {
+    position: relative;
+    padding: 25px 0px;
+}
+
+.sprice-features ul.atia-list {}
+
+.sprice-features ul.atia-list li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+/* identical to box height, or 200% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    letter-spacing: 0px;
+}
+
+.sprice-bottom {
+    position: relative;
+    text-align: center;
+}
+
+.pricing-btn {
+    position: relative;
+    display: block;
+    background: #7f4eed;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+/* identical to box height, or 100% */
+    text-align: center;
+    color: #fff !important;
+    padding: 20px;
+    letter-spacing: 0px;
+}
+
+a.pricing-btn.pbtn-1 {
+    background-color: #38B268;
+}
+ 
+a.pricing-btn.pbtn-2 {
+    background-color: #FF8A00;
+}
 /* 
 --------------------------
 - Homepage CSS END
