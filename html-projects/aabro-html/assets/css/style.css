@@ -699,10 +699,15 @@ header.navbar-fixed-top .aabbro-navbar ul.navbar-nav li a.sign-in-btn {
     display: inline-block;
     border: 1px solid #fff;
 }
-.aabbro-btn-b:hover,
-.aabbro-btn-a:hover,
+.aabbro-btn-b:hover {
+    background-color: #4D22CA;
+}
+.aabbro-btn-a:hover{
+    background-color: #E47C01;
+}
 .aabbro-btn-c:hover{
-    background-color: #000;
+    background-color: #fff;
+    color: #4D22CA;;
 }
 
 .hero-img-video {
@@ -926,8 +931,8 @@ ul.atia-list li img {
 .single-testimonial {
     position: relative;
     padding: 24px;
-    background: #FFFFFF;
-    box-shadow: 0px 20px 99px rgba(149, 149, 149, 0.16);
+    background: #F9F9F9;
+    /* box-shadow: 0px 20px 99px rgba(149, 149, 149, 0.16); */
     border-radius: 20px;
     margin: 65px auto;
 }
@@ -1227,10 +1232,14 @@ a.pricing-btn.pbtn-1 {
 a.pricing-btn.pbtn-2 {
     background-color: #FF8A00;
 }
-a.pricing-btn.pbtn-1:hover,
-a.pricing-btn.pbtn-2:hover,
+a.pricing-btn.pbtn-1:hover{
+    background-color: #289f57;
+}
+a.pricing-btn.pbtn-2:hover {
+    background-color: #E47C01;
+}
 a.pricing-btn:hover {
-    background-color: #000;
+    background-color: #4D22CA;
 }
 
 
