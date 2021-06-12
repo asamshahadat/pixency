@@ -2,6 +2,9 @@
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1140px;
     }
+    .aabbro-pricing-area .container {
+        max-width: 1530px;
+    }
 }
 
 /* Medium Layout: 1367px. */

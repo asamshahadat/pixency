@@ -1104,24 +1104,27 @@ ul.atia-list li img {
 
 .sprice-features {
     position: relative;
-    padding: 25px 0px;
+    padding: 30px 0px;
 }
 
-.sprice-features ul.atia-list {}
+.sprice-features ul.atia-list {
+    margin-bottom: 0px;
+}
 
 .sprice-features ul.atia-list li {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 36px;
-/* identical to box height, or 200% */
-
-
-/* Neutral/Gray */
+    line-height: 36px; 
     color: #757589;
     letter-spacing: 0px;
 }
-
+.sprice-features ul.atia-list li:last-child{
+    margin-bottom: 0px;
+}
+.sprice-features ul.atia-list li:first-child {
+    margin-top: 0px;
+}
 .sprice-bottom {
     position: relative;
     text-align: center;
