@@ -179,10 +179,15 @@
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
+    .sprice-head ul li:first-child {
+        display: none;
+    }
     .abbro-mb-order-2 {
         order: 2!important;
     }
-    
+    .stt-qouts {
+        margin-top: 20px;
+    }
     .abbro-mb-order-1 {
         order: 1!important;
     }
