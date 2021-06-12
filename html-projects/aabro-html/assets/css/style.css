@@ -557,6 +557,11 @@ header.navbar-fixed-top nav.aabbro-navbar {
     margin-top: -10px;
     margin-bottom: -10px;
 }
+
+.aabbro-navbar ul.navbar-nav li a.sign-in-btn:hover {
+    background-color: #ff8a01 !important;
+    color: #fff !important;
+}
 .aabbro-navbar ul.navbar-nav li ul.dropdown-menu li {
     margin: 0px;
 }
