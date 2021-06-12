@@ -2,6 +2,7 @@
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1140px;
     }
+    .testimonial-area .container,
     .aabbro-pricing-area .container {
         max-width: 1530px;
     }
