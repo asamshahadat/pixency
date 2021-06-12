@@ -628,7 +628,7 @@ header.navbar-fixed-top nav.aabbro-navbar {
     line-height: 18px;
     letter-spacing: 0em;
     text-align: center;
-    color: #fff;
+    color: #fff !important;
     display: inline-block;
 }
  
@@ -644,7 +644,7 @@ header.navbar-fixed-top nav.aabbro-navbar {
     line-height: 18px;
     letter-spacing: 0em;
     text-align: center;
-    color: #fff;
+    color: #fff !important;
     display: inline-block;
 }
 
@@ -964,6 +964,7 @@ ul.atia-list li img {
     position: relative;
     margin: 0px auto;
     float: right;
+    z-index: 1;
 }
 
 .testimonial-carousel .owl-dots {
@@ -1146,6 +1147,206 @@ a.pricing-btn.pbtn-1 {
  
 a.pricing-btn.pbtn-2 {
     background-color: #FF8A00;
+}
+
+
+
+
+
+.call-to-action-area{
+    position: relative;
+    background-image: url(../img/cta-bg.png);
+
+}
+
+
+
+
+.call-to-action-area .cta-text {
+    padding: 135px 0px;
+}
+
+.call-to-action-area .cta-text h2 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.aabbro-btn-c {
+    position: relative;
+    background: rgb(255 138 0 / 0%);
+    border-radius: 10px;
+    padding: 24px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff !important;
+    display: inline-block;
+    border: 1px solid #fff;
+}
+
+.call-to-action-area .cta-text a {
+    margin-right: 15px;
+}
+.cta-img {
+    padding-top: 30px;
+}
+
+
+
+footer.aabbro-footer {
+    position: relative;
+}
+
+.footer-widget {
+    position: relative;
+    padding: 165px 0px 120px;
+}
+
+.footer-copyright {
+    position: relative;
+    background: #6235E5;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.footer-copyright p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+/* identical to box height, or 100% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sf-widget {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.sf-widget h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+/* identical to box height, or 125% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    letter-spacing: 0px;
+    margin-bottom: 35px;
+}
+
+.sf-widget.sf-logo-text {}
+
+.sf-widget.sf-logo-text img {
+    margin-top: -12px;
+    margin-bottom: 20px;
+}
+
+ul.sf-links {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul.sf-links li {
+    position: relative;
+}
+
+ul.sf-links li a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+/* identical to box height, or 200% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    letter-spacing: 0px;
+    position: relative;
+}
+
+.sf-widget p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+/* or 200% */
+    align-items: center;
+
+/* Neutral/Gray */
+    color: #757589;
+    margin-bottom: 24px;
+}
+
+ul.footer-social {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul.footer-social li {
+    position: relative;
+    display: inline-block;
+}
+
+ul.footer-social li a {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #3472F7;
+    display: block;
+    color: #fff;
+    font-size: 21px;
+    border-radius: 50%;
+    padding-top: 10px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.nl-form {
+    position: relative;
+}
+
+.nlip-field {
+    position: relative;
+}
+
+.nlip-field input[type="email"] {
+    background: #F8F8F8;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    height: 60px;
+    border: 1px solid #F8F8F8;
+    padding: 0px 20px;
+    width: 100%;
+}
+
+.nlip-field button {
+    position: absolute;
+    background: #6235E5;
+    border-radius: 10px;
+    height: calc(100% - 12px);
+    right: 6px;
+    top: 6px;
+    width: 45px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nlip-field button i {
+    color: #fff;
 }
 /* 
 --------------------------
