@@ -44,7 +44,12 @@
 .no-pad {
     padding: 0!important;
 }
-
+.pad-left-20 {
+    padding-left: 20px;
+}
+.pad-left-40 {
+    padding-left: 40px;
+}
 div#preloader {
     background: #000 url("../img/loader.gif") no-repeat scroll center center;
     height: 100%;
@@ -547,7 +552,7 @@ header.navbar-fixed-top nav.aabbro-navbar {
     position: relative;
     background: #FFFFFF;
     border-radius: 10px;
-    padding: 16px 50px;
+    padding: 13px 27px;
     margin-top: -10px;
     margin-bottom: -10px;
 }
