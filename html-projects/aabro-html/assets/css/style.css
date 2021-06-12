@@ -510,10 +510,10 @@ header.aabbro-header {
 }
 .aabbro-navbar {
     position: relative;
-    padding: 40px 0px;
+    padding: 40px 50px;
 }
 header.navbar-fixed-top nav.aabbro-navbar {
-    padding: 15px 0px;
+    padding: 15px 50px;
 }
 .aabbro-navbar ul.navbar-nav {
     position: relative;
