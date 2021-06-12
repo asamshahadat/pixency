@@ -59,13 +59,13 @@
         top: 7px;
     }
     .aabbro-navbar ul.navbar-nav li a {
-        text-align: center;
+        text-align: left;
     }
     .aabbro-navbar ul.navbar-nav li:last-child {
         margin: 0px;
     }
     header.aabbro-header {
-        background-color: #7b4bec;
+        background-color: #804eec;
     }
     header.navbar-fixed-top {
         background: #F9F9F9;
@@ -75,8 +75,8 @@
     }
 
     .hero-content h1 {
-        font-size: 24px;
-        line-height: 36px;
+        font-size: 32px;
+        line-height: 42px;
     }
     
     .hero-content p {
@@ -101,6 +101,7 @@
         margin-bottom: 0px;
         padding-left: 10px;
         padding-right: 10px;
+        margin-top: 40px;
     }
     
     .product-category-area {
@@ -161,6 +162,18 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 30px;
+    }
+    .aabbro-navbar ul.navbar-nav {
+        margin-top: 50px;
+        margin-bottom: 40px !important;
+    }
+    
+    .aabbro-navbar ul.navbar-nav li a {
+        padding: 12px 0px;
+    }
+    
+    .aabbro-navbar ul.navbar-nav li a.sign-in-btn {
+        margin-top: 20px;
     }
 }
 /* Mobile Layout: 320px. */
