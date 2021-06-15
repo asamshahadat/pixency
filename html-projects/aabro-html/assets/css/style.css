@@ -1457,3 +1457,399 @@ ul.footer-social li a.social-linkedin {
 - Homepage CSS END
 --------------------------
 */
+
+
+
+/* 
+--------------------------
+- Resources Page CSS Start
+--------------------------
+*/
+/* Header v2 */
+
+.aabbro-headerV2 {
+    background-color: #fff;
+    border-bottom: 1px solid #E0E0E0;
+}
+.aabbro-headerV2 .aabbro-navbar {
+    padding: 25px 50px;
+}
+.aabbro-headerV2 img.main-logo {
+    display: none;
+}
+
+.aabbro-headerV2 img.sticky-logo {
+    display: block;
+}
+
+header.aabbro-headerV2 .aabbro-navbar ul.navbar-nav li a {
+    color: #000248;
+}
+
+header.aabbro-headerV2 .aabbro-navbar ul.navbar-nav li a.sign-in-btn {
+    background-color: #6235E5;
+    color: #fff;
+}
+
+
+.search-form-header {
+    position: relative;
+    width: 30%;
+    margin-left: 50px;
+}
+
+.search-form-header form {
+    position: relative;
+}
+
+.search-form-header input.form-control {
+    background-color: #F9F9F9;
+    border: 1px solid #F9F9F9;
+    height: 45px;
+    border-radius: 10px;
+    margin: 0px !important;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    padding-left: 14px;
+    font-weight: 400;
+}
+
+.search-form-header button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    font-size: 20px;
+    color: #757589;
+    height: 100%;
+    padding: 0px 13px !important;
+    border-radius: 10px;
+}
+
+.search-form-header button:hover {
+    background-color: #f9f9f9;
+    color: #6235e5;
+}
+
+
+
+/* Category CSS */
+.aabbro-category-area {
+    position: relative;
+    padding-top: 140px;
+    padding-bottom: 42px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.aabbro-category {
+    position: relative;
+}
+
+ul.aabbro-category-lists {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul.aabbro-category-lists li {
+    position: relative;
+    display: inline-block;
+}
+
+ul.aabbro-category-lists li a {
+    position: relative;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+/* identical to box height, or 200% */
+
+
+/* Gray */
+    color: #757589;
+    letter-spacing: 0px;
+    display: block;
+    padding: 5px 13px;
+}
+
+ul.aabbro-category-lists li.active a,ul.aabbro-category-lists li a:hover {
+    background-color: #F4F3F8;
+    border-radius: 5px;
+}
+
+.category-promo-name {
+    position: relative;
+    text-align: right;
+}
+
+.category-promo-name p,.category-promo-name p a {
+    background-color: #FFF5EA;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+/* identical to box height, or 200% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    letter-spacing: 0px;
+}
+
+.category-promo-name p a {
+    color: #6235e5;
+}
+
+.category-promo-name p span {
+    position: absolute;
+    right: 0px;
+    top: -5px;
+    background-color: #FF8A00;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1;
+    font-size: 18px;
+    display: block;
+    word-break: break-all;
+    line-height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.category-promo-name p {
+    padding-right: 68px;
+    min-height: 50px;
+    padding-top: 6px;
+}
+
+
+
+
+.aabbro-main-resources-area {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aabro-resource-filter-area {
+    flex: 0 0 auto;
+    width: 25%;
+    
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.aabbro-resources-area {
+    position: relative;
+    flex: 0 0 auto;
+    width: 75%;
+    background-color: #F9F9F9;
+    padding-right: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.filtered-result-box {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.filtered-result-box p {
+    position: relative;
+    display: inline-block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+/* identical to box height, or 150% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+}
+
+.filtered-result-box p span {
+    color: #000;
+    font-weight: 500;
+}
+
+.filtered-result-box ul {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.filtered-result-box ul li {
+    position: relative;
+    display: inline-block;
+    background: #FFFFFF;
+/* Neutral/Stroke Gray */
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    letter-spacing: 0px;
+    padding: 0px 8px;
+    margin-right: 5px !important;
+}
+
+.filtered-result-box ul li span.remove {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    border-left: 1px solid #e0e0e0;
+    padding-left: 6px;
+    line-height: 33px;
+}
+
+.filtered-result-box span.clear-all-btn {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Universal/Red */
+    color: #FF5A79;
+    letter-spacing: 0px;
+    display: inline-block;
+}
+
+
+
+.aabro-resource-filter-tab {
+    position: relative;
+}
+
+.aabro-resource-filter-tab ul {
+    background-color: #F4F3F8;
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.aabro-resource-filter-tab ul li {
+    position: relative;
+    display: inline-block;
+    width: calc(50% - 3px);
+    text-align: center;
+}
+
+.aabro-resource-filter-tab ul li a {
+    position: relative;
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+/* identical to box height, or 100% */
+    text-align: center;
+
+/* Primary/Solid */
+    color: #6235E6;
+    letter-spacing: 0px;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.aabro-resource-filter-tab ul li a.active {
+    color: #fff;
+    background-color: #6235E5;
+}
+
+.filter-search {
+    position: relative;
+    width: 100%;
+    margin: 24px auto;
+}
+
+.filter-search .search-form-header {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.aabbro-filter-sidebar {
+    position: relative;
+}
+
+ul.aabbro-filter-lists {
+    position: relative;
+    display: block;
+    list-style-type: none;
+    padding: 0px;
+}
+
+ul.aabbro-filter-lists li {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+
+ul.aabbro-filter-lists li .aabbro-checkbox-default {}
+
+ul.aabbro-filter-lists li .aabbro-checkbox-default label {
+    display: block;
+    width: 100%;
+    position: relative;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 18px;
+/* identical to box height, or 100% */
+
+
+/* Neutral/Gray */
+    font-weight: 400;
+    color: #757589;
+}
+
+ul.aabbro-filter-lists li .aabbro-checkbox-default label span.aabbro-filterCategory-Text {
+    position: relative;
+    width: calc(100% - 20px);
+    display: inline-block;
+    padding-left: 5px;
+    letter-spacing: 0px;
+}
+ 
+
+ul.aabbro-filter-lists li .aabbro-checkbox-default label:hover {
+    color: #4b4a4e;
+}
+
+ul.aabbro-filter-lists li .aabbro-checkbox-default label span.aabbro-filterCategory-Text span.filterPcount {
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+/* 
+--------------------------
+- Resources Page CSS End
+--------------------------
+*/

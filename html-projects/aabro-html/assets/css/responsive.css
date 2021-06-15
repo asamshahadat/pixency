@@ -11,9 +11,31 @@
 /* Medium Layout: 1367px. */
 
 @media only screen and (min-width: 1200px) and (max-width: 1367px) {
-
+    .aabbro-resources-area .single-category-block h4 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .aabbro-resources-area .single-category-block ul {
+        float: unset;
+        width: 100%;
+        text-align: center;
+    }
 }
 
+
+@media only screen and (min-width: 99200px) and (max-width: 1440px) {
+    .aabbro-resources-area .single-category-block h4 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .aabbro-resources-area .single-category-block ul {
+        float: unset;
+        width: 100%;
+        text-align: center;
+    }
+}
 
 /* Medium Layout: 1280px. */
 
