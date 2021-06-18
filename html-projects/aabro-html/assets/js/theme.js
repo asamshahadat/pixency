@@ -126,4 +126,23 @@
         new WOW().init();
     }
 
+
+    // Category Menu And Filter Click Event On Click
+    $('.mobilecategorybtn').on('click', function(){
+        $('.aabro-resource-filter-area').addClass('showMobileCat');
+        $('.closeMobileCatFilter').addClass('showMobileCatCloseIcon');
+    });
+    $('.mobilefilter-btn').on('click', function(){
+        $('.aabbro-category').addClass('showMobileCat');
+        $('.closeMobileCatFilter').addClass('showMobileCatCloseIcon');
+    });
+
+    $('.closeMobileCatFilter').on('click', function(){
+        $('.aabro-resource-filter-area').removeClass('showMobileCat');
+        $('.aabbro-category').removeClass('showMobileCat');
+        $('.closeMobileCatFilter').removeClass('showMobileCatCloseIcon');
+    });
+    
+    
+
 }(jQuery));

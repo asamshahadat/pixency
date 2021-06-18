@@ -1642,7 +1642,7 @@ ul.aabbro-category-lists li.active a,ul.aabbro-category-lists li a:hover {
 
 .aabro-resource-filter-area {
     flex: 0 0 auto;
-    width: 25%;
+    width: 18%;
     
     padding-left: 45px;
     padding-right: 45px;
@@ -1651,7 +1651,7 @@ ul.aabbro-category-lists li.active a,ul.aabbro-category-lists li a:hover {
 .aabbro-resources-area {
     position: relative;
     flex: 0 0 auto;
-    width: 75%;
+    width: 82%;
     background-color: #F9F9F9;
     padding-right: 50px;
     padding-left: 30px;
@@ -1847,6 +1847,17 @@ ul.aabbro-filter-lists li .aabbro-checkbox-default label span.aabbro-filterCateg
     position: absolute;
     right: 0;
     top: 0px;
+}
+
+.aabbro-resources-area .er-btn {
+    padding: 40px 0px;
+}
+
+.mobile-cat-filter-btn {
+    display: none;
+}
+.closeMobileCatFilter {
+    display: none;
 }
 /* 
 --------------------------
