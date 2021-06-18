@@ -109,7 +109,7 @@
     
 }
 @media only screen and (min-width: 992px){
-    .aabbro-navbar ul.navbar-nav li:last-child {
+    .aabbro-headerV2 .aabbro-navbar ul.navbar-nav li:last-child {
         display: none;
     }
     .aabbro-navbar ul.navbar-nav li {
@@ -510,6 +510,35 @@
     .filterd-btn-box ul.filter-lists {
         top: 65px;
         right: 7px;
+    }
+    .log-reg-img {
+        display: none;
+    }
+    
+    .log-reg-form-wrapper h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    ul.remember-forget li label {
+        font-size: 15px;
+    }
+    
+    a.forget-pass-btn {
+        font-size: 14px;
+    }
+    
+    .log-reg-form-wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    ul.remember-forget li:first-child {
+        width: 57%;
+    }
+    
+    ul.remember-forget li:last-child {
+        width: 41%;
     }
 }
 /* Mobile Layout: 320px. */
