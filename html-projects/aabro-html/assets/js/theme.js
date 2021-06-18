@@ -143,6 +143,9 @@
         $('.closeMobileCatFilter').removeClass('showMobileCatCloseIcon');
     });
     
-    
+    $('.filter-submit-btn').on('click', function(){
+        $('ul.filter-lists').toggleClass('hide');
+         
+    });
 
 }(jQuery));
