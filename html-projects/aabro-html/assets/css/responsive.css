@@ -74,16 +74,51 @@
 /* Medium Layout: 1367px. */
 
 @media only screen and (min-width: 1200px) and (max-width: 1367px) {
-    /* .aabbro-resources-area .single-category-block h4 {
+    .product-caegory-wrapper .single-category-block h4 {
         width: 100%;
         text-align: center;
     }
     
-    .aabbro-resources-area .single-category-block ul {
+    .product-caegory-wrapper .single-category-block ul {
         float: unset;
         width: 100%;
         text-align: center;
-    } */
+    }
+
+
+    .product-details-area {
+        position: relative;
+    }
+
+    .product-details-head-area .container,
+    .product-details-similar-product-area .container,
+    .product-details-area .container {
+        max-width: 900px;
+    }
+    .schedule-banner h3 { 
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .sch-btn a.aabbro-btn-a {
+        font-size: 13px;
+        padding: 15px 16px;
+        top: 7px;
+    }
+
+    .product-details-gallary {
+        position: relative;
+        max-width: 790px;
+        margin: 0px auto;
+        margin-right: 330px;
+    }
+    .product-gallary-carousel ol.carousel-indicators li { 
+        max-width: 120px; 
+        height: 90px;
+    }
+    .product-gallary-carousel .carousel-item.active img,
+    .carousel-item img {
+        max-height: 560px;
+    }
 }
 
 
@@ -106,7 +141,13 @@
 /* Medium Layout: 1280px. */
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    
+    .download-wrapper {
+        position: relative;
+        right: unset;
+        margin: 45px auto;
+        width: 80%;
+
+    }
 }
 @media only screen and (min-width: 992px){
     .aabbro-headerV2 .aabbro-navbar ul.navbar-nav li:last-child {
@@ -125,6 +166,20 @@
 }
 
 @media only screen and (max-width: 991px) {
+    .pd-gallery-details .product-gallary-carousel ol.carousel-indicators {
+        top: unset;
+        position: relative;
+        right: unset;
+        text-align: center;
+        margin: 25px auto !important;
+    }
+    .download-wrapper {
+        position: relative;
+        right: unset;
+        margin: 45px auto;
+        width: 80%;
+
+    }
     .aabbro-navbar {
         padding: 15px !important
     }
@@ -544,6 +599,73 @@
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
+    .download-wrapper {
+        position: relative;
+        right: unset;
+        margin: 5px auto 45px;
+        width: 100%;
+    }
+    
+    .schedule-banner h3 {
+        text-align: center;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .schedule-banner {
+        text-align: center;
+        padding: 30px;
+    }
+    
+    .product-details-area {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    header.aabbro-header-pop {
+        padding: 25px 0px;
+    }
+    
+    header.aabbro-header-pop a {
+        top: 8px;
+        right: 31px;
+    }
+    
+    .pdha-btn ul li {
+    }
+    
+    .pdha-btn ul {
+        text-align: left;
+    }
+    
+    .product-gallary-carousel ol.carousel-indicators li {
+        max-width: 65px;
+        height: 50px;
+    }
+    
+    .product-gallary-carousel ol.carousel-indicators {
+        margin: 20px auto !important;
+    }
+    
+    .download-wrapper {}
+    
+    ul.taglist li a {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    
+    .product-details-text {
+        margin-bottom: 0px;
+    }
+    
+    .product-details-similar-product-area {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .product-details-similar-product-area h2 {
+        margin-bottom: 20px;
+    }
     .sprice-head ul li:first-child {
         display: none;
     }

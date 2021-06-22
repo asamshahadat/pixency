@@ -2204,3 +2204,761 @@ ul.google-fb-list li:last-child {
 - Login Page CSS End
 --------------------------
 */
+
+
+/* 
+--------------------------
+- Product Details CSS 
+--------------------------
+*/
+
+.schedule-banner {
+    position: relative;
+    background: linear-gradient(98.11deg, #6235E5 0.36%, #B37AFB 131.41%);
+    border-radius: 12px;
+    padding: 60px 50px;
+    margin: 60px auto;
+}
+
+.schedule-banner h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+ 
+    color: #FFFFFF;
+    margin: 12px auto;
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%
+}
+
+/* #custCarousel .carousel-indicators {
+    position: static;
+    margin-top: 20px
+} */
+
+#custCarousel .carousel-indicators>li {
+    width: 100px
+}
+
+/* #custCarousel .carousel-indicators li img {
+    display: block;
+    opacity: 0.5
+} */
+
+#custCarousel .carousel-indicators li.active img {
+    opacity: 1
+}
+
+#custCarousel .carousel-indicators li:hover img {
+    opacity: 0.75
+}
+
+.carousel-item img {
+    max-height: 830px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.product-gallary-carousel {}
+
+.product-gallary-carousel ol.carousel-indicators li {
+    position: relative;
+    display: inline-block;
+    max-width: 160px;
+    width: 100% !important;
+    height: 124px;
+}
+
+.product-gallary-carousel li.list-inline-item a.carousel-thumb {
+    display: block;
+    position: relative;
+    flex: unset;
+    width: 100%;
+    height: auto !important;
+    opacity: 1;
+    padding: 0px !important;
+    margin: 0px auto !important;
+    border: none;
+    height: 100% !important;
+}
+
+.product-gallary-carousel li.list-inline-item a.carousel-thumb img {
+    opacity: 1 !important;
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.product-gallary-carousel ol.carousel-indicators {
+    display: block;
+    position: relative;
+    margin: 60px auto !important;
+    padding: 0px;
+    text-align: center
+}
+.product-gallary-carousel .carousel-item.active img {
+    max-height: 830px;
+    width: 100%;
+    object-fit: cover;
+}
+
+header.aabbro-header-pop {
+    position: relative;
+    background: #000248;
+    padding: 40px 0px;
+}
+
+header.aabbro-header-pop a {
+    color: #fff;
+    position: absolute;
+    right: 80px;
+    top: 25px;
+    z-index: 1;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+.product-details-head-area {
+    position: relative;
+}
+
+.pdha-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.pdha-title {
+    position: relative;
+}
+
+.pdha-title h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+/* identical to box height, or 125% */
+
+
+/* Dark */
+    color: #000248;
+    letter-spacing: 0px;
+}
+
+.pdha-title ul {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+    margin: 10px auto;
+}
+
+.pdha-title ul li {
+    position: relative;
+    display: inline-block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    letter-spacing: 0px;
+    margin-right: 10px;
+}
+
+.pdha-btn {
+    position: relative;
+    text-align: right;
+}
+
+.pdha-btn ul {
+    position: relative;
+    padding: 20px 0px;
+    list-style-type: none;
+}
+
+.pdha-btn ul li {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.pdha-title ul li i {
+    margin-right: 5px;
+}
+
+.save-share-btn {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+/* identical to box height, or 143% */
+    text-align: center;
+
+/* Dark */
+    color: #000248;
+    letter-spacing: 0px;
+    display: inline-block;
+    background: #F3F3F3;
+    border-radius: 6px;
+    padding: 8px 18px;
+}
+.download-wrapper {
+    position: absolute;
+    right: -300px;
+    top: 0;
+    z-index: 1;
+    width: 280px;
+    background: #FFFFFF;
+/* Shadows/Shadow1 */
+    box-shadow: 0px 25px 99px rgba(149, 149, 149, 0.1);
+    border-radius: 20px;
+}
+
+.pdg-box {
+    position: relative;
+}
+
+.product-details-gallary {
+    position: relative;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.download-wrapper h4 {position: relative;font-family: Poppins;font-style: normal;font-weight: 500;font-size: 24px;line-height: 30px;
+/* identical to box height, or 125% */
+
+
+/* Dark */color: #000248;background: #F3F3F3;border-radius: 20px 20px 0px 0px;padding: 10px 20px;}
+
+ul.download-list {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+    margin: 10px auto;
+}
+
+ul.download-list li {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+ 
+    color: #000248;
+    padding: 15px 15px;
+    letter-spacing: 0px;
+}
+
+.product-dl-btn {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+ 
+    color: #FFFFFF !important;
+    background: #470137;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    padding: 10px 12px;
+    letter-spacing: 0px;
+}
+.btn-clr-1 {
+    background-color: #1ABCFE !important;
+}
+.btn-clr-2 {}
+.btn-clr-3 {
+    background-color: #EA6C00 !important;
+}
+ul.download-list li a {
+    float: right;
+    top: -5px;
+}
+
+ul.download-list li span.dl-format {}
+
+ul.download-list li span.dl-format img {
+    margin-right: 5px;
+}
+
+.product-details-text {position: relative;}
+
+.product-details-text h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+/* identical to box height, or 133% */
+
+
+/* Dark */
+    color: #000248;
+    letter-spacing: 0px;
+}
+
+.product-details-text p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+/* or 200% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    position: relative;
+    margin: 20px auto;
+}
+
+.product-details-text p a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color: #7041e9;
+    position: relative;
+}
+.product-gallary-carousel .carousel-control-next, .product-gallary-carousel .carousel-control-prev {
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    color: #000;
+    font-size: 30px;
+    border-radius: 50%;
+    margin: 15px;
+    top: calc(40% - 30px);
+}
+
+
+.product-details-text {
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.tags-wrapper {
+    position: relative;
+}
+
+.tags-wrapper h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+/* identical to box height, or 150% */
+
+
+/* Gray */
+    color: #757589;
+}
+
+ul.taglist {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+    margin: 15px auto;
+}
+
+ul.taglist li {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 7px 5px;
+}
+
+ul.taglist li a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+/* identical to box height, or 143% */
+    text-align: center;
+
+/* Dark */
+    color: #000248;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0px;
+    background: #F2F5FD;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+ul.taglist li a.tag-btn.tseemore {
+    background-color: #6235E5;
+    color: #fff;
+}
+
+.product-details-similar-product-area {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.pd-gallery-details .product-details-head-area {
+    position: relative;
+    margin-top: 60px;
+}
+
+.pd-gallery-details .product-gallary-carousel ol.carousel-indicators {
+    margin-right: 0px !important;
+    text-align: right;
+    position: absolute;
+    top: -105px;
+    right: 0px;
+    margin: 0px auto !important;
+}
+
+.pd-gallery-details .product-gallary-carousel ol.carousel-indicators li {
+    max-width: 90px;
+    height: 70px;
+}
+
+.pd-gallery-details .product-gallary-carousel .carousel-control-next, 
+.pd-gallery-details .product-gallary-carousel .carousel-control-prev {
+    display: none;
+}
+
+.pd-gallery-details {
+    padding-bottom: 80px;
+}
+
+.share-box-content {
+    position: relative;
+    padding: 45px;
+}
+
+.share-box-content button.btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff !important;
+    opacity: 1;
+    border: 1px solid #000;
+    padding: 7px;
+    border-radius: 50%;
+    background-size: 40% 40%;
+    background-position: center center;
+}
+
+.shareModal {
+}
+
+.shareModal .modal-content {
+    border-radius: 10px;
+}
+
+.pimg {
+    position: relative;
+}
+
+.pimg img {
+    border-radius: 10px;
+}
+
+.share-box-content h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+/* or 125% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    margin: 25px auto;
+}
+
+ul.share-icons {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul.share-icons li {
+    position: relative;
+    display: inline-block;
+    margin-right: 7px;
+}
+
+span.orcpy {
+    position: relative;
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Neutral/Gray */
+    letter-spacing: 0px;
+    color: #757589;
+    margin: 18px auto;
+}
+
+ul.share-icons li a {
+    background: #F3F3F3;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+    padding: 10px;
+}
+
+form {}
+
+.copy-url-share {
+    position: relative;
+}
+
+.copy-url-box {
+    position: relative;
+    max-width: 340px;
+}
+
+.copy-url-box input {
+    background: #F9F9F9;
+    border-radius: 6px;
+    height: 58px;
+    width: 100%;
+    border: 1px solid #F9F9F9;
+    padding: 0px 15px;
+/* Web/Caption/C5 - R - 14 */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    letter-spacing: 0px;
+}
+
+.copy-url-box button.urlcopy-btn {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    background: #6235E5;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    height: 52px;
+    width: 120px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+/* identical to box height, or 100% */
+    text-align: center;
+    cursor: pointer;
+}
+
+.save-collection-box {
+    position: relative;
+    padding: 0px;
+}
+
+.save-collection-box h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+/* identical to box height, or 100% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    letter-spacing: 0px;
+}
+
+.collection-filter {
+    position: relative;
+    margin: 20px auto;
+}
+
+.collection-filter input {
+    background: #F9F9F9;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    height: 40px;
+    padding: 0px 15px;
+    letter-spacing: 0px;
+    color: #000;
+}
+
+.scollection-lists {
+    position: relative;
+}
+
+.single-saved-collection {
+    position: relative;
+    min-height: 120px;
+    background: #F3F3F3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-left: 140px;
+    padding-top: 22px;
+}
+
+.single-saved-collection img {
+    height: 88px;
+    width: 110px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.single-saved-collection h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+/* identical to box height, or 100% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    letter-spacing: 0px;
+}
+
+.single-saved-collection p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    margin: 5px auto;
+    letter-spacing: 0px;
+}
+
+ul.savec-btns {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul.savec-btns li {
+    position: relative;
+    display: inline-block;
+    width: calc(50% - 3px);
+}
+
+
+ul.savec-btns li a{
+    background: #F3F3F3;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+/* identical to box height, or 200% */
+    text-align: center;
+
+/* Neutral/Gray */
+    color: #757589;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0px;
+    padding: 5px 20px;
+    min-width: 100px;
+}
+
+ul.savec-btns li a:hover {
+    background-color: #000;
+    color: #fff;
+    background: #6235E5;
+}
+.collection-filter label {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+/* identical to box height, or 100% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    letter-spacing: 0px;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.collection-filter textarea {
+    background: #F9F9F9;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0px 15px;
+    letter-spacing: 0px;
+    color: #000;
+    height: 150px;
+}
+
+ 
+
+ul.savec-btns.createcolle {}
+
+ul.savec-btns.createcolle li {
+    width: auto;
+    margin-right: 10px;
+}
+/* 
+--------------------------
+- Product Details CSS End
+--------------------------
+*/
