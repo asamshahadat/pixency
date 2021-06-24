@@ -2962,3 +2962,309 @@ ul.savec-btns.createcolle li {
 - Product Details CSS End
 --------------------------
 */
+
+
+
+
+/* 
+--------------------------
+- Pricing CSS  
+--------------------------
+*/
+
+
+.breadcrumb-area {
+    position: relative;
+    background-color: #6235E5;
+    padding: 210px 0px 120px;
+    text-align: center;
+    background-image: url(../img/breadcrumb.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.page-title-area {
+    position: relative;
+}
+
+.page-title-area ul.bc-list {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.page-title-area ul.bc-list li {
+    position: relative;
+    display: inline-block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+/* identical to box height, or 125% */
+    color: #FFFFFF;
+    opacity: 0.8;
+    letter-spacing: 0px;
+    margin: 0px 10px;
+}
+
+.page-title-area ul.bc-list li a {
+    font-size: inherit;
+    line-height: inherit;
+    display: block;
+    font-weight: inherit;
+    letter-spacing: 0px;
+    color: inherit;
+}
+
+.page-title-area ul.bc-list li:after {
+    position: absolute;
+    content: ">";
+    right: -20px;
+    top: 2px;
+    z-index: 1;
+}
+
+.page-title-area ul.bc-list li:last-child:after {
+    display: none;
+}
+
+.page-title-area h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+/* identical to box height, or 125% */
+    text-align: center;
+
+/* White */
+    color: #FFFFFF;
+    letter-spacing: 0px;
+}
+
+.countdown-area-wrapper {
+    position: relative;
+    background: linear-gradient(98.11deg, #6235E5 0.36%, #B37AFB 131.41%);
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.lifetime-deal-box {
+    background: #FDFDFD;
+    box-shadow: 0px 25px 99px rgba(149, 149, 149, 0.1);
+    border-radius: 30px;
+    padding: 40px 20px 30px;
+    text-align: center;
+}
+
+.lifetime-deal-box ul {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.lifetime-deal-box ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.aabbro-countdown-area {
+    position: relative;
+    padding: 0px 20px;
+}
+
+.aabbro-countdown-area p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+/* identical to box height, or 125% */
+
+
+/* Neutral/White */
+    color: #FFFFFF;
+}
+
+.aabbro-countdown-area .cdown { 
+    display: inline-block;
+    margin: 16px auto;
+    margin-right: 35px;
+}
+
+.aabbro-countdown-area .cdown .time-count {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+/* identical to box height, or 125% */
+    text-align: center;
+
+/* Neutral/White */
+    color: #FFFFFF;
+    letter-spacing: 0px;
+}
+.aabbro-countdown-area .cdown  p  {
+    /* Web/Caption/C3 - R - 16 */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    /* Neutral/White */
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+
+
+
+.aabbro-countdown-area .cdown:last-child {
+    margin-right: 0px;
+}
+ 
+
+.lifetime-deal-box ul li h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+/* identical to box height, or 133% */
+
+
+/* Neutral/Black */
+    color: #000248;
+}
+
+.lifetime-deal-box ul li p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+/* identical to box height, or 200% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+}
+
+.lifetime-deal-box ul li:last-child {
+    margin-right: 0px;
+    text-align: right;
+}
+
+a.buy-plan-btn {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    line-height: 18px;
+/* identical to box height, or 100% */
+    text-align: center;
+
+/* White */
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    background: #6235E5;
+    border-radius: 10px;
+    padding: 12px 20px;
+    display: inline-block;
+}
+
+.lifetime-deal-box ul li:last-child a.buy-plan-btn {
+    top: -22px;
+}
+
+.features-area {
+    position: relative;
+    padding: 150px 0px;
+}
+
+.single-features {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 99px rgba(149, 149, 149, 0.16);
+    border-radius: 10px;
+    padding: 40px;
+    border-top: 12px solid #6235E5;
+    max-width: 380px;
+    margin: 15px auto;
+}
+
+.single-features img {
+    height: 80px;
+    width: 80px;
+    background-color: #6235e517;
+    padding: 24px;
+    border-radius: 50%;
+}
+
+.single-features h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+/* identical to box height, or 125% */
+    display: flex;
+    align-items: center;
+
+/* Neutral/Black */
+    color: #000248;
+    margin: 16px auto;
+}
+
+.single-features p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+/* or 200% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+}
+
+
+.aabbro-headerV3 li:last-child {
+    display: inline-block !important;
+}
+
+.aabbro-countdown-area {
+    text-align: center;
+}
+
+.lifetime-deal-box ul li:last-child a.buy-plan-btn {
+    top: -23px;
+}
+
+.lifetime-deal-box {
+    text-align: center;
+}
+
+.lifetime-deal-box ul li {
+    text-align: center;
+}
+/* 
+--------------------------
+- Pricing CSS End
+--------------------------
+*/

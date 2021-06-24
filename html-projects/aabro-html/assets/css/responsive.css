@@ -2,6 +2,7 @@
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1140px;
     }
+    .features-area .container,
     .testimonial-area .container,
     .aabbro-pricing-area .container,
     footer .container {
@@ -94,6 +95,12 @@
     .product-details-similar-product-area .container,
     .product-details-area .container {
         max-width: 900px;
+    }
+    .features-area .container, 
+    .testimonial-area .container, 
+    .aabbro-pricing-area .container, 
+    footer .container {
+        max-width: 1200px;
     }
     .schedule-banner h3 { 
         font-size: 22px;
@@ -765,6 +772,39 @@
     .sf-widget h4 {
         margin-bottom: 16px;
     }
+    .page-title-area h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    .page-title-area ul.bc-list {
+        display: none;
+    }
+    
+    .breadcrumb-area {
+        padding: 130px 0px 50px;
+    }
+    
+    .aabbro-countdown-area .cdown { 
+        font-size: 10px;
+        line-height: 24px; 
+    }
+    
+    .aabbro-countdown-area .cdown {
+        margin-right: 15px;
+    }
+   .aabbro-countdown-area .cdown .time-count { 
+          font-size: 22px;
+          line-height: 30px; 
+      }
+      .aabbro-countdown-area .cdown  p { 
+          font-size: 16px;
+          line-height: 30px; 
+      }
+      .lifetime-deal-box ul li:last-child a.buy-plan-btn {
+          top: 10px;
+      }
+     
 }
 
 
