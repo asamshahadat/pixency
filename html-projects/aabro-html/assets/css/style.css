@@ -3776,8 +3776,80 @@ ul.mobile-menu-list a:hover {
     color: #6235e5;
 }
 
+.sidemenu-toggler {
+    display: none;
+}
 
 
+
+
+
+/* Collection CSS */
+.single-collection {
+    position: relative;
+    width: 100%;
+    max-width: 360px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single-collection a {
+    position: relative;
+    display: block;
+}
+
+.single-collection .scb-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.single-collection .scb-img img:first-child {
+    width: 100%;
+    display: block;
+}
+
+.single-collection .scb-img img {
+    display: inline-block;
+    width: 33.33333333%;
+    float: left;
+    padding: 5px;
+}
+
+.single-collection .scb-text {
+    text-align: center;
+    position: relative;
+}
+
+.single-collection .scb-text h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+/* identical to box height, or 125% */
+    align-items: center;
+    text-align: center;
+
+/* Neutral/Black */
+    color: #000248;
+}
+
+.single-collection .scb-text p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+    align-items: center;
+    text-align: center;
+
+/* Neutral/Gray */
+    color: #757589;
+}
 /* 
 --------------------------
 - Dashboard CSS  End

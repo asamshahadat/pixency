@@ -674,6 +674,10 @@
     .dashboard-sidebar-content .d-logo {
         display: none;
     }
+    .sidemenu-toggler {
+        display: block;
+    }
+    
 }
 /* Mobile Layout: 320px. */
 
