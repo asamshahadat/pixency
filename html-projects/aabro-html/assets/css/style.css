@@ -3273,3 +3273,513 @@ a.buy-plan-btn {
 - Pricing CSS End
 --------------------------
 */
+
+
+ 
+/* 
+--------------------------
+- Dashboard CSS Start here 
+--------------------------
+*/
+
+
+.dashboard-main-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.dashboard-sidebar {
+    position: absolute;
+    background: #6235E5;
+    width: 300px;
+    height: 100%;
+    min-height: 100vh;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.dashboard-body {
+    position: relative;
+    width: calc(100% - 300px);
+    height: 100%;
+    margin-left: 300px;
+    display: inline-block;
+    background: #F2F5FD;
+}
+
+.dashboard-header {
+    position: relative;
+    vertical-align: top;
+    background-color: #fff;
+}
+
+.dash-board-content-wrapper {
+    position: relative;
+    padding: 40px;
+}
+
+.dashboard-header .aabbro-navbar ul.navbar-nav li a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+/* identical to box height, or 175% */
+    text-align: right;
+
+/* Neutral/Black */
+    color: #000248;
+}
+
+li.profile-loggedin-btn {}
+
+li.profile-loggedin-btn img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.aabbro-navbar ul.navbar-nav li.profile-loggedin-btn {}
+
+.aabbro-navbar ul.navbar-nav li.profile-loggedin-btn a {
+    position: relative;
+    margin-top: -15px;
+    margin-bottom: -17px;
+}
+
+a.pbtn-4 {background: #F2F5FD;color: #6235E5 !important;}
+
+a.pbtn-4:hover {
+    color: #fff !important;
+}
+.dashboard-header nav.aabbro-navbar {
+    padding: 25px !important;
+}
+
+ 
+
+ 
+.dashboard-sidebar-content .d-logo {
+    padding: 40px 20px;
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid #9172ed;
+}
+
+.dashboard-sidebar-content {
+    position: relative;
+    height: 100%;
+}
+
+.dashboard-sidebar-content .ds-menu {
+    position: relative;
+    padding: 40px;
+}
+
+.dashboard-sidebar-content .ds-menu ul.dsm-list {
+}
+
+ul.dsm-list {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul.dsm-list li {
+    position: relative;
+}
+
+ul.dsm-list li a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+/* identical to box height, or 200% */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    margin: 5px auto;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+ul.dsm-list li a:hover,ul.dsm-list li a.active {
+    background-color: #805bea;
+}
+
+.schedule-meeting-btn {
+    position: relative;
+    margin: 140px 40px 40px;
+    background: #8F6BF8;
+    border-radius: 10px;
+    padding: 26px 20px;
+    text-align: center;
+}
+
+.schedule-meeting-btn a.aabbro-btn-a {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 15px 18px;
+}
+
+.schedule-meeting-btn p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+/* or 157% */
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.aabbro-navbar ul.navbar-nav li.profile-loggedin-btn ul.dropdown-menu {
+    width: 300px;
+    right: 0px;
+    left: unset;
+    top: 65px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+.user-logged-box {
+    position: relative;
+    background-color: #6235e5;
+    text-align: left;
+    padding: 15px;
+}
+
+.user-logged-box img {
+    float: left;
+}
+
+.user-logged-box img {
+    margin-right: 10px;
+}
+
+.user-logged-box h4 {
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 7px;
+}
+
+.user-logged-box p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.aabbro-navbar ul.navbar-nav li.profile-loggedin-btn ul.dropdown-menu li {display: block;}
+
+.aabbro-navbar ul.navbar-nav li.profile-loggedin-btn ul.dropdown-menu li li {}
+
+.aabbro-navbar ul.navbar-nav li.profile-loggedin-btn ul.dropdown-menu li a {
+    text-align: left;
+    color: #000248;
+    position: relative;
+    display: block;
+    margin: 0px;
+}
+
+.aabbro-navbar ul.navbar-nav li.profile-loggedin-btn ul.dropdown-menu li:first-child {
+    margin-bottom: 20px;
+}
+
+.aabbro-navbar ul.navbar-nav li.profile-loggedin-btn ul.dropdown-menu li:last-child {
+    border-top: 1px solid #dadada;
+    margin-top: 10px;
+    padding: 10px 0px;
+    margin-bottom: 0px;
+}
+
+
+.billing-history-wrapper {
+    position: relative;
+    margin: 25px auto;
+    border-radius: 20px;
+    background: #FFFFFF;
+    padding: 35px;
+}
+
+.billing-history-wrapper h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+/* identical to box height, or 125% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    margin-bottom: 20px;
+}
+
+table.billing-history-table {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+table.billing-history-table tr th {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+/* identical to box height, or 150% */
+    align-items: center;
+    text-transform: uppercase;
+
+/* Neutral/Black */
+    color: #000248;
+    letter-spacing: 0px;
+    border-bottom-color: #e0e0e0 !important;
+    padding: 8px 0px;
+}
+
+table.billing-history-table tr th:last-child {
+    text-align: right;
+}
+
+table.billing-history-table tr td {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 18px;
+/* identical to box height, or 100% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    letter-spacing: 0px;
+    font-weight: 300;
+    padding: 15px 0px;
+}
+
+table.billing-history-table tr td:last-child {
+    text-align: right;
+}
+
+table.billing-history-table tr {border: 1px solid #E0E0E0;border-right: none;border-left: none;}
+
+.invoice-view-btn {
+    position: relative;
+}
+
+.invoice-view-btn a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+/* identical to box height, or 100% */
+
+
+/* Universal/Green */
+    color: #38B268;
+}
+
+.invoice-view-btn a i {
+    margin-left: 5px;
+}
+
+.paymnet-m-file {
+    position: relative;
+    margin-top: 40px;
+}
+
+.paymnet-m-file h4 {
+    display: block;
+    position: relative;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+}
+
+.paymnet-m-file p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+/* identical to box height, or 200% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+}
+
+.pmf-edit-remove {
+    position: relative;
+    text-align: right;
+}
+
+.pmf-edit-remove a {}
+
+a.er-btn {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+/* identical to box height, or 143% */
+    text-align: center;
+
+/* Dark */
+    color: #000248;
+    letter-spacing: 0;
+    border: 1px solid #f3f3f3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    min-width: 85px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+a.er-btn.erb-2 {
+    background: #F3F3F3;
+    border-color: #F3F3F3;
+}
+
+a.er-btn:hover {
+    background-color: #6235e5;
+    border-color: #6235e5;
+    color: #fff;
+}
+
+
+
+
+
+/* Mobile Menu CSS */
+.dash-board-mobile-menu {
+    position: absolute;
+    background-color: #fff;
+    padding: 40px 20px 20px;
+    z-index: 2;
+    display: block;
+    top: 0;
+    right: -100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+span.close-dm {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: #0002485c;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    line-height: 19px;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 1px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.usr-info h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px; 
+
+ 
+    color: #000248;
+    display: block;
+}
+
+.usr-info p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px; 
+    align-items: center; 
+    color: #757589;
+}
+ 
+.usr-info {}
+
+.usr-info a.aabbro-btn-b {
+    display: block;
+    padding: 15px;
+    margin: 10px auto;
+}
+
+.dash-board-mobile-menu .search-form-header {
+    width: 100%;
+    margin: 15px auto;
+}
+
+a.mobile-logout-btn {
+    position: relative;
+    background: #FF5A79;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff !important;
+    display: block;
+    padding: 15px;
+    margin: 25px auto 0px;
+}
+
+ul.mobile-menu-list {
+    position: relative;
+    padding: 0px;
+    margin: 25px auto;
+    list-style-type: none;
+}
+
+ul.mobile-menu-list li {
+    position: relative;
+    border-bottom: 0.5px solid #E0E0E0;
+    padding: 10px 0px;
+}
+
+ul.mobile-menu-list a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+/* identical to box height, or 175% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    letter-spacing: 0px;
+    position: relative;
+    display: block;
+}
+
+ul.mobile-menu-list a:hover {
+    color: #6235e5;
+}
+
+
+
+/* 
+--------------------------
+- Dashboard CSS  End
+--------------------------
+*/

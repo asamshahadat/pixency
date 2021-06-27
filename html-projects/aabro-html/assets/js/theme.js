@@ -155,4 +155,23 @@
     });
 
 
+
+
+
+    // Mobile Nav JS Toggle
+    $(".dashboard-header button.navbar-toggler").on("click", function(){
+        $(".dash-board-mobile-menu ").addClass("showInMobile");
+    });
+    $(".close-dm").on("click", function(){
+        $(".dash-board-mobile-menu ").removeClass("showInMobile");
+        $(".dashboard-sidebar ").removeClass("showInMobile");
+    });
+     
+
+    $(".sidemenu-toggler button.navbar-toggler").on("click", function(){
+        $(".dashboard-sidebar ").addClass("showInMobile");
+        
+    });
+    
+
 }(jQuery));

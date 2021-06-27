@@ -19,6 +19,9 @@
     .category-promo-name p {
         padding-left: 20px;
     }
+    .dashboard-pricing-plan .single-pricing {
+        max-width: 100%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1366px) {
@@ -66,6 +69,32 @@
     }
     .aabbro-headerV2 .aabbro-navbar {
         padding: 18px 50px;
+    }
+
+
+    .dashboard-pricing-plan {}
+
+    .dashboard-pricing-plan .single-pricing {
+        padding: 20px;
+    }
+
+    .dashboard-pricing-plan .single-pricing h5 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 5px;
+    }
+
+    .dashboard-pricing-plan .single-pricing p {
+        font-size: 12px;
+    }
+
+    .dashboard-pricing-plan .sprice-head ul li:last-child h4 {
+        font-size: 30px;
+    }
+
+    .sprice-features ul.atia-list li {
+        font-size: 14px;
+        line-height: 28px;
     }
 }
 
@@ -163,6 +192,9 @@
     .aabbro-navbar ul.navbar-nav li {
         margin-right: 0px !important;
         padding-right: 0px !important;
+    }
+    .logo.mobile-logo {
+        display: none;
     }
 }
 
@@ -601,6 +633,46 @@
     
     ul.remember-forget li:last-child {
         width: 41%;
+    }
+
+    #navbarSupportedContent {
+        display: none;
+    }
+    
+    .dash-board-mobile-menu.showInMobile {
+        right: 0;
+        opacity: 1;
+        width: 100%;
+        z-index: 99;
+        min-height: 100vh;
+        background-color: #fff !important;
+    }
+    
+    .dashboard-sidebar {
+        left: -100%;
+        transition: .5s ease;
+    }
+    
+    .dashboard-body {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .sidemenu-toggler {
+        position: relative;
+        margin-bottom: 17px;
+    }
+    
+    .dash-board-content-wrapper {
+        padding: 17px;
+    }
+    .dashboard-sidebar.showInMobile {
+        left: 0;
+        width: 100%;
+    }
+    
+    .dashboard-sidebar-content .d-logo {
+        display: none;
     }
 }
 /* Mobile Layout: 320px. */
