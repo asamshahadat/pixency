@@ -3318,6 +3318,7 @@ a.buy-plan-btn {
 .dash-board-content-wrapper {
     position: relative;
     padding: 40px;
+    min-height: 100vh;
 }
 
 .dashboard-header .aabbro-navbar ul.navbar-nav li a {
@@ -3850,6 +3851,58 @@ ul.mobile-menu-list a:hover {
 /* Neutral/Gray */
     color: #757589;
 }
+
+
+
+
+
+/* Download CSS */
+ 
+.single-download {
+    position: relative;
+    background-color: #fff;
+    border-radius: 15px;
+    max-width: 357px;
+    width: 100%;
+    margin: 0px auto 30px;
+    overflow: hidden;
+}
+
+.single-download .sdb-img {
+    width: 100%;
+}
+
+.single-download .sdb-img img {
+    width: 100%;
+}
+
+.single-download .sdb-text {
+    padding: 15px;
+}
+
+.single-download .sdb-text h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+/* identical to box height, or 112% */
+
+
+/* Neutral/Black */
+    color: #000248;
+}
+
+/* Download CSS END*/
+
+
+/* Edit Profile CSS */
+
+/* Edit Profile CSS End*/
+
+
+
+
 /* 
 --------------------------
 - Dashboard CSS  End
