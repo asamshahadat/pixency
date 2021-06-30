@@ -681,6 +681,85 @@
     .sidemenu-toggler {
         display: block;
     }
+
+    .ep_tab_nav {
+        display: none;
+    }
+    
+    .ep_tab_content .tab-pane {
+        padding: 20px;
+        display: block;
+        opacity: 1;
+        overflow: hidden;
+        background-color: #fff;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+    
+    .ep-form-group label {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    
+    .ep-form-group input {
+        font-size: 16px;
+        height: 48px;
+    }
+    
+    .ep-form-group {
+        margin-bottom: 16px;
+    }
+    
+    .ep-form-wrapper h4 {
+        margin-bottom: 14px;
+    }
+     
+    
+    /* .ep_tab_content .tab-pane:after {
+        height: 20px;
+        background-color: #f2f5fd;
+        position: absolute;
+        content: '';
+        width: 100%;
+        bottom: 0;
+        z-index: 1;
+        left: 0;
+    } */
+    
+    .ep_tab_content {
+        background-color: #f2f5fd;
+    }
+    
+    button.form-submit-btn {
+        font-size: 16px;
+    }
+    
+    .socialMform-input input {
+        height: 32px;
+        padding: 0px 10px;
+        font-size: 12px;
+        width: calc(100% - 120px);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .socialMform-input label {
+        width: 32px;
+        height: 32px;
+        font-size: 15px;
+        line-height: 32px;
+        padding-top: 0px;
+        vertical-align: top;
+        position: relative;
+    }
+    
+    button.social-add-btn {
+        font-size: 16px;
+        padding: 0px 10px;
+        height: 32px;
+        line-height: 19px;
+        vertical-align: top;
+    }
     
 }
 /* Mobile Layout: 320px. */
