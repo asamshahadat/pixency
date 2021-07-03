@@ -963,7 +963,18 @@
       .lifetime-deal-box ul li:last-child a.buy-plan-btn {
           top: 10px;
       }
-     
+      .dataTables_wrapper {
+        overflow-y: scroll;
+    }
+    
+    .support-ticket-table {
+        text-align: center;
+    }
+    .dataTables_paginate a.paginate_button {
+         
+        margin: 5px !important;
+       
+    }
 }
 
 

@@ -174,4 +174,10 @@
     });
     
 
+
+    // Data Table
+    $(window).on("load", function () {
+        $('#supportTicketTable').DataTable();
+    } );
+
 }(jQuery));

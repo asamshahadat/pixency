@@ -4110,7 +4110,358 @@ button.social-add-btn {
 /* Edit Profile CSS End*/
 
 
+/* Support Page CSS */
+.support-ticket-area {
+    position: relative;
+}
 
+.support-ticket-area h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+/* identical to box height, or 125% */
+    align-items: center;
+
+/* Neutral/Gray */
+    color: #757589;
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.support-ticket-table {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+a.newTicket-btn {
+    background: #38B268;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+/* identical to box height, or 143% */
+    text-align: center;
+
+/* Neutral/White */
+    color: #FFFFFF;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+}
+
+a.newTicket-btn span {
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    top: 1px;
+}
+
+.dataTables_wrapper {
+    position: relative;
+}
+
+.dataTables_wrapper label {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+/* identical to box height, or 175% */
+
+
+/* Neutral/Black */
+    color: #000248 !important;
+    letter-spacing: 0px;
+}
+
+.dataTables_wrapper label select {
+    margin: 0px 9px;
+    border: 0.5px solid #E0E0E0 !important;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+table.dataTable {
+    border-collapse: collapse;
+    position: relative;
+    border: none !important;
+}
+
+table.dataTable tr {}
+
+table.dataTable tr th {
+    border: 1px solid #E0E0E0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+/* identical to box height, or 175% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    letter-spacing: 0px;
+    position: relative;
+    padding: 15px;
+}
+
+table.dataTable tr td {
+    border: 1px solid #E0E0E0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+/* identical to box height, or 175% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    position: relative;
+    letter-spacing: 0px;
+    padding: 15px;
+}
+
+.dataTables_filter {
+    margin: 0px auto 20px;
+}
+
+table.dataTable tr td a {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+/* identical to box height, or 150% */
+    text-decoration-line: underline;
+
+/* Universal/Green */
+    color: #38B268;
+    letter-spacing: 0px;
+    font-weight: 300;
+}
+
+table.dataTable tr td:last-child {
+    padding: 0px 5px;
+    text-align: center;
+}
+
+.dataTables_info {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+/* identical to box height, or 175% */
+
+
+/* Neutral/Gray */
+    color: #757589 !important;
+    letter-spacing: 0px;
+}
+
+.dataTables_paginate {
+    position: relative;
+    margin-top: 10px;
+}
+
+.dataTables_paginate a.paginate_button {
+    border: 1px solid #6235E5 !important;
+    background-color: #fff;
+    height: 32px !important;
+    width: 32px !important;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 32px !important;
+/* or 200% */
+    align-items: center;
+    text-align: center;
+
+/* Neutral/Black */
+    color: #000248;
+    border-radius: 50% !important;
+    padding: 0 !important;
+    margin-left: 5px !important;
+    letter-spacing: 0px;
+}
+
+.dataTables_paginate a.paginate_button.current, .dataTables_paginate a.paginate_button:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background: #6235E5 !important;
+    color: #fff !important;
+}
+
+.dataTables_paginate a.paginate_button.previous, .dataTables_paginate a.paginate_button.next {
+    width: 100px !important;
+    border-radius: 5px !important;
+}
+
+.dataTables_paginate a.paginate_button.previous:hover, .dataTables_paginate a.paginate_button.next:hover {
+    color: #fff !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+    opacity: .5 !important;
+    cursor: none;
+}
+.support-ticket-details {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.support-ticket-details .std-msg {
+    position: relative;
+    background: #E8F8FF;
+    padding: 25px;
+}
+
+.support-ticket-details .std-msg h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+/* identical to box height, or 125% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    margin-bottom: 20px;
+    letter-spacing: 0px;
+}
+
+.support-ticket-details .std-msg p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+/* identical to box height, or 175% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    margin-bottom: 5px;
+}
+
+.support-ticket-details-reply {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.std-reply h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+/* identical to box height, or 125% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    letter-spacing: 0px;
+    margin-bottom: 24px;
+}
+
+.std-reply {
+    position: relative;
+}
+
+.std-reply textarea {
+    border: 1px solid #E0E0E0;
+    position: relative;
+    width: 100%;
+    margin-bottom: 24px;
+    height: 300px;
+}
+
+.stdr-upload {
+    position: relative;
+}
+
+.stdr-upload label {
+    position: relative;
+    background: #000248;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+/* identical to box height, or 143% */
+    text-align: center;
+
+/* Neutral/White */
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    padding: 8px 12px;
+}
+
+.stdr-upload label span {
+    position: relative;
+    margin-right: 4px;
+}
+
+.stdr-upload input[type="file"] {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+.stdr-upload p {
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+/* identical to box height, or 175% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    margin: 20px auto;
+    display: block;
+}
+
+button.replysubmitbtn {
+    background: #38B268;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+/* identical to box height, or 143% */
+    text-align: center;
+
+/* Neutral/White */
+    color: #FFFFFF;
+    position: relative;
+    border: 1px solid #38b268;
+    letter-spacing: 0px;
+    padding: 8px 20px;
+}
+
+/* Support Page CSS END*/
 
 /* 
 --------------------------
