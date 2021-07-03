@@ -1016,6 +1016,14 @@
     .ep-content-img-text { 
         padding: 15px;
     }
+    .help-details-area {
+        padding: 40px 20px;
+    }
+    
+    .help-details-area .atca-content {
+        padding: 0px;
+        margin-top: 30px;
+    }
 }
 
 

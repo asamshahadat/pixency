@@ -4685,6 +4685,108 @@ ul.atcan-list li a.active {
 
     color: #757589;
 }
+
+
+.help-details-area {
+    position: relative;
+    background-color: #F9F9F9;
+    padding: 100px 0px;
+}
+
+.help-details-area .atca-content {
+    padding-left: 30px;
+}
+
+.abbaro-help-details-sidebar {
+    position: relative;
+}
+
+.abbaro-help-details-sidebar h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+/* identical to box height, or 133% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    margin-bottom: 20px;
+}
+
+.abbaro-help-details-sidebar p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color: #757589;
+    opacity: 0.9;
+    margin-bottom: 30px;
+    letter-spacing: 0px;
+    display: block;
+}
+
+.aabbro-acordion {
+    position: relative;
+}
+
+.aabbro-acordion .accordion-header {
+    border: 1px solid #E0E0E0;
+    background-color: #f9f9f9;
+    position: relative;
+    border-left: none;
+    border-right: none;
+    margin-bottom: -1px;
+    padding-bottom: 1px;
+}
+
+.aabbro-acordion .accordion-header button.accordion-button {
+    background-color: inherit;
+    border: none !important;
+    position: relative;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+/* identical to box height, or 200% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    padding: 10px 0px;
+    letter-spacing: 0px;
+    box-shadow: none;
+}
+
+.aabbro-acordion .accordion-item {
+    border: none;
+    position: relative;
+}
+
+.aabbro-acordion .accordion-body {
+    padding: 5px 0px 20px;
+    border: none;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.aabbro-acordion .accordion-body p {
+    margin-bottom: 0px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+/* identical to box height, or 175% */
+
+
+/* Neutral/Gray */
+    padding: 0px 20px;
+    color: #757589;
+}
 /* Help page CSS End */
 
 /* Sitemap CSS */
