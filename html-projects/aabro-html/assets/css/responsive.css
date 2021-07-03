@@ -975,6 +975,47 @@
         margin: 5px !important;
        
     }
+    .aabbro-text-content-area {
+        padding: 110px 10px;
+    }
+    
+    ul.atcan-list li {
+        padding-left: 20px;
+    }
+    
+    ul.atcan-list li:after {
+        position: absolute;
+        content: '';
+        height: 1px;
+        width: 10px;
+        background-color: #000;
+        z-index: 1;
+        left: 0;
+        top: 18px;
+        z-index: 1;
+    }
+    
+    .atca-content h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    .atca-content {
+        margin-top: 20px;
+    }
+    .page-search-box {}
+
+    .page-search-box .search-form-header {
+        display: block;
+        max-width: 80%;
+    }
+
+    .help-area {
+        padding: 60px 10px;
+    }
+    .ep-content-img-text { 
+        padding: 15px;
+    }
 }
 
 
