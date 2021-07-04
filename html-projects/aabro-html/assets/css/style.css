@@ -4909,6 +4909,739 @@ ul.atcan-list li a.active {
 }
 /* Schedule Area End*/
 
+
+
+/* Blog CSS */
+.aabbro-blog-page {
+    position: relative;
+    padding: 120px 0px;
+}
+
+.blog-content-box {
+    position: relative;
+}
+
+.blog-content-box>h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+/* identical to box height, or 133% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    position: relative;
+    letter-spacing: 0px;
+    margin-bottom: 40px;
+}
+
+.single-blog {
+    position: relative;
+    max-width: 350px;
+    margin: 0px auto 30px;
+    width: 100%;
+}
+
+.single-blog .sb-img {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.single-blog .sb-img img {}
+
+.single-blog .sb-meta {
+    position: relative;
+    padding: 0px;
+}
+
+.single-blog .sb-meta ul {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.single-blog .sb-meta ul li {
+    position: relative;
+    display: inline-block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    letter-spacing: 0px;
+    padding-right: 15px;
+}
+
+.single-blog .sb-meta ul li a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Primary/Solid */
+    color: #6235E5;
+    position: relative;
+    display: inline-block;
+}
+
+.single-blog h4 {}
+
+.single-blog h4 a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+/* or 150% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    letter-spacing: 0px;
+    margin: 15px auto;
+    display: block;
+}
+
+.single-blog span {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+/* or 175% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    display: block;
+    letter-spacing: 0px;
+    margin: 14px auto;
+}
+
+.single-blog p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+/* or 175% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    position: relative;
+}
+
+.single-blog .sb-meta ul li:after {
+    position: absolute;
+    content: '';
+    height: 5px;
+    width: 5px;
+    background-color: #38B268;
+    border-radius: 50%;
+    top: 8px;
+    right: 2px;
+}
+
+.single-blog .sb-meta ul li:last-child:after {
+    display: none;
+}
+
+.aabbro-pagination {
+    position: relative;
+    margin-top: 30px;
+}
+
+.aabbro-pagination ul {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.aabbro-pagination ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.aabbro-pagination ul li a {
+    position: relative;
+    display: block;
+    background: #F2F5FD;
+    border-radius: 15px;
+    height: 64px;
+    width: 64px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+/* identical to box height, or 200% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    text-align: center;
+    padding-top: 15px;
+    letter-spacing: 0px;
+}
+
+.aabbro-pagination ul li a:hover {
+    background: #6235E5;
+    color: #fff;
+}
+ 
+
+.blog-sidebar-widget {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.blog-sidebar-widget .search-form-header {
+    width: 100%;
+    margin: 5px auto 0px;
+}
+
+.blog-sidebar-widget h4 {
+    background: rgba(98, 53, 229, 0.1);
+    border-radius: 10px;
+    position: relative;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+/* identical to box height, or 125% */
+    text-align: center;
+
+/* Neutral/Black */
+    color: #000248;
+    padding: 15px;
+    letter-spacing: 0px;
+}
+
+ul.sc-list {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+    letter-spacing: 0px;
+    margin: 25px auto;
+}
+
+ul.sc-list li {
+    position: relative;
+    margin: 10px auto;
+}
+
+ul.sc-list li a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+/* identical to box height, or 150% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    display: block;
+    position: relative;
+}
+
+ul.sc-list li a span {
+    position: relative;
+    float: right;
+}
+
+.blog-sidebar-widget .schedule-meeting-btn {
+    margin: 30px auto;
+    padding: 40px;
+}
+
+.blog-sidebar {
+    position: relative;
+    padding: 0px 15px;
+}
+
+.aabbro-blog-details-page {
+    position: relative;
+    padding: 160px 0px;
+}
+
+.blog-details-content {
+    position: relative;
+}
+
+.bdc-featured-img {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.bdc-text {
+    position: relative;
+    padding-left: 80px;
+}
+
+.bdc-meta {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.bdc-meta span {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+/* identical to box height, or 200% */
+    display: inline-block;
+    align-items: center;
+
+/* Neutral/Gray */
+    color: #757589;
+    position: relative;
+    letter-spacing: 0px;
+}
+
+.bdc-text h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+/* or 125% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    margin-bottom: 30px;
+}
+
+.bdc-meta {
+    position: relative;
+}
+
+.bdc-meta ul {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.bdc-meta ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.bdc-author {
+    position: relative;
+    margin-right: 10px;
+}
+
+.bdc-author a {
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+/* identical to box height, or 175% */
+
+
+/* Neutral/Black */
+    color: #000248;
+}
+
+.bdc-share {
+    position: relative;
+}
+
+.bdc-share ul {
+    position: relative;
+    padding: 0px;
+}
+
+.bdc-share ul li {
+    letter-spacing: 0px;
+/* Web/Paragraph/P3 - R - 18 */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+/* identical to box height, or 200% */
+    align-items: center;
+
+/* Neutral/Gray */
+    color: #757589;
+    position: relative;
+}
+
+.bdc-share ul li a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+/* identical to box height, or 200% */
+    display: block;
+    align-items: center;
+
+/* Primary/Solid */
+    color: #6235E5;
+    margin: 0px 5px;
+    position: relative;
+}
+
+.bdc-text p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+/* or 200% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    margin-bottom: 30px;
+}
+
+.bdc-img-t {
+    position: relative;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.bdc-img-t .bdci-text {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    background: #6235E5;
+    min-height: 300px;
+    z-index: 1;
+    width: 60%;
+    padding: 8% 5%;
+}
+
+.bdc-img-t .bdci-text p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+/* or 200% */
+
+
+/* White */
+    color: #FFFFFF;
+}
+
+.bdc-text h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+/* identical to box height, or 125% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    margin-bottom: 24px;
+}
+
+.bdc-post-meta {
+    position: relative;
+    padding: 45px 20px 45px 80px;
+    border: 1px solid #F2E3E3;
+    border-left: none;
+    border-right: none;
+}
+
+.bdc-post-meta ul {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.bdc-post-meta ul li {
+    position: relative;
+    width: 40%;
+    display: inline-block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+}
+
+.bdc-post-meta ul li span {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+/* identical to box height, or 175% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+}
+
+.author-text {
+    position: relative;
+    min-height: 90px;
+}
+
+.author-text img {
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+}
+
+.author-text h6 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Dark */
+    color: #000248;
+    margin-bottom: 5px;
+}
+
+.author-text p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+/* or 175% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+}
+
+.aabbro-comments-wrapper {
+    position: relative;
+    padding: 50px 0px;
+}
+
+.aabbro-comments-wrapper h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+/* identical to box height, or 125% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    margin-bottom: 30px;
+}
+
+.single-comment {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 68px;
+    margin-left: 80px;
+}
+
+.single-comment img {
+    position: absolute;
+    margin-right: 10px;
+    left: 0;
+    top: 0;
+}
+
+.single-comment h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    margin-bottom: 6px;
+}
+
+.single-comment h5 span {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+/* identical to box height, or 175% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    margin-left: 5px;
+}
+
+.single-comment p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+/* or 175% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+    margin-bottom: 10px;
+}
+
+.single-comment a {/* Web/Paragraph/P4 - R - 16 */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+/* identical to box height, or 175% */
+
+
+/* Primary/Solid */
+    color: #6235E5;
+    position: relative;
+    letter-spacing: 0px;
+}
+
+.leave-comment-box {
+    position: relative;
+    background: #F3F3F3;
+    border-radius: 15px;
+    padding: 60px;
+}
+
+.leave-comment-box h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+/* identical to box height, or 125% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+}
+ 
+
+
+
+.leave-comment-box p {/* Web/Paragraph/P1 - R - 20 */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+/* identical to box height, or 150% */
+
+
+/* Neutral/Black */
+    color: #000248;
+    margin-bottom: 30px;
+}
+
+.leave-comment-box p span {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+/* identical to box height, or 150% */
+
+
+/* Neutral/Gray */
+    color: #757589;
+}
+
+.leave-comment-box textarea {
+    background-color: #f3f3f3;
+    width: 100%;
+    min-height: 100px;
+    padding: 10px 0px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #000;
+    border: 1.5px solid #E0E0E0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 30px;
+}
+
+button.commentSubmitBtn {
+    background: #6235E5;
+    border-radius: 10px;
+    border: 1px solid #6235e5;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+/* identical to box height */
+    text-align: center;
+
+/* Neutral/White */
+    color: #FFFFFF;
+    position: relative;
+    letter-spacing: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.related-topics-area {
+    position: relative;
+    padding-top: 60px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.related-topics-area h3 {
+    margin-bottom: 30px;
+}
+/* Blog CSS END*/
+
+
+
+
+
+
 /* 
 --------------------------
 - Dashboard CSS  End

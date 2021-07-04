@@ -1024,6 +1024,74 @@
         padding: 0px;
         margin-top: 30px;
     }
+    .aabbro-blog-page>.container>.row>.col-md-4 {
+        order: 1;
+    }
+    
+    .aabbro-blog-page>.container>.row>.col-md-8 {
+        order: 2;
+    }
+    
+    .aabbro-blog-page {
+        padding: 40px 0px;
+    }
+    
+    .blog-sidebar-widget .search-form-header {
+        display: block;
+    }
+    .aabbro-pagination ul li {
+        margin-bottom: 6px;
+    }
+    
+    .aabbro-pagination ul {
+        text-align: center;
+    }
+    .aabbro-blog-details-page {
+        padding: 120px 10px 60px;
+    }
+    
+    .bdc-text {
+        padding: 0px;
+    }
+    
+    .bdc-text h4 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    .bdc-meta ul li {
+        margin-bottom: 10px;
+    }
+    
+    .bdc-img-t .bdci-text {
+        position: relative;
+        width: 80%;
+        right: unset;
+        left: 10%;
+        padding: 20px;
+        text-align: center;
+        margin-top: -70px;
+    }
+    
+    .bdc-post-meta {
+        padding: 0px;
+    }
+    
+    .bdc-post-meta ul li {
+        width: 100%;
+    }
+    
+    .bdc-post-meta ul {
+        margin-top: 20px;
+    }
+    
+    .single-comment {
+        margin-left: 0px;
+    }
+    
+    .leave-comment-box {
+        padding: 31px;
+    }
 }
 
 
