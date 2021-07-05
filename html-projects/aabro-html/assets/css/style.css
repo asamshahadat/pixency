@@ -5637,8 +5637,65 @@ button.commentSubmitBtn {
 }
 /* Blog CSS END*/
 
+/* Open Ticket */
+.add-ticket {
+    position: relative;
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 10px;
+}
 
+.ep-form-group select {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #000248;
+    display: block;
+    width: 100%;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 56px;
+    padding: 10px 20px;
+}
 
+.ep-form-group textarea {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #000248;
+    display: block;
+    width: 100%;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    min-height: 200px;
+    padding: 10px 20px;
+}
+.ep-form-group.input-type-file {}
+
+.ep-form-group.input-type-file input {
+    border: none;
+    padding: 0px;
+    border-radius: 0px;
+    display: inline-block;
+    width: auto;
+}
+
+.ep-form-group.input-type-file span {
+    letter-spacing: 0px;
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+    color: #a2a2a2;
+}
+/* Open Ticket End*/
 
 
 
