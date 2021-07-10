@@ -8,6 +8,14 @@
     footer .container {
         max-width: 1530px;
     }
+    .service-hero-img img {
+        width: auto !important;
+        max-height: 790px;
+        height: 100%;
+        margin: 0px 0px 0px auto;
+    }
+
+    .service-hero-content .container {max-width: 1320px;}
 }
 
 
