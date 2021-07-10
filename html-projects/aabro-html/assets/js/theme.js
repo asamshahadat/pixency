@@ -180,4 +180,85 @@
         $('#supportTicketTable').DataTable();
     } );
 
+
+
+
+    // Service Carousel
+   
+
+    
+
+
+    function servicehero_carousel() {
+        var owl = $(".service-carousel");
+        owl.owlCarousel({
+            loop: true,
+            margin: 0,
+            responsiveClass: true,
+            navigation: true,
+            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+            nav: false,
+            items: 5,
+            smartSpeed: 2000,
+            dots: true,
+            autoplay: false,
+            autoplayTimeout: 4000,
+            center: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                480: {
+                    items: 1
+                },
+                760: {
+                    items: 1
+                }
+            }
+        });
+
+        $('.owl-dot-service').click(function () {
+            owl.trigger('to.owl.carousel', [$(this).index(), 300]);
+        });
+    }
+    servicehero_carousel(); 
+
+    
+
+
+
+     /*---------------------
+    Client carousel
+    --------------------- */
+    function sclient_carousel() {
+        var owl = $(".client-carousel");
+        owl.owlCarousel({
+            loop: true,
+            margin: 20,
+            responsiveClass: true,
+            navigation: true,
+            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+            nav: false,
+            items: 4,
+            smartSpeed: 2000,
+            dots: true,
+            autoplay: false,
+            autoplayTimeout: 4000,
+            center: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                480: {
+                    items: 1
+                },
+                760: {
+                    items: 4
+                }
+            }
+        });
+    }
+    sclient_carousel(); 
+    
+
 }(jQuery));

@@ -35,6 +35,12 @@
     .aabbro-resources-area { 
         width: 78%;
     }
+    .aabbro-resources-area.aabbro-resources-all {
+        width: 100%;
+    }
+    .aabbro-resources-area.aabbro-resources-all .col-md-3 {
+        width: 25%;
+    } 
     .aabro-resource-filter-area { 
         width: 22%;
     }
@@ -639,7 +645,7 @@
         width: 41%;
     }
 
-    #navbarSupportedContent {
+    .dashboard-body #navbarSupportedContent {
         display: none;
     }
     
@@ -1091,6 +1097,134 @@
     
     .leave-comment-box {
         padding: 31px;
+    }
+
+    .aabbro-resources-area.aabbro-resources-all span.fs-title {
+        position: relative;
+        display: block;
+        margin-bottom: 20px;
+        padding-top: 10px;
+    }
+    
+     
+    .all-file-sec-divider-title .load-mre-box {right: calc(50% - 71px);top: -35px;}
+    
+    .all-file-sec-divider-title {padding-top: 65px;text-align: center;}
+
+    .service-hero-content {
+        padding-top: 50px;
+        text-align: center;
+    }
+    
+    .service-pricing-area {
+        overflow: hidden;
+    }
+    
+    .service-hero-text h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    .service-hero-btn {
+        position: relative;
+    }
+    
+    .service-hero-btn a.aabbro-btn-a {
+        margin: 12px;
+    }
+    
+    ul.services-custom-dots li {
+        border-radius: 0px !important;
+        width: 33% !important;
+        position: relative;
+        min-width: unset;
+        padding: 12px;
+        min-height: 60px;
+        vertical-align: bottom;
+        margin: 0px -4px;
+    }
+    
+    ul.services-custom-dots li p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .service-hero-img img {
+        max-height: 300px !important;
+        margin: 0px auto;
+    }
+    
+    .service-hero-text {
+        min-height: 170px;
+        padding-bottom: 20px;
+    }
+    
+    .client-carousel-area {
+        padding: 60px 0px;
+    }
+    
+    .service-p-title h3 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    .features-area {
+        padding: 60px 0px;
+    }
+    
+    .single-features.sf-service {
+        text-align: center;
+    }
+    
+    .single-features h4 {
+        display: block;
+    }
+    
+    ul.hawa-steps {
+        display: none;
+    }
+    
+    .how-aabbro-work-area {
+        padding: 60px 0px;
+    }
+    
+    .service-pricing-area {
+        padding: 60px 0px;
+    }
+    
+    ul.pricing-list-box li {
+        max-width: 100%;
+    }
+    
+    .single-service-pricing.best-price, .single-service-pricing:hover {
+        top: 0px;
+    }
+    
+    .perfect-plan-area {
+        padding: 60px 0px;
+    }
+    
+    .pickplan-wrapper .col-md-4 {
+        padding: 0px 12px;
+    }
+    
+    .pickplan-wrapper .col-md-4:first-child .spp-title {
+        border-radius: 0px;
+    }
+    
+    .single-pickplan {
+        margin-bottom: 30px;
+    }
+    
+    .price-tab-nav {
+        margin-bottom: 30px;
+    }
+    
+    .pickplan-wrapper .col-md-4:last-child .spp-title {border-radius: 0px;}
+    
+    .service-faq-area {
+        padding: 60px 0px;
     }
 }
 

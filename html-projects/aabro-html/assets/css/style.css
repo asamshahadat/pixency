@@ -5704,3 +5704,853 @@ button.commentSubmitBtn {
 - Dashboard CSS  End
 --------------------------
 */
+
+
+
+
+/* 
+--------------------------
+- Resources All CSS 
+--------------------------
+*/
+span.fs-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+ 
+    color: #000248;
+}
+
+span.fs-tp {/* Web/Caption/C5 - R - 14 */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #757589;
+}
+.all-file-sec-divider-title h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+ 
+    color: #000248;
+    
+}
+
+.all-file-sec-divider-title {
+    margin: 40px auto;
+    position: relative;
+    min-height: 52px;
+}
+.load-mre-box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+a.load-more-btn-all {
+    position: relative;
+    background: #f7f7f7;
+    border-radius: 10px;
+    padding: 16px 24px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #6235e5;
+    color: #6235e5;
+}
+
+a.load-more-btn-all:hover {
+    background-color: #6235e5;
+    color: #fff !important;
+}
+
+.category-search-box .search-form-header {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.category-search-box {
+    position: relative;
+    max-width: 300px;
+}
+
+header.aabbro-header.resources_all-header {
+    background: linear-gradient(98.11deg, #6235E5 0.36%, #B37AFB 131.41%);
+}
+header.aabbro-header.resources_all-header.navbar-fixed-top {
+    background: #fff !important;
+}
+header.aabbro-header.resources_all-header nav.navbar.navbar-expand-lg.aabbro-navbar {
+    padding: 15px;
+}
+/* 
+--------------------------
+- Resources All CSS  End
+--------------------------
+*/
+
+
+
+
+/* 
+--------------------------
+- Service CSS 
+--------------------------
+*/
+
+.service-hero-content {
+    position: relative;
+    padding-top: 125px;
+    background: linear-gradient(98.11deg, #6235E5 0.36%, #B37AFB 131.41%);
+    z-index: 1;
+}
+
+img.service-hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.service-hero-text {
+    position: relative;
+    padding: 40px 0px;
+    margin-top: 50px;
+}
+
+.service-hero-text h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 120%;
+/* or 72px */
+
+
+/* White */
+    color: #FFFFFF;
+}
+
+ul.services-custom-dots {
+    position: absolute;
+    width: 100%;
+    bottom:0;
+    left: 0;
+    z-index: 2;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.service-hero-carousel {
+    position: relative;
+}
+
+#servc-carousel {
+    position: relative;
+}
+ 
+ul.services-custom-dots li {
+    position: relative;
+    display: inline-block;
+    background: #682BCF;
+    padding: 30px 20px;
+    border-left: 1px solid #ffffff26;
+    margin-right: -6px;
+    cursor: pointer;
+    min-width: 300px;
+}
+
+ul.services-custom-dots li p {
+    position: relative;
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+/* identical to box height, or 150% */
+    text-align: center;
+
+/* Neutral/White */
+    color: #FFFFFF;
+}
+
+ul.services-custom-dots li:first-child {
+    border-top-left-radius: 30px;
+    border: none;
+}
+
+ul.services-custom-dots li:last-child {
+    border-top-right-radius: 30px;
+}
+
+ul.services-custom-dots li:hover,ul.services-custom-dots li.active {
+    background-color: #fff;
+}
+
+ul.services-custom-dots li:hover p, ul.services-custom-dots li.active p {
+    color: #682bcf;
+}
+.service-hero-img {
+    position: relative;
+    text-align: right;
+}
+
+.service-hero-img img {
+    width: auto !important;
+    max-height: 580px;
+    margin: 0px 0px 0px auto;
+}
+
+
+
+
+
+
+.client-carousel-area {
+    position: relative;
+    background: #F9F9F9;
+    padding: 100px 0px;
+}
+
+.service-p-title {
+    position: relative;
+    padding: 0px;
+    margin: 0px auto 50px;
+    text-align: center;
+}
+
+.service-p-title h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 48px;
+/* identical to box height, or 126% */
+    text-align: center;
+
+/* Neutral/Black */
+    color: #000248;
+}
+
+.client-carousel {
+    position: relative;
+}
+
+.singlec-client {
+    position: relative;
+    padding: 25px;
+}
+
+.singlec-client img {
+    height: 50px;
+    width: auto !important;
+    margin: 0px auto;
+}
+
+
+.single-features.sf-service img {
+    padding: 0px;
+}
+
+.service-p-title p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px; 
+    text-align: center; 
+    color: #757589;
+    position: relative;
+    margin: 15px auto;
+}
+
+
+
+
+.sf-steps-single {
+    position: relative;
+    background: #FFFFFF;
+    
+    border-radius: 10px;
+    padding: 30px; 
+    max-width: 380px;
+    margin: 15px auto;
+    transition: .5s ease; 
+    text-align: center;
+}
+.sf-steps-single:hover { 
+    box-shadow: 0px 20px 99px rgba(149, 149, 149, 0.16);
+}
+.sf-steps-single img {
+    height: 80px;
+    width: 80px;
+    background-color: #6235e517;
+    border-radius: 20px;
+}
+
+.sf-steps-single h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px; 
+    color: #000248;
+    margin: 16px auto;
+}
+
+.sf-steps-single p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px; 
+    color: #757589;
+}
+
+
+
+ul.hawa-steps {
+    position: relative;
+    padding: 0;
+    list-style-type: none;
+    margin: 25px auto;
+}
+
+ul.hawa-steps li {
+    position: relative;
+    display: inline-block;
+    width: 33.333333%;
+    margin-right: -4px;
+    text-align: center;
+    z-index: 1;
+}
+
+ul.hawa-steps li span {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+/* or 150% */
+    
+    
+
+/* Neutral/Black */
+    color: #000248;
+    border: 1px solid #000248;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 3px;
+    background-color: #f9f9f9;
+    z-index: 2;
+    position: relative;
+}
+
+ul.hawa-steps li span:hover {
+    background-color: #000248;
+    color: #fff;
+}
+
+.how-aabbro-work-area {
+    position: relative;
+    background: #F9F9F9;
+    padding: 120px 0px 120px;
+}
+
+.sf-steps-single {
+    background: #f9f9f9;
+}
+
+.sf-steps-single:hover {
+    background-color: #fff;
+}
+
+ul.hawa-steps li:after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: rgba(117, 117, 137, 0.15);
+    left: 0;
+    top: 16px;
+    z-index: -1;
+}
+
+ul.hawa-steps li:first-child:before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    background-color: #f9f9f9;
+    width: 50%;
+    left: 0;
+    top: 16px;
+    z-index: 1;
+}
+
+ul.hawa-steps li:last-child:before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    background-color: #f9f9f9;
+    width: 50%;
+    right: 0;
+    top: 16px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+.service-pricing-area {
+    position: relative;
+    padding: 150px 0px;
+}
+
+
+.price-tab-nav ul.nav.nav-tabs {
+    border: none;
+    position: relative;
+    display: inline-block;
+    background: #F1F1FF;
+    border-radius: 22px;
+    overflow: hidden;
+}
+
+.price-tab-nav {
+    position: relative;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.price-tab-nav ul.nav.nav-tabs li {
+    position: relative;
+    display: inline-block;
+}
+
+.price-tab-content {
+    position: relative;
+    background: #F9F9F9;
+    border-radius: 25px;
+}
+
+ul.pricing-list-box {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.pricing-list-box li {
+    position: relative;
+    display: inline-block;
+    max-width: 33%;
+}
+
+.single-service-pricing {
+    position: relative;
+    max-width: 370px;
+    padding: 65px 30px 40px;
+    text-align: left;
+    transition: .5s ease;
+}
+
+.single-service-pricing .splan-price {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.single-service-pricing .splan-price h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+/* identical to box height, or 128% */
+    color: #231D4F;
+    letter-spacing: 0px;
+}
+
+.single-service-pricing .splan-price h4 span {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+/* identical to box height */
+    color: #848199;
+    position: relative;
+    letter-spacing: 0px;
+    margin-left: 10px;
+}
+
+.splan-name {}
+
+.single-service-pricing .splan-name {
+    position: relative;
+}
+
+.single-service-pricing .splan-name h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+/* identical to box height */
+    color: #231D4F;
+    display: block;
+}
+
+.single-service-pricing .splan-name p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+
+/* Gray */
+    color: #757589;
+}
+
+ul.splan-features {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+    margin: 20px auto;
+}
+
+ul.splan-features li {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+/* identical to box height */
+    letter-spacing: 0px;
+    align-items: center;
+
+/* Gray */
+    color: #757589;
+    margin-bottom: 15px;
+}
+
+ul.splan-features li i {
+    color: #6235E5;
+    background: rgba(82, 67, 194, 0.103693);
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 6px;
+    margin-right: 12px;
+}
+
+a.choose-plan-btn {
+    background: rgb(249 162 111 / 10%);
+    mix-blend-mode: normal;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+/* identical to box height */
+    text-align: center;
+
+/* Secondary/Secondary */
+    color: #FF8A00;
+    position: relative;
+    display: inline-block;
+    padding: 18px;
+    width: 100%;
+    letter-spacing: 0px;
+}
+
+a.choose-plan-btn:hover {
+    background-color: #FF8A00;
+    color: #fff;
+}
+
+.single-service-pricing:hover {}
+
+.single-service-pricing.best-price {}
+
+.single-service-pricing.best-price,.single-service-pricing:hover {
+    background: linear-gradient(98.11deg, #6235E5 0.36%, #B37AFB 131.41%);
+    box-shadow: 0px 42px 34px rgba(82, 67, 194, 0.295755);
+    border-radius: 26px;
+    top: -65px;
+    position: relative;
+}
+
+.single-service-pricing .most-populr {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 15px;
+/* identical to box height */
+    text-align: center;
+    
+
+/* White */
+    color: #FFFFFF;
+    background: #4316C8;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    letter-spacing: 0px;
+}
+.single-service-pricing.best-price ul.splan-features li,
+.single-service-pricing:hover ul.splan-features li,
+.single-service-pricing.best-price ul.splan-features li i,
+.single-service-pricing:hover ul.splan-features li i,
+.single-service-pricing.best-price .splan-name h4,
+.single-service-pricing:hover .splan-name h4,
+.single-service-pricing.best-price .splan-name p,
+.single-service-pricing:hover .splan-name p,
+.single-service-pricing.best-price .splan-price h4, 
+.single-service-pricing:hover .splan-price h4,
+.single-service-pricing.best-price .splan-price h4 span, 
+.single-service-pricing:hover .splan-price h4 span {
+    color: #fff;
+}
+
+.single-service-pricing.best-price ul.splan-features li i,
+.single-service-pricing:hover ul.splan-features li i {
+    background: rgb(255 255 255 / 10%);
+    mix-blend-mode: normal;
+}
+
+.single-service-pricing.best-price a.choose-plan-btn,
+.single-service-pricing:hover a.choose-plan-btn {
+     background-color: #FF8A00;
+    color: #fff;
+}
+
+
+.price-tab-nav ul.nav.nav-tabs li a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+/* identical to box height */
+    text-align: center;
+    letter-spacing: 2px;
+
+/* Gray */
+    color: #757589;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border: none;
+    box-shadow: none;
+}
+
+.price-tab-nav ul.nav.nav-tabs li a.active {
+    background: #6235E5;
+    border-radius: 22px;
+    color: #fff;
+}
+
+.price-tab-nav ul.nav.nav-tabs li:first-child a {
+    margin-right: -6px;
+}
+
+.price-tab-nav ul.nav.nav-tabs li:last-child a {
+    margin-left: -6px;
+}
+
+.price-tab-nav ul.nav.nav-tabs li a:hover {
+    border: none;
+    box-shadow: none;
+}
+
+
+.perfect-plan-area {
+    position: relative;
+    padding: 140px 0px;
+    background: #F9F9F9;
+}
+
+.pickplan-wrapper {
+    position: relative;
+}
+
+.single-pickplan {
+    position: relative;
+}
+
+.single-pickplan .spp-title {
+    background: #6235E5;
+    padding: 25px;
+    position: relative;
+}
+
+.single-pickplan .spp-title h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+/* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+
+/* Neutral/White */
+    color: #FFFFFF;
+}
+
+.single-pickplan:hover .spp-title {
+    background: #FF8A00;
+}
+
+.pickplan-wrapper .col-md-4 {
+    padding: 0px;
+}
+
+.pickplan-wrapper .col-md-4:first-child .spp-title {
+    border-radius: 30px 0px 0px 0px;
+}
+
+.pickplan-wrapper .col-md-4:last-child .spp-title {
+    border-radius: 3px 30px 0px 0px;
+}
+
+.single-pickplan p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+/* or 187% */
+    display: block;
+    align-items: center;
+
+/* Neutral/Gray */
+    color: #757589;
+    position: relative;
+    padding: 30px;
+    border-right: 1px solid #E8E8F4;
+}
+
+ul.spp-list {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul.spp-list li {
+    position: relative;
+    /* border-right: 1px solid #E8E8F4; */
+    border-bottom: 1px solid #E8E8F4;
+}
+
+ul.spp-list li p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+/* identical to box height, or 143% */
+    display: block;
+    align-items: center;
+
+/* Neutral/Black */
+    color: #000248;
+    margin: 0px auto;
+    padding: 20px 30px;
+}
+
+ul.spp-list li:first-child {
+    background: #F0F0FB;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height */
+    text-transform: uppercase;
+
+/* Neutral/Black */
+    color: #000248;
+    position: relative;
+    text-align: left;
+    padding: 20px 30px;
+    letter-spacing: 0px;
+    border-right: 1px solid #E8E8F4;
+}
+.pickplan-wrapper .col-md-4:first-child .single-pickplan p {
+    border-left: 1px solid #E8E8F4;
+}
+/* .pickplan-wrapper .col-md-4:first-child ul.spp-list li */
+ul.spp-list li p span {
+    float: right;
+}
+
+ul.spp-list li p:hover {
+    color: #6235e5;
+}
+
+.service-faq-area {
+    position: relative;
+    background: #F9F9F9;
+    padding: 150px 0px;
+}
+
+.service-accordion {
+    position: relative;
+}
+
+.service-accordion .aabbro-acordion  .accordion-item {
+    background-color: #fff;
+    margin-bottom: 24px;
+}
+
+.service-accordion .aabbro-acordion .accordion-header {
+    background-color: #fff;
+    border: none;
+    padding: 8px 24px;
+}
+
+.service-accordion .aabbro-acordion .accordion-body {
+    background-color: #fff;
+}
+/* 
+--------------------------
+- Service CSS  End
+--------------------------
+*/
