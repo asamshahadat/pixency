@@ -5796,6 +5796,9 @@ header.aabbro-header.resources_all-header.navbar-fixed-top {
 header.aabbro-header.resources_all-header nav.navbar.navbar-expand-lg.aabbro-navbar {
     padding: 15px;
 }
+.aabbro-resources-area.aabbro-resources-all {
+    width: 100%;
+}
 /* 
 --------------------------
 - Resources All CSS  End
