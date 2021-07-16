@@ -6416,7 +6416,9 @@ a.choose-plan-btn:hover {
 .single-pickplan {
     position: relative;
 }
-
+.border-left {
+    border-left: 1px solid #e8e8f4;
+}
 .single-pickplan .spp-title {
     background: #6235E5;
     padding: 25px;
@@ -6551,6 +6553,75 @@ ul.spp-list li p:hover {
 
 .service-accordion .aabbro-acordion .accordion-body {
     background-color: #fff;
+}
+
+
+.single-pickplan-paragraph {
+    position: relative;
+    border: 1px solid #e8e8f4;
+    margin-right: -8px;
+    margin-left: -8px;
+    padding: 30px 24px;
+}
+
+.single-pickplan-paragraph p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+/* or 187% */
+    align-items: center;
+
+/* Neutral/Gray */
+    color: #757589;
+    max-width: 65%;
+}
+
+.pickplan-tab {
+    position: relative;
+}
+
+ul#pickPlanTab {
+    position: relative;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+ul#pickPlanTab li {
+    width: 33.3333333%;
+}
+
+ul#pickPlanTab li button {
+    width: 100%;
+    display: block;
+    border: none;
+    background: #6235E5;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+/* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+
+/* White */
+    color: #FFFFFF;
+    padding: 24px;
+    letter-spacing: 0px;
+}
+
+ul#pickPlanTab li:first-child button {
+    border-radius: 30px 0px 0px 0px;
+}
+
+ul#pickPlanTab li:last-child button {
+    border-radius: 0px 30px 0px 0px;
+}
+
+ul#pickPlanTab li button.active,ul#pickPlanTab li button:hover {
+    background: #FF8A00;
 }
 /* 
 --------------------------
