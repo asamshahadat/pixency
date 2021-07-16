@@ -6687,3 +6687,170 @@ ul#pickPlanTab li button.active,ul#pickPlanTab li button:hover {
 - Forget Pass CSS  End
 --------------------------
 */
+
+
+
+/* 
+--------------------------
+- Coming Soon CSS  
+--------------------------
+*/
+.coming-soon-area {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+}
+
+.coming-soon-area img.coming-soon-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.coming-soon-area:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background: #000248;
+    opacity: .9;
+}
+
+.countdown-timer-area {
+    position: relative;
+    padding: 10%;
+    text-align: center;
+}
+ 
+
+.countdown-timer-area h4 {
+    font-family: Poppins;
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 108px;
+/* identical to box height */
+
+text-align: center;
+
+/* Neutral/White */
+
+color: #FFFFFF;
+}
+
+.countdown-timer-area p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+/* identical to box height, or 125% */
+    text-align: center;
+
+/* Neutral/White */
+    color: #FFFFFF;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.coming-countdown {
+    position: relative;
+}
+
+ 
+ 
+
+.coming-countdown span p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+/* or 200% */
+    align-items: center;
+    text-align: center;
+
+/* Universal/Red */
+    color: #FF5A79;
+    display: block;
+}
+
+.coming-countdown span {
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 45px;
+/* or 150% */
+    align-items: center;
+    text-align: center;
+
+/* Neutral/White */
+    color: #FFFFFF;
+    padding-top: 20px;
+    letter-spacing: 0px;
+    margin: 0px 20px 50px;
+}
+
+.cnl-box {
+    position: relative;
+    max-width: 400px;
+    margin: 0px auto;
+}
+
+.cnl-box input {
+    background: #F8F8F8;
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+/* identical to box height, or 18px */
+
+
+/* Neutral/Gray */
+    letter-spacing: 0px;
+    color: #000;
+    height: 60px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+}
+
+.cnl-box button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #6235E5;
+    border-radius: 10px;
+    height: 50px;
+    border: 1px solid #6235e5;
+    width: 50px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+/* 
+--------------------------
+- Coming Soon CSS  End
+--------------------------
+*/

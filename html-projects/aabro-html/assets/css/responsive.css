@@ -1251,6 +1251,48 @@
     ul#pickPlanTab {
         margin: 0px 5px;
     }
+
+    .countdown-timer-area h4 {
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 48px;
+    /* identical to box height */
+        
+    
+    /* Neutral/White */
+        margin-bottom: 20px;
+    }
+    
+    .countdown-timer-area p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .coming-countdown span {
+        font-size: 24px;
+        line-height: 26px;
+        width: 80px;
+        height: 80px;
+        padding-top: 18px;
+        margin: 15px;
+    }
+    
+    .coming-countdown span p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    
+    .coming-countdown {
+        margin-bottom: 40px;
+    }
+    
+    .countdown-timer-area {
+        padding: 35% 20px;
+    }
+    
+    .countdown-timer-area p {
+        margin-bottom: 25px;
+    }
 }
 
 
