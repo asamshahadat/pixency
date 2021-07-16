@@ -113,7 +113,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="#" class="forget-pass-btn">Forgot Password?</a>
+                                        <a href="#" class="forget-pass-btn" data-bs-toggle="modal" data-bs-target="#forgetPassModal">Forgot Password?</a>
                                     </li>
                                 </ul>
                                 <div class="form-group">
@@ -141,6 +141,35 @@
     </div>
     <!-- /Login Register Area -->
  
+
+    <!-- Forget Password Modal -->
+    <div class="forget-pass-modal"> 
+    
+        <!-- Modal -->
+        <div class="modal fade forgetpassmodal" id="forgetPassModal" tabindex="-1" aria-labelledby="forgetPassModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+                    <div class="modal-body">
+                        <div class="forgetpassbox">
+                            <h4>Forgot Password?</h4>
+                            <p>Enter the email address you used when you joined and we’ll send you instructions to reset your password.</p>
+                            <p>For security reasons, we do NOT store your password. So rest assured that we will never send your password via email.</p>
+                            <form action="">
+                                <div class="form-group"> 
+                                    <input type="email" name="" id="" class="form-control" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Sign In" class="formSubmitBtn">
+                                </div>
+                            </form>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Forget Password Modal -->
  
 
 

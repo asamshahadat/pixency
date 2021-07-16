@@ -177,8 +177,11 @@
 
     // Data Table
     $(window).on("load", function () {
-        $('#supportTicketTable').DataTable();
-    } );
+        
+        if ($('#supportTicketTable').length > 0) {
+            $('#supportTicketTable').DataTable();
+        }
+    });
 
 
 

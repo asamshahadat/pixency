@@ -6628,3 +6628,62 @@ ul#pickPlanTab li button.active,ul#pickPlanTab li button:hover {
 - Service CSS  End
 --------------------------
 */
+
+
+/* 
+--------------------------
+- Forget Pass CSS  
+--------------------------
+*/
+.forgetpassmodal {}
+
+.forgetpassmodal button.btn-close {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    color: #fff;
+}
+
+.forgetpassbox {
+    position: relative;
+    padding: 40px 40px 16px;
+}
+
+.forgetpassbox h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 48px;
+/* identical to box height, or 126% */
+    text-align: center;
+
+/* Neutral/Black */
+    color: #000248;
+    margin-bottom: 28px;
+}
+
+.forgetpassbox p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+/* or 187% */
+    text-align: center;
+
+/* Neutral/Gray */
+    color: #757589;
+    margin-bottom: 24px;
+}
+
+.forgetpassbox .form-group {
+    margin-bottom: 24px;
+}
+
+/* 
+--------------------------
+- Forget Pass CSS  End
+--------------------------
+*/
