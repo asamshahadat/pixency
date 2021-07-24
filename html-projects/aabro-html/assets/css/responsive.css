@@ -1308,3 +1308,323 @@
 @media only screen and (min-width: 240px) and (max-width: 480px) {
     
 }
+
+
+
+/* responsive  */
+/*################################################### 
+#START
+
+
+
+/*##############################
+Extra large: ---------
+1. 1400px devices
+##############################*/
+@media screen and (max-width: 1400px){
+    /* 
+    #home-1400-------------------]
+    */
+    /*********************** 
+    1.1-1400 VELUE
+    ***********************/
+    .aabbro-pricing-area-update .sprice-head ul li:last-child h4 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+
+/*############################## 
+Extra large: ---------
+2. 1200 xlarge devices
+##############################*/
+@media screen and (max-width: 1200px){
+    /* 
+    #home-1200-------------------]
+    */
+    /*********************** 
+    2.1-1200 VELUE
+    ***********************/
+    .aabbro-pricing-area-update .single-pricing {
+        padding: 24px;
+    }
+
+    .aabbro-pricing-area-update .col-lg-4.col-md-6.wow.slideInUp {
+        margin-bottom: 15px;
+        /* padding-left: 15px; */
+        /* padding-right: 15px; */
+        padding-right: calc(var(--bs-gutter-x)/ 2);
+        padding-left: calc(var(--bs-gutter-x)/ 2);
+    }
+}
+
+
+/*############################## 
+large layout:  --------- 
+3. 992px large devices
+##############################*/
+@media screen and (max-width: 991px){
+    /*********************** 
+    Header Area
+    ***********************/
+    .aabbro-header-update .aabbro-navbar {
+        padding: 10px 24px !important;
+    }
+    .aabbro-header-update .navbar-brand img {
+        max-width: 120px;
+    }
+    header.aabbro-header-update.navbar-fixed-top nav.aabbro-navbar {
+        padding: 11px 24px !important;
+    }
+    
+    .aabbro-navbar ul.navbar-nav li:last-child {
+        margin-top: 20px;
+    }
+    /*********************** 
+    Hero Area
+    ***********************/
+    .hero-area-update .hero-content h1, .product-category-area-update .section-head.wow.slideInUp h2, .aabbro-text-image-area-update .atia-text h2, .testimonial-area-update .tsec-head.wow.slideInUp h2,
+    .aabbro-pricing-area-update .pricing-section-head h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    h2{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .hero-area-update .hero-content p {
+        line-height: 28px;
+        margin-top: 14px;
+    }
+    .hero-area-update .hero-img-video {
+        margin-top: 60px;
+    }
+    .hero-area-update .hero-img-video video.aabbro-video-player {
+        height: 340px;
+        margin-bottom: -170px;
+    }
+
+    /*********************** 
+    Product Category Area
+    ***********************/
+    .product-category-area-update {
+        padding-top: 230px;
+    }
+    .product-category-area-update .product-caegory-wrapper {
+        padding-top: 0;
+    }
+    .product-category-area-update .section-head {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .product-category-area-update .col-lg-8 {
+        justify-content: center;
+    }
+
+    
+    
+    /*********************** 
+    Text Image Area
+    ***********************/
+    .aabbro-text-image-area-update .atia-text {
+        padding: 0px 24px;
+    }
+
+    /*********************** 
+    Pricing Area
+    ***********************/
+    .aabbro-pricing-area-update .sprice-head ul li h5 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .aabbro-pricing-area-update .sprice-head ul li p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .aabbro-pricing-area-update .sprice-head ul li:nth-child(2) {
+        padding-left: 8px;
+    }
+    .aabbro-pricing-area-update .single-pricing {
+        margin: 0;
+        max-width: 100%;
+        /* padding: 24px; */
+    }
+    .aabbro-pricing-area-update .sprice-features ul.atia-list li {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    
+}
+
+
+/*############################## 
+Medium Layout: ---------
+4. 768px medium devices
+##############################*/
+@media screen and (max-width: 768px){
+    /* 
+    #home-768-------------------]
+    */
+    /*********************** 
+    Text Image Area
+    ***********************/
+    .aabbro-text-image-area-update .row>* {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .aabbro-text-image-area-update .atia-img {
+        padding: 24px;
+    }
+    .aabbro-text-image-area-update .atia-text {
+        /* margin-top: 24px; */
+        padding-top: 24px;
+        padding-bottom: 60px;
+    }
+    .aabbro-text-image-area-update .atia-text-update {
+        padding-left: 24px !important;
+    }
+
+
+    /*********************** 
+    Testimonial Area
+    ***********************/
+    .testimonial-area-update .single-testimonial {
+        display: block;
+    }
+    .testimonial-area-update .single-testimonial .st-text {
+        padding-left: 0;
+    }
+    .testimonial-area {
+        padding: 0px 0px 60px;
+    }
+    
+    .testimonial-carousel .owl-dots {
+        display: none;
+    }
+    .testimonial-area-update .testimonial-carousel .owl-nav {
+        display: flex;
+        justify-content: center;
+        float: inherit;
+    }
+    .testimonial-area-update .testimonial-carousel .owl-nav [class*=owl-] {
+        margin: 0px 10px !important;
+    }
+    .testimonial-area-update .single-testimonial {
+        display: block;
+        margin: 24px 0px;
+    }
+
+    /*********************** 
+    Pricing Area
+    ***********************/
+    
+    .aabbro-pricing-area-update .sprice-head ul li:first-child {
+        display: block;
+    }
+    .aabbro-pricing-area-update .col-lg-4.col-md-6.wow.slideInUp {
+        margin-bottom: 30px;
+    }
+    .aabbro-pricing-area-update {
+        padding: 60px 0px 30px;
+    }
+    .aabbro-pricing-area-update .sprice-head ul li:first-child img {
+        max-width: 40px;
+    }
+
+    /*********************** 
+    Call To Action Area
+    ***********************/
+    .call-to-action-area .cta-text a {
+        margin-right: 0;
+    }
+
+    /*********************** 
+    Footer Area
+    ***********************/
+    .sf-widget h4 {
+        margin-bottom: 10px;
+    }
+    .sf-widget p {
+        margin-bottom: 16px;
+    }
+}
+
+
+/*############################## 
+Small Layout: ---------
+5. 576px small devices
+##############################*/
+@media screen and (max-width: 576px){
+    /*********************** 
+    Hero Area
+    ***********************/
+    .hero-area-update .hero-img-video video.aabbro-video-player {
+        height: 200px;
+        margin-bottom: -100px;
+        border: 10px solid #ffffff;
+        border-radius: 20px;
+    }
+    
+    .aabbro-pricing-area-update .col-lg-4.col-md-6.wow.slideInUp {
+        margin-bottom: 15px;
+        /* padding-left: 15px; */
+        /* padding-right: 15px; */
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    /*********************** 
+    Product Category Area
+    ***********************/
+    .product-category-area-update {
+        padding-top: 150px;
+    }
+    .product-category-area-update .row>* {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .product-category-area-update .product-caegory-wrapper {
+        /* padding-top: 20px; */
+    }
+
+    /*********************** 
+    Text Image Area
+    ***********************/
+    .aabbro-text-image-area-update .row>* {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .aabbro-text-image-area-update .row {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+    /*********************** 
+    Testimonial Area
+    ***********************/
+
+    .testimonial-area-update .row>* {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .aabbro-pricing-area-update .row>* {
+        margin-bottom: 0;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+
+    /*********************** 
+    Footer Area
+    ***********************/
+    .sf-widget p br {
+        display: none;
+    }
+}
+
+
+/*########################
+#theEndRESPONSIVE########################
+########################*/

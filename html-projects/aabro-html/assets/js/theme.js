@@ -84,7 +84,7 @@
         var owl = $(".testimonial-carousel");
         owl.owlCarousel({
             loop: true,
-            margin: 20,
+            margin: 30,
             responsiveClass: true,
             navigation: true,
             navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
@@ -102,7 +102,7 @@
                 480: {
                     items: 1
                 },
-                760: {
+                1200: {
                     items: 2
                 }
             }

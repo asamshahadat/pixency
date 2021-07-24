@@ -242,12 +242,10 @@ h2 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 48px;
-    line-height: 60px;
-    /* identical to box height, or 125% */ 
-    color: #000000;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000248;
 }
-
 
 
 h3 {
@@ -1261,10 +1259,11 @@ a.pricing-btn:hover {
 
 
 
-.call-to-action-area{
+.call-to-action-area {
     position: relative;
     background-image: url(../img/cta-bg.png);
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -1303,15 +1302,14 @@ footer.aabbro-footer {
     position: relative;
     background: #6235E5;
     text-align: center;
-    padding: 40px 0px;
+    padding: 25px 0px;
 }
 
 .footer-copyright p {
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 18px;
-/* identical to box height, or 100% */
+    font-size: 15px;
+    line-height: 25px;
     text-align: center;
     color: #FFFFFF;
 }
@@ -1324,24 +1322,27 @@ footer.aabbro-footer {
 .sf-widget h4 {
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;
-/* identical to box height, or 125% */
-
-
-/* Neutral/Black */
+    font-size: 16px;
+    line-height: 32px;
     color: #000248;
     letter-spacing: 0px;
-    margin-bottom: 35px;
+    margin-bottom: 30.84px;
 }
-
 .sf-widget.sf-logo-text {}
-
+.sf-widget.sf-logo-text a {
+    display: inline-block;
+}
 .sf-widget.sf-logo-text img {
-    margin-top: -12px;
-    margin-bottom: 20px;
+    /* margin-top: -12px; */
+    /* margin-bottom: 20px; */
+    margin: 0px 0px 22px;
+    max-width: 180px;
 }
 
+.sf-widget.pad-left-40 {
+    padding-left: 0;
+}
+.sf-widget p br{}
 ul.sf-links {
     position: relative;
     padding: 0px;
@@ -1350,17 +1351,16 @@ ul.sf-links {
 
 ul.sf-links li {
     position: relative;
+    margin-bottom: 10px;
 }
-
+ul.sf-links li:last-child {
+    margin-bottom: 0px;
+}
 ul.sf-links li a {
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 36px;
-
-
-
-
+    font-size: 14px;
+    line-height: 26px;
     color: #757589;
     letter-spacing: 0px;
     position: relative;
@@ -1372,14 +1372,11 @@ ul.sf-links li a:hover {
 .sf-widget p {
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 36px;
-/* or 200% */
+    font-size: 14px;
+    line-height: 24px;
     align-items: center;
-
-
     color: #757589;
-    margin-bottom: 24px;
+    margin-bottom: 30px;
 }
 
 ul.footer-social {
@@ -1427,29 +1424,36 @@ ul.footer-social li a.social-linkedin {
 
 .nlip-field input[type="email"] {
     background: #F8F8F8;
-    border-radius: 10px;
+    border-radius: 5px;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
     letter-spacing: 0px;
     height: 60px;
-    border: 1px solid #F8F8F8;
-    padding: 0px 20px;
+    border: none;
+    padding: 0px 62px 0px 20px;
     width: 100%;
 }
-
+.nlip-field input::placeholder {
+    color: #E0E0E0;
+}
 .nlip-field button {
     position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
     background: #6235E5;
     border-radius: 10px;
-    height: calc(100% - 12px);
-    right: 6px;
-    top: 6px;
-    width: 45px;
+    /* height: calc(100% - 12px); */
+    /* right: 6px; */
+    /* top: 6px; */
+    width: 50px;
+    height: 50px;
     color: #fff;
     cursor: pointer;
-    border: 1px solid #6235e5;
+    border: none;
 }
 .nlip-field button i {
     color: #fff;
@@ -6854,3 +6858,326 @@ color: #FFFFFF;
 - Coming Soon CSS  End
 --------------------------
 */
+
+
+
+/********************* 
+Header Area 
+*********************/
+.row {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.aabbro-header-update .aabbro-navbar {
+    padding: 19px 50px;
+}
+header.aabbro-header-update.navbar-fixed-top nav.aabbro-navbar {
+    padding: 15px 50px;
+}
+.aabbro-header-update .navbar-brand img {
+    max-width: 168px;
+    width: 100%;
+    height: auto;
+}
+.aabbro-header-update .aabbro-navbar ul.navbar-nav {
+    align-items: center;
+}
+.aabbro-header-update .aabbro-navbar ul.navbar-nav li {
+    margin: 0px 30px;
+}
+.aabbro-header-update .aabbro-navbar ul.navbar-nav li a {
+    font-size: 14px;
+    line-height: 28px;
+}
+header.aabbro-header-update.navbar-fixed-top .aabbro-navbar ul.navbar-nav li a.sign-in-btn {
+    line-height: 21px;
+}
+.aabbro-header-update .aabbro-navbar ul.navbar-nav li a.sign-in-btn {
+    border-radius: 5px;
+    padding: 10px 22px;
+    line-height: 21px;
+    margin: 0;
+}
+.aabbro-header-update button.navbar-toggler span.navbar-toggler-icon:after {
+    top: 6px;
+}
+
+.aabbro-header-update button.navbar-toggler {
+    background-color: transparent;
+}
+
+header.aabbro-header-update.navbar-fixed-top button.navbar-toggler {
+    background-color: #6382e9;
+}
+
+/********************* 
+Hero Area
+*********************/
+.hero-area-update .hero-content h1 {
+    font-size: 60px;
+    line-height: 73px;
+    letter-spacing: 0.01em;
+}
+.hero-area-update .hero-content p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    margin-top: 24px;
+}
+
+.aabbro-btn-a {
+    border-radius: 8px;
+    padding: 21px 33px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.hero-area-update .hero-img-video {
+    margin-top: 90px;
+}
+.hero-area-update .hero-img-video video.aabbro-video-player {
+    border-radius: 44px;
+    height: 520px;
+    margin-bottom: -260px;
+    object-fit: contain;
+}
+
+/********************* 
+Product Category Area
+*********************/
+.product-category-area-update {
+    padding-top: 410px;
+    padding-bottom: 120px;
+}
+.product-category-area-update .col-lg-8 {
+    display: flex;
+    align-items: center;
+}
+.product-category-area-update .product-caegory-wrapper {
+    position: relative;
+    padding-top: 60px;
+}
+.product-category-area-update .single-category-block .scb-text {
+    padding: 10px 15px;
+}
+.product-category-area-update .section-head.wow.slideInUp h2 {
+    font-size: 36px;
+    line-height: 46px;
+}
+.product-category-area-update .single-category-block {
+    margin-bottom: 30px;
+    max-width: inherit;
+    width: 100%;
+}
+.product-category-area-update .scb-img img {
+    width: 100%;
+}
+.product-category-area-update .scbt-download {
+    margin-right: 0;
+}
+.product-category-area-update .scbt-download img {
+    display: none;
+}
+.product-category-area-update .scbt-premium {
+    display: none;
+}
+.product-category-area-update .row>* {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.product-category-area-update .single-category-block .scb-text h4 {
+    width: max-content !important;
+}
+
+.product-category-area-update .single-category-block .scb-text ul {
+    width: max-content !important;
+    float: right !important;
+}
+
+/********************* 
+Text Image Area
+*********************/
+.aabbro-text-image-area-update .row>* {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.aabbro-text-image-area-update{
+    background-color: #fff;
+}
+.aabbro-text-image-area-update .row {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.aabbro-text-image-area-update .atia-img {
+    position: relative;
+    padding: 66px 56px;
+    text-align: center;
+    background: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.aabbro-text-image-area-update .atia-img video.aabbro-video-player {
+    height: 320px;
+    max-width: 100%;
+    width: 100%;
+    border: 14px solid #fff;
+    border-radius: 18px;
+}
+.aabbro-text-image-area-update .atia-text {
+    padding: 0px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+.aabbro-text-image-area-update .atia-text h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.aabbro-text-image-area-update .atia-text p {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px 0px;
+}
+.aabbro-text-image-area-update ul.atia-list li {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.aabbro-text-image-area-update .aabbro-btn-b {
+    background: transparent;
+    width: max-content;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6235E5 !important;
+    border: 1px solid #6235E5;
+    border-radius: 6px !important;
+    padding: 15px 36px;
+}
+.aabbro-text-image-area-update .aabbro-btn-b:hover {
+    background: #6235E5;
+    color: #fff !important;
+}
+.aabbro-text-image-area-update .atia-text-update {
+    padding-left: 0 !important;
+}
+
+/********************* 
+Testimonial Area
+*********************/
+.testimonial-area-update{}
+.testimonial-area-update .tsec-head.wow.slideInUp h2 {
+    font-size: 36px;
+    line-height: 46px;
+}
+.testimonial-area-update .single-testimonial {
+    margin: 60px 0px 80px 0px;
+    display: flex;
+    align-items: center;
+}
+.testimonial-area-update .testimonial-carousel .owl-nav {
+    display: flex;
+}
+.testimonial-area-update .testimonial-carousel .owl-nav [class*=owl-] {
+    font-size: 28px;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial-area-update .owl-next {
+    margin-left: 15px !important;
+}
+
+/********************* 
+Pricing Area
+*********************/
+.aabbro-pricing-area-update{}
+
+.aabbro-pricing-area-update .pricing-section-head h2 {
+    font-size: 36px;
+    line-height: 46px;
+}
+.aabbro-pricing-area-update .sprice-head ul {
+    display: flex;
+    align-items: center;
+}
+
+.aabbro-pricing-area-update .sprice-head ul li:last-child h4 {
+    padding: 0;
+}
+.aabbro-pricing-area-update .sprice-head ul li:last-child {
+    flex: auto;
+}
+.aabbro-pricing-area-update .single-pricing {
+    margin: 0;
+    max-width: 100%;
+}
+.aabbro-pricing-area-update .sprice-head ul li img {
+    margin-top: 0;
+}
+.aabbro-pricing-area-update .col-lg-4.col-md-6.wow.slideInUp {
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.aabbro-pricing-area-update .sprice-head ul li:first-child img {
+    max-width: 80px;
+}
+
+
+/********************* 
+Call To Action Area
+*********************/
+.call-to-action-area .row {
+    display: flex;
+    align-items: center;
+}
+.call-to-action-area-update{}
+.aabbro-btn-a {
+    border-radius: 8px;
+    padding: 21px 33px;
+    font-size: 16px;
+    line-height: 18px;
+    border: 1px solid #FF8A00;
+}
+.aabbro-btn-c {
+    background: transparent;
+    border-radius: 8px;
+    padding: 21px 33px;
+    font-size: 16px;
+    line-height: 18px;
+}
+.aabbro-btn-c:hover {
+    background-color: #E47C01;
+    border: 1px solid #FF8A00;
+    color: #fff !important;
+}
+
+.call-to-action-area .cta-text {
+    padding: 0;
+}
+
+.call-to-action-area .col-md-4 {
+    padding: 0px 24px;
+}
+
+/********************* 
+Footer Area
+*********************/
+ul.footer-social li:nth-child(3) a.social-linkedin {
+    background-color: #FF7C53;
+}
+
+.footer-copyright {
+    padding: 22px 0px;
+}
