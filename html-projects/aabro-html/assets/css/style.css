@@ -6874,7 +6874,7 @@ Header Area
     padding: 19px 50px;
 }
 header.aabbro-header-update.navbar-fixed-top nav.aabbro-navbar {
-    padding: 15px 50px;
+    padding: 16px 50px;
 }
 .aabbro-header-update .navbar-brand img {
     max-width: 168px;
@@ -7110,7 +7110,6 @@ Pricing Area
     display: flex;
     align-items: center;
 }
-
 .aabbro-pricing-area-update .sprice-head ul li:last-child h4 {
     padding: 0;
 }
@@ -7129,11 +7128,9 @@ Pricing Area
     padding-left: 15px;
     padding-right: 15px;
 }
-
 .aabbro-pricing-area-update .sprice-head ul li:first-child img {
     max-width: 80px;
 }
-
 
 /********************* 
 Call To Action Area
@@ -7162,11 +7159,9 @@ Call To Action Area
     border: 1px solid #FF8A00;
     color: #fff !important;
 }
-
 .call-to-action-area .cta-text {
     padding: 0;
 }
-
 .call-to-action-area .col-md-4 {
     padding: 0px 24px;
 }
@@ -7177,7 +7172,190 @@ Footer Area
 ul.footer-social li:nth-child(3) a.social-linkedin {
     background-color: #FF7C53;
 }
-
 .footer-copyright {
     padding: 22px 0px;
+}
+
+/********************* 
+priching.html 
+*********************/
+.aabbro-header-updateV2{
+    background: linear-gradient(98.11deg, #6235E5 0.36%, #B37AFB 131.41%);
+}
+.pricing-section-head-update{
+    margin-bottom: 30px;
+}
+.aabbro-countdown-area > p {
+    display: none;
+}
+.countdown-area-wrapper {
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.countdown-area-wrapper .row{
+    align-items: center;
+}
+
+.lifetime-deal-box {
+    border-radius: 20px;
+    padding: 22px 50px;
+}
+.lifetime-deal-box ul {
+    display: flex;
+    align-items: center;
+}
+.lifetime-deal-box ul li {
+    text-align: start;
+}
+.lifetime-deal-box ul li:first-child {
+    margin-right: 60px;
+}
+.lifetime-deal-box ul li:nth-child(2) {
+    margin-right: 0px;
+}
+.lifetime-deal-box ul li:last-child a.buy-plan-btn {
+    top: 0;
+}
+.lifetime-deal-box ul li:last-child {
+    flex: auto;
+}
+a.buy-plan-btn {
+    background: #38B268;
+    border-radius: 8px;
+    padding: 21px 33px;
+}
+
+/********************* 
+Breadcrumb Area 
+*********************/
+.breadcrumb-area {
+    display: none;
+}
+
+/********************* 
+Features Area 
+*********************/
+.countdown-area-wrapper {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.single-features {
+    max-width: 100%;
+    margin: 0px;
+}
+.single-features p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.single-features:hover {
+    position: relative;
+    z-index: 1;
+}
+.features-area .row>* {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+
+/********************* 
+Error Area 
+*********************/
+.ep-content-img-text p {
+    display: none;
+}
+.ep-content-img-text h3 {
+    margin-bottom: 0;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.ep-content-img-text img {
+    padding: 80px 0px;
+}
+
+
+
+
+/********************* 
+Breadcrumb Area
+*********************/
+.breadcrumb-area-update {
+    display: block;
+    background: #F2F5FD;
+    padding: 120px 0px 60px;
+    position: relative;
+    overflow: hidden;
+}
+.breadcrumb-area-update .vector{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0;
+}
+.breadcrumb-area-update .vector img:nth-child(1) {
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+.breadcrumb-area-update .vector img:nth-child(2) {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+.breadcrumb-area.breadcrumb-area-update h3 {
+    color: #6235E5;
+    font-size: 36px;
+    line-height: 46px;
+}
+.breadcrumb-area.breadcrumb-area-update ul li {
+    color: #757589;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.breadcrumb-area.breadcrumb-area-update ul.bc-list {
+    margin-top: 10px;
+    display: block;
+}
+
+
+/********************* 
+Sitemap Area
+*********************/
+.help-area-update .row>* {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+/********************* 
+Category Area
+*********************/
+.aabbro-category-area-update {
+    padding: 110px 50px 30px;
+}
+
+.aabbro-category-area-update .container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+.aabbro-category-area-update .category-search-box {
+    max-width: 100%;
+}
+.aabbro-category-area-update .search-form-header form {
+    width: 100%;
+    float: right;
+}
+
+
+
+.aabbro-category-area-update ul.aabbro-category-lists li a {
+    font-size: 14px;
 }

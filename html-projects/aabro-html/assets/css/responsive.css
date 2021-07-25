@@ -4,8 +4,7 @@
     }
     .features-area .container,
     .testimonial-area .container,
-    .aabbro-pricing-area .container,
-    footer .container {
+    .aabbro-pricing-area .container{
         max-width: 1530px;
     }
     .service-hero-img img {
@@ -1326,12 +1325,36 @@ Extra large: ---------
     #home-1400-------------------]
     */
     /*********************** 
-    1.1-1400 VELUE
+    Pricing Area
     ***********************/
     .aabbro-pricing-area-update .sprice-head ul li:last-child h4 {
         font-size: 30px;
         line-height: 40px;
     }
+
+    .aabbro-pricing-area-update .single-pricing {
+        padding: 24px;
+    }
+
+
+
+    .lifetime-deal-box ul li:first-child {
+        margin-right: 40px;
+    }
+    .lifetime-deal-box ul li h4 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .lifetime-deal-box ul li p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    a.buy-plan-btn {
+        padding: 18px 28px;
+    }
+
+
+
 }
 
 
@@ -1340,14 +1363,11 @@ Extra large: ---------
 2. 1200 xlarge devices
 ##############################*/
 @media screen and (max-width: 1200px){
-    /* 
-    #home-1200-------------------]
-    */
     /*********************** 
-    2.1-1200 VELUE
+    Pricing Area
     ***********************/
     .aabbro-pricing-area-update .single-pricing {
-        padding: 24px;
+        /* padding: 24px; */
     }
 
     .aabbro-pricing-area-update .col-lg-4.col-md-6.wow.slideInUp {
@@ -1356,6 +1376,24 @@ Extra large: ---------
         /* padding-right: 15px; */
         padding-right: calc(var(--bs-gutter-x)/ 2);
         padding-left: calc(var(--bs-gutter-x)/ 2);
+    }
+
+
+
+    
+    .aabbro-countdown-area > p {
+        display: block;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .lifetime-deal-box ul {
+        justify-content: space-between;
+    }
+    .lifetime-deal-box ul li:last-child {
+        flex: inherit;
+    }
+    .lifetime-deal-box ul li:first-child {
+        margin-right: 0;
     }
 }
 
@@ -1455,7 +1493,33 @@ large layout:  ---------
         line-height: 28px;
     }
 
+    /*********************** 
+    Pricing.html
+    ***********************/
+    /*********************** 
+    Pricing area
+    ***********************/
+    .aabbro-pricing-area-update-V2 {
+        padding: 110px 0px 60px !important;
+    }
+
+
     
+    /*********************** 
+     Breadcrumb Area
+    ***********************/
+    .breadcrumb-area.breadcrumb-area-update h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .breadcrumb-area.breadcrumb-area-update ul li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .breadcrumb-area-update .vector img:nth-child(1) {
+        top: 55px;
+    }
 }
 
 
@@ -1549,6 +1613,84 @@ Medium Layout: ---------
     .sf-widget p {
         margin-bottom: 16px;
     }
+
+
+
+    /*********************** 
+    Pricing Area 
+    ***********************/
+    .lifetime-deal-box ul {
+        flex-direction: column;
+    }
+    .lifetime-deal-box ul li {
+        text-align: center;
+    }
+    .lifetime-deal-box ul li:last-child {
+        text-align: center;
+    }
+    .lifetime-deal-box ul li:last-child a.buy-plan-btn {
+        top: 0;
+    }
+    .lifetime-deal-box ul li:first-child {
+        margin-bottom: 10px;
+    }
+    .lifetime-deal-box ul li:last-child {
+        margin-top: 20px;
+    }
+    .countdown-area-wrapper {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .countdown-area-wrapper .row>* {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .lifetime-deal-box {
+        padding: 22px 15px;
+    }
+
+
+    /*********************** 
+    Features Area
+    ***********************/
+    .single-features {
+        margin-bottom: 20px;
+        box-shadow: 0px 20px 99px rgb(149 149 149 / 16%);
+    }
+
+    /*********************** 
+    Error Area
+    ***********************/
+    .ep-content-img-text {
+        padding: 0;
+    }
+    .error-page-content .row>* {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .error-page-content {
+        padding: 120px 0px 60px;
+    }
+    .ep-content-img-text img {
+        padding: 60px 0px;
+    }
+
+
+
+
+
+
+
+    /*********************** 
+    Sitemap Area
+    ***********************/
+    .help-area-update {
+        padding: 60px 0px 30px;
+    }
+    .help-area-update .row>* {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
 }
 
 
@@ -1622,6 +1764,23 @@ Small Layout: ---------
     .sf-widget p br {
         display: none;
     }
+
+
+
+
+
+
+
+    /*********************** 
+    Features Area
+    ***********************/
+
+    .features-area .row>* {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    
 }
 
 
