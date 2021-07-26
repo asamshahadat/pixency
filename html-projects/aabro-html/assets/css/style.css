@@ -7539,7 +7539,22 @@ ul.atcan-list li:after {
 
 
 
+.aabbro-acordion .accordion-body a {
+    margin-bottom: 0px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0px 20px;
+    color: #757589;
+    letter-spacing: 0px;
+    display: block;
+}
 
+.aabbro-acordion .accordion-body a:hover {
+    color: #6235e5;
+}
 
 
 
