@@ -6873,6 +6873,10 @@ Header Area
 .aabbro-header-update .aabbro-navbar {
     padding: 19px 50px;
 }
+.aabbro-header-update .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
 header.aabbro-header-update.navbar-fixed-top nav.aabbro-navbar {
     padding: 16px 50px;
 }
@@ -7228,7 +7232,7 @@ a.buy-plan-btn {
 /********************* 
 Breadcrumb Area 
 *********************/
-.breadcrumb-area {
+.breadcrumb-area-V1 {
     display: none;
 }
 
@@ -7257,9 +7261,6 @@ Features Area
     padding-left: 15px;
 }
 
-
-
-
 /********************* 
 Error Area 
 *********************/
@@ -7275,9 +7276,6 @@ Error Area
 .ep-content-img-text img {
     padding: 80px 0px;
 }
-
-
-
 
 /********************* 
 Breadcrumb Area
@@ -7306,8 +7304,6 @@ Breadcrumb Area
     left: 0;
     bottom: 0;
 }
-
-
 .breadcrumb-area.breadcrumb-area-update h3 {
     color: #6235E5;
     font-size: 36px;
@@ -7334,14 +7330,14 @@ Sitemap Area
 }
 
 
-
 /********************* 
 Category Area
 *********************/
 .aabbro-category-area-update {
-    padding: 110px 50px 30px;
+    padding: 0px 50px 0px;
+    padding-top: 101px !important;
+    padding-bottom: 21px !important;
 }
-
 .aabbro-category-area-update .container-fluid{
     padding-right: 0;
     padding-left: 0;
@@ -7352,10 +7348,206 @@ Category Area
 .aabbro-category-area-update .search-form-header form {
     width: 100%;
     float: right;
+    max-width: 350px;
 }
-
-
-
+.aabbro-category-area-update .row>* {
+    padding-right: 0;
+    padding-left: 0;
+}
 .aabbro-category-area-update ul.aabbro-category-lists li a {
     font-size: 14px;
 }
+.search-form-header input.form-control {
+    font-size: 14px;
+    line-height: 20px;
+    background: #F3F3F3;
+    border-radius: 5px;
+    padding: 13px 60px 13px 20px;
+    height: auto;
+}
+
+/********************* 
+Resources Area
+*********************/
+
+.aabbro-main-resources-area-update{}
+
+.aabbro-resources-area {
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 25px;
+}
+.filter-submit-btn {
+    font-size: 16px;
+    text-align: right;
+}
+ul.filter-lists {
+    border-radius: 20px;
+    top: 60px;
+}
+ul.filter-lists li.fl-border-bottom {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.aabbro-main-resources-area-update .container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.aabbro-main-resources-area-update .single-category-block {
+    max-width: 100%;
+    border-radius: 10px;
+    background: transparent;
+}
+.aabbro-main-resources-area-update .scb-img img {
+    width: 100%;
+}
+.aabbro-main-resources-area-update  .single-category-block .scb-text {
+    background: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 15px;
+}
+.scbt-download img {
+    display: none;
+}
+.aabbro-main-resources-area-update .row>* {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.filtered-result-box p {
+    padding-left: 0;
+}
+.filtered-result-box {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+a.load-more-btn-all {
+    border-radius: 6px;
+}
+
+.aabbro-main-resources-area-update .aabbro-btn-a {
+    border-radius: 6px;
+}
+
+
+
+/********************* 
+help / breadcrumb-area-help
+*********************/
+.page-title-area ul.bc-list {
+    display: block !important;
+}
+
+.breadcrumb-area-help .page-title-area h3 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.breadcrumb-area-help input.form-control {
+    background: #F9F9F9;
+    border-radius: 7px;
+}
+.breadcrumb-area-help input::placeholder{
+    color: #757589;
+}
+.breadcrumb-area-help .page-search-box {
+    margin: 40px auto 0px;
+}
+.breadcrumb-area {
+    padding: 152px 0px 120px;
+}
+
+
+/********************* 
+help / Help Area
+*********************/
+.help-area-v1 .section-head {
+    display: none;
+}
+.help-area-v1 {
+    padding: 80px 0px 50px;
+    background-color: #F9F9F9;
+}
+.help-area-v1 .row>* {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.abbaro-help-details-sidebar p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.atca-content p {
+    font-size: 16px;
+    line-height: 28px;
+}
+.help-details-area .atca-content {
+    padding-left: 60px;
+}
+
+
+
+
+
+/********************* 
+Text And Content Area
+*********************/
+ul.atcan-list li a {
+    font-size: 16px;
+    line-height: 28px;
+}
+ul.atcan-list li {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* ul.atcan-list li::after {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 2px;
+    top: 45%;
+    left: -8%;
+    z-index: 12;
+} */
+
+.atca-content h3 {
+    font-size: 36px;
+    line-height: 48px;
+}
+ul.atcan-list li a {
+    margin-left: 18px;
+}
+ul.atcan-list li:after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 10px;
+    background-color: #6235E5;
+    z-index: 1;
+    left: 0;
+    top: 12px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

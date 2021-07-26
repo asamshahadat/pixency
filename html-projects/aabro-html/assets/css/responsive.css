@@ -599,7 +599,7 @@
         display: none;
     }
     
-    .filter-submit-btn {
+    /* .filter-submit-btn {
         background-color: #fff;
         border-radius: 5px;
         padding: 10px 30px;
@@ -609,15 +609,15 @@
         overflow: hidden;
         width: 130px;
         margin-right: 8px;
-    }
+    } */
     
-    .filter-submit-btn img {
+    /* .filter-submit-btn img {
         position: absolute;
         background-color: #fff;
         margin-left: 10px;
         top: 16px;
         right: 20px;
-    }
+    } */
     .filterd-btn-box ul.filter-lists {
         top: 65px;
         right: 7px;
@@ -1353,6 +1353,17 @@ Extra large: ---------
         padding: 18px 28px;
     }
 
+    /*********************** 
+    Resources Area
+    ***********************/
+    .aabbro-main-resources-area-update .row>* {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .aabbro-main-resources-area-update .single-category-block {
+        margin-bottom: 20px;
+    }
+
 
 
 }
@@ -1366,21 +1377,11 @@ Extra large: ---------
     /*********************** 
     Pricing Area
     ***********************/
-    .aabbro-pricing-area-update .single-pricing {
-        /* padding: 24px; */
-    }
-
     .aabbro-pricing-area-update .col-lg-4.col-md-6.wow.slideInUp {
         margin-bottom: 15px;
-        /* padding-left: 15px; */
-        /* padding-right: 15px; */
         padding-right: calc(var(--bs-gutter-x)/ 2);
         padding-left: calc(var(--bs-gutter-x)/ 2);
     }
-
-
-
-    
     .aabbro-countdown-area > p {
         display: block;
         font-size: 16px;
@@ -1394,6 +1395,13 @@ Extra large: ---------
     }
     .lifetime-deal-box ul li:first-child {
         margin-right: 0;
+    }
+
+    /*********************** 
+    Help Area 
+    ***********************/
+    .help-details-area .atca-content {
+        padding-left: 40px;
     }
 }
 
@@ -1520,6 +1528,130 @@ large layout:  ---------
     .breadcrumb-area-update .vector img:nth-child(1) {
         top: 55px;
     }
+
+
+
+
+
+
+
+
+
+
+    /*********************** 
+    Category Area
+    ***********************/
+    .closeMobileCatFilter.showMobileCatCloseIcon {
+        top: 16px;
+        right: 16px;
+        width: 24px;
+        height: 24px;
+        font-size: 13px;
+    }
+    .aabbro-category-area-update {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 56px !important;
+    }
+    .aabbro-category-area-update .mobile-cat-filter-btn {
+        position: relative;
+        display: block;
+        margin: 20px auto;
+    }
+    .aabbro-category-area-update .category-search-box .search-form-header {
+        display: block;
+    }
+    .aabbro-category-area-update .col-md-3 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    /*********************** 
+    Resources Area
+    ***********************/
+    .aabbro-resources-area {
+        /* padding-left: 0;
+        padding-right: 0; */
+    }
+    .aabbro-resources-area {
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 0;
+    }
+
+    .filtered-result-box {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    span.mobilefilter-btn {
+        width: max-content;
+    }
+
+
+
+
+
+
+
+
+
+    /*********************** 
+    Help Area
+    ***********************/
+    .help-area {
+        padding: 60px 0px 30px;
+    }
+    .search-form-header {
+        display: block;
+    }
+    .breadcrumb-area-help .page-title-area h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .breadcrumb-area-help .page-search-box {
+        margin: 20px auto 0px;
+    }
+    .breadcrumb-area-help .page-title-area ul.bc-list li {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .breadcrumb-area-help .page-title-area ul.bc-list {
+        margin-top: 20px;
+    }
+    
+    .breadcrumb-area-help .page-title-area ul.bc-list li:after {
+        right: -17px;
+    }
+
+
+
+
+    /*********************** 
+    Text And Content Area
+    ***********************/
+    .atca-content h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .atca-content h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -1528,6 +1660,13 @@ Medium Layout: ---------
 4. 768px medium devices
 ##############################*/
 @media screen and (max-width: 768px){
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
     /* 
     #home-768-------------------]
     */
@@ -1614,8 +1753,6 @@ Medium Layout: ---------
         margin-bottom: 16px;
     }
 
-
-
     /*********************** 
     Pricing Area 
     ***********************/
@@ -1649,7 +1786,6 @@ Medium Layout: ---------
         padding: 22px 15px;
     }
 
-
     /*********************** 
     Features Area
     ***********************/
@@ -1675,12 +1811,6 @@ Medium Layout: ---------
         padding: 60px 0px;
     }
 
-
-
-
-
-
-
     /*********************** 
     Sitemap Area
     ***********************/
@@ -1690,6 +1820,53 @@ Medium Layout: ---------
     .help-area-update .row>* {
         padding-right: 24px;
         padding-left: 24px;
+    }
+
+    .filtered-result-box {
+        margin-bottom: 20px;
+    }
+    .filter-submit-btn {
+        top: 5px;
+    }
+
+
+    .breadcrumb-area-help .page-title-area-update ul.bc-list {
+        display: block;
+    }
+
+    .breadcrumb-area {
+        padding: 110px 0px 60px;
+    }
+    .help-details-area .atca-content {
+        margin-top: 60px;
+    }
+    .help-details-area .row>* {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .help-details-area {
+        padding: 60px 24px 30px;
+    }
+    .help-details-area .atca-content {
+        padding-left: 0;
+    }
+
+
+    .aabbro-text-content-area {
+        padding: 110px 24px 30px;
+    }
+    ul.atcan-list li:after {
+        top: 12px;
+    }
+    .aabbro-text-content-area .row>* {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    ul.atcan-list li {
+        padding-left: 0;
+    }
+    .atca-nav ul {
+        border-right: none;
     }
 }
 
@@ -1711,8 +1888,6 @@ Small Layout: ---------
     
     .aabbro-pricing-area-update .col-lg-4.col-md-6.wow.slideInUp {
         margin-bottom: 15px;
-        /* padding-left: 15px; */
-        /* padding-right: 15px; */
         padding-right: 24px;
         padding-left: 24px;
     }
@@ -1725,9 +1900,6 @@ Small Layout: ---------
     .product-category-area-update .row>* {
         padding-right: 24px;
         padding-left: 24px;
-    }
-    .product-category-area-update .product-caegory-wrapper {
-        /* padding-top: 20px; */
     }
 
     /*********************** 
@@ -1745,7 +1917,6 @@ Small Layout: ---------
     /*********************** 
     Testimonial Area
     ***********************/
-
     .testimonial-area-update .row>* {
         padding-left: 24px;
         padding-right: 24px;
@@ -1765,21 +1936,22 @@ Small Layout: ---------
         display: none;
     }
 
-
-
-
-
-
-
     /*********************** 
     Features Area
     ***********************/
-
     .features-area .row>* {
         padding-right: 24px;
         padding-left: 24px;
     }
 
+
+    /*********************** 
+    Help Area
+    ***********************/
+    .help-area-v1 .row>* {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
     
 }
 
