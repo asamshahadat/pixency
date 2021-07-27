@@ -15,6 +15,9 @@
     }
 
     .service-hero-content .container {max-width: 1320px;}
+    .hero-area.hero-area-update {
+        min-height: 100vh;
+    }
 }
 
 
@@ -1364,6 +1367,9 @@ Extra large: ---------
         margin-bottom: 20px;
     }
 
+    .pd-gallery-details .pdha-title h4 {
+        font-size: 18px;
+    }
 
 
 }
@@ -1403,6 +1409,29 @@ Extra large: ---------
     .help-details-area .atca-content {
         padding-left: 40px;
     }
+
+    /*********************** 
+    Product Details Area
+    ***********************/
+    .schedule-meeting-update {
+        width: 80%;
+        position: relative;
+        top: unset;
+        right: unset;
+        border-radius: 20px;
+        margin: 45px auto;
+    }
+
+    .schedule-meeting-update .sch-btn {
+        text-align: center;
+    }
+    .schedule-meeting-update .aabbro-btn-a {
+        padding: 13px 50px;
+        width: unset;
+    }
+
+
+
 }
 
 
@@ -1511,7 +1540,6 @@ large layout:  ---------
         padding: 110px 0px 60px !important;
     }
 
-
     
     /*********************** 
      Breadcrumb Area
@@ -1524,19 +1552,9 @@ large layout:  ---------
         font-size: 14px;
         line-height: 22px;
     }
-
     .breadcrumb-area-update .vector img:nth-child(1) {
         top: 55px;
     }
-
-
-
-
-
-
-
-
-
 
     /*********************** 
     Category Area
@@ -1588,14 +1606,6 @@ large layout:  ---------
         width: max-content;
     }
 
-
-
-
-
-
-
-
-
     /*********************** 
     Help Area
     ***********************/
@@ -1619,13 +1629,9 @@ large layout:  ---------
     .breadcrumb-area-help .page-title-area ul.bc-list {
         margin-top: 20px;
     }
-    
     .breadcrumb-area-help .page-title-area ul.bc-list li:after {
         right: -17px;
     }
-
-
-
 
     /*********************** 
     Text And Content Area
@@ -1634,21 +1640,124 @@ large layout:  ---------
         font-size: 24px;
         line-height: 34px;
     }
-
     .atca-content h4 {
         font-size: 18px;
         line-height: 28px;
     }
+    
+    /*********************** 
+    Breadcrumb Area
+    ***********************/
+    .breadcrumb-area-blog {
+        padding: 99px 0px 40px;
+    }
+    
+    /*********************** 
+    blog details
+    ***********************/
+    .single-blog h4 a {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .aabbro-blog-details-page-update .single-blog {
+        margin-bottom: 15px;
+    }
+    .aabbro-blog-details-page-update .bdc-text {
+        padding: 0;
+    }
+    .aabbro-blog-details-page-update .bdc-post-meta {
+        padding: 20px 0px;
+    }
+    .aabbro-blog-details-page-update .aabbro-comments-wrapper > h5 {
+        margin-left: 0;
+    }
+    .aabbro-blog-details-page-update .single-comment {
+        margin-left: 0;
+    }
+    .aabbro-blog-details-page-update .bdc-text h4 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .aabbro-blog-details-page-update .bdc-text h5 {
+        font-size: 18px;
+        line-height: 28px;
+        color: #000248;
+        margin-bottom: 20px;
+    }
+    .aabbro-blog-details-page-update .aabbro-comments-wrapper > h5 {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .single-comment {
+        margin-bottom: 20px;
+    }
+    .related-topics-area h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .aabbro-blog-details-page-update {
+        padding: 110px 0px 50px;
+    }
+    .leave-comment-box h4 {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 12px;
+    }
+    .aabbro-blog-details-page-update .leave-comment-box p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .leave-comment-box p span {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    
+    /*********************** 
+    Product Details Area
+    ***********************/
+
+    .product-details-head-area-update .pdha-title h4 {
+        font-size: 16px;
+        line-height: 26px;
+    }
 
 
+    .product-details-gallary-update .download-wrapper h4 {
+        font-size: 18px;
+    }
 
+    .schedule-meeting-update .schedule-banner h3 {
+        font-size: 18px;
+    }
 
+    .product-details-area-updates .product-details-text h4 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .product-details-area-updates .product-details-text p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .product-details-area-updates .tags-wrapper h5 {
+        font-size: 14px;
+        line-height: 28px;
+    }
 
+    .product-details-text .row>* {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .product-details-text ul.taglist li {
+        margin: 0;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
 
-
-
-
-
+    .product-caegory-wrapper {
+        padding-top: 30px;
+    }
 
 
 
@@ -1828,8 +1937,6 @@ Medium Layout: ---------
     .filter-submit-btn {
         top: 5px;
     }
-
-
     .breadcrumb-area-help .page-title-area-update ul.bc-list {
         display: block;
     }
@@ -1850,8 +1957,6 @@ Medium Layout: ---------
     .help-details-area .atca-content {
         padding-left: 0;
     }
-
-
     .aabbro-text-content-area {
         padding: 110px 24px 30px;
     }
@@ -1868,6 +1973,91 @@ Medium Layout: ---------
     .atca-nav ul {
         border-right: none;
     }
+
+    .breadcrumb-area-blog {
+        padding: 99px 0px 40px;
+    }
+
+    /*********************** 
+    Blog Area
+    ***********************/
+    .aabbro-blog-page-update .blog-sidebar {
+        padding-top: 0;
+    }
+    .blog-sidebar-widget.sidebar-banner img {
+        width: 100%;
+    }
+    .aabbro-blog-page-update .blog-content-box>h3::after {
+        width: 60px;
+    }
+    .aabbro-blog-page-update .blog-sidebar {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .aabbro-blog-page-update .blog-content-box>h3 {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .aabbro-blog-page-update .blog-content-box>h3::after {
+        width: 60px;
+        left: 220px;
+    }
+    .aabbro-blog-page-update .blog-content-box .row>* {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .aabbro-pagination ul li a {
+        background: #F2F5FD;
+        border-radius: 15px;
+        height: 40px;
+        width: 40px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding-top: 0;
+        line-height: 28px;
+    }
+    .aabbro-pagination ul li:nth-child(4),
+    .aabbro-pagination ul li:nth-child(5) {
+        display: none;
+    }
+    .aabbro-pagination ul li {
+        margin-bottom: 0;
+        margin-right: 0;
+        margin: 0px 5px;
+    }
+    .aabbro-blog-page-update .sb-content {
+        padding: 0px 20px 20px 20px;
+    }
+    .aabbro-blog-details-page {
+        padding: 120px 0px 60px;
+    }
+    .aabbro-blog-details-page.aabbro-blog-details-page-update .container > .row>* {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    /*********************** 
+    Product Details Area
+    ***********************/
+    .schedule-meeting-update {
+        width: 100%;
+    }
+    .product-details-head-area-update
+    .pdha-btn {
+        margin-top: 16px;
+    }
+    header.aabbro-header-product a {
+        top: unset;
+        right: 31px;
+    }
+
+    .product-details-similar-product-area-update .section-head {
+        text-align: center;
+    }
+
+
 }
 
 
@@ -1952,7 +2142,29 @@ Small Layout: ---------
         padding-right: 24px;
         padding-left: 24px;
     }
-    
+
+    /*********************** 
+    Product Details Area
+    ***********************/
+    .product-details-area {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .product-details-text {
+        overflow: hidden;
+    }
+    .product-details-similar-product-area-update {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .product-details-similar-product-area-update .row>* {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .product-details-gallary-update .row>* {
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 

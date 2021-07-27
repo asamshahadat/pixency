@@ -7434,8 +7434,6 @@ a.load-more-btn-all {
     border-radius: 6px;
 }
 
-
-
 /********************* 
 help / breadcrumb-area-help
 *********************/
@@ -7447,7 +7445,6 @@ help / breadcrumb-area-help
     font-size: 30px;
     line-height: 40px;
 }
-
 .breadcrumb-area-help input.form-control {
     background: #F9F9F9;
     border-radius: 7px;
@@ -7461,7 +7458,6 @@ help / breadcrumb-area-help
 .breadcrumb-area {
     padding: 152px 0px 120px;
 }
-
 
 /********************* 
 help / Help Area
@@ -7490,10 +7486,6 @@ help / Help Area
     padding-left: 60px;
 }
 
-
-
-
-
 /********************* 
 Text And Content Area
 *********************/
@@ -7505,17 +7497,6 @@ ul.atcan-list li {
     position: relative;
     margin-bottom: 20px;
 }
-
-/* ul.atcan-list li::after {
-    position: absolute;
-    content: '';
-    width: 10px;
-    height: 2px;
-    top: 45%;
-    left: -8%;
-    z-index: 12;
-} */
-
 .atca-content h3 {
     font-size: 36px;
     line-height: 48px;
@@ -7535,25 +7516,176 @@ ul.atcan-list li:after {
     z-index: 1;
 }
 
+/********************* 
+Breadcrumb Area
+*********************/
+.breadcrumb-area-blog{}
+.breadcrumb-area-blog {
+    padding: 120px 0px 40px;
+}
 
 
+/********************* 
+Blog Area
+*********************/
+.aabbro-blog-page-update .blog-sidebar {
+    padding-top: 64px;
+}
+.aabbro-blog-page-update .blog-content-box>h3 {
+    font-size: 24px;
+    line-height: 34px;
+    position: relative;
+    margin-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.aabbro-blog-page-update .blog-content-box>h3::after {
+    content: '';
+    position: absolute;
+    background-color: #6235E5;
+    left: 204px;
+    top: 18px;
+    z-index: 1;
+    height: 1px;
+    width: 150px;
+}
+.aabbro-blog-page-update .single-blog {
+    background: #F9F9F9;
+    border-radius: 20px;
+}
+.aabbro-blog-page-update .single-blog .sb-img {
+    margin-bottom: 0;
+}
+.aabbro-blog-page-update .single-blog .sb-meta {
+    padding: 24px 24px 0px 24px;
+}
+.aabbro-blog-page-update .sb-content {
+    padding: 0px 24px 24px 24px;
+}
+.aabbro-blog-page-update .container {
+    padding: 0;
+}
+.aabbro-blog-page-update .container > .row>* {
+    padding-right: 0;
+    padding-left: 0;
+}
+.aabbro-blog-page-update .blog-content-box .row>* {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.aabbro-blog-page-update .single-blog .sb-meta ul {
+    display: flex;
+    justify-content: space-between;
+}
+.aabbro-blog-page-update .single-blog .sb-meta ul li:after {
+    position: static;
+}
+.aabbro-blog-page-update .single-blog .sb-meta ul li {
+    padding-right: 0;
+}
+.aabbro-blog-page-update .single-blog span {
+    color: #6235E5;
+}
+.aabbro-pagination ul li a {
+    background: #F2F5FD;
+    border-radius: 5px;
+}
+.aabbro-pagination ul li {
+    margin-right: 10px;
+}
+.aabbro-blog-page-update input::placeholder {
+    color: #6235E5;
+}
+.aabbro-blog-page-update .search-form-header input.form-control {
+    border-radius: 7px;
+}
+.aabbro-blog-page-update .search-form-header button {
+    color: #6235E5;
+}
 
-
-.aabbro-acordion .accordion-body a {
-    margin-bottom: 0px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 300;
+.blog-sidebar-widget h4 {
+    border-radius: 7px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.aabbro-blog-page-update {
+    position: relative;
+    padding: 60px 0px;
+}
+ul.sc-list li a {
     font-size: 16px;
     line-height: 28px;
-    padding: 0px 20px;
-    color: #757589;
-    letter-spacing: 0px;
-    display: block;
+}
+.blog-sidebar-widget .schedule-meeting-btn {
+    background-color: #6235E5;
+    padding: 40px 26px;
+}
+.schedule-meeting-btn p {
+    font-size: 22px;
+    line-height: 30px;
 }
 
-.aabbro-acordion .accordion-body a:hover {
-    color: #6235e5;
+/********************* 
+Blog details Area
+*********************/
+.aabbro-blog-details-page-update {
+    padding: 130px 0px 90px;
+}
+.aabbro-blog-details-page-update .bdc-featured-img {
+    margin-bottom: 24px;
+}
+.aabbro-blog-details-page-update .bdc-meta span {
+    font-size: 16px;
+    line-height: 28px;
+}
+.aabbro-blog-details-page-update .bdc-text h4 {
+    font-size: 36px;
+    line-height: 46px;
+}
+.aabbro-blog-details-page-update .bdc-meta > ul > li:last-child{
+    margin-left: 50px;
+}
+.aabbro-blog-details-page-update .bdc-author a {
+    margin-left: 8px;
+}
+.aabbro-blog-details-page-update .bdc-text {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.aabbro-blog-details-page-update .bdc-text p {
+    font-size: 16px;
+    line-height: 28px;
+}
+.aabbro-blog-details-page-update .bdc-post-meta ul li span {
+    margin-left: 8px;
+}
+.aabbro-blog-details-page-update .aabbro-comments-wrapper > h5 {
+    margin-left: 80px;
+}
+.aabbro-blog-details-page-update .leave-comment-box p {
+    margin-bottom: 10px;
+}
+.aabbro-blog-details-page-update button.commentSubmitBtn {
+    padding: 15px 25px;
+}
+.aabbro-blog-details-page-update .single-blog .sb-img {
+    margin-bottom: 0;
+}
+.aabbro-blog-details-page-update .single-blog {
+    background: #F9F9F9;
+    border-radius: 20px;
+}
+.aabbro-blog-details-page-update .single-blog .sb-meta {
+    padding: 24px 24px 0px 24px;
+}
+.aabbro-blog-details-page-update .sb-content {
+    padding: 0px 24px 24px 24px;
+}
+.single-blog .sb-meta ul li:after {
+    display: none;
+}
+.aabbro-blog-details-page-update .single-blog span {
+    color: #6235E5;
 }
 
 
@@ -7566,3 +7698,77 @@ ul.atcan-list li:after {
 
 
 
+
+/********************* 
+Product Details Area
+*********************/
+/* header area  */
+header.aabbro-header-pop-update {
+    padding: 25px 0px;
+    background: rgba(0,2,72,0.5);
+}
+
+header.aabbro-header-pop-update a {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.schedule-meeting-update {
+    position: absolute;
+    right: -300px;
+    top: 260px;
+    z-index: 1;
+    width: 280px;
+    /* background: #FFFFFF;
+    box-shadow: 0px 25px 99px rgb(149 149 149 / 10%); */
+    border-radius: 20px;
+}
+
+.schedule-meeting-update .schedule-banner h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.schedule-meeting-update .schedule-banner {
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0;
+}
+.schedule-meeting-update .aabbro-btn-a {
+    border-radius: 10px;
+    padding: 13px 0px;
+    font-size: 10px;
+    line-height: 20px;
+    border: 1px solid #FF8A00;
+    width: 100%;
+}
+.product-details-head-area-update .pdha-title ul {
+    display: none;
+}
+.product-details-head-area-update .pdha-btn ul {
+    padding: 0;
+}
+.product-details-head-area-update .pdha-box {
+    position: relative;
+    margin-bottom: 24px;
+    margin-top: 50px;
+}
+
+.aabbro-header-product.navbar-fixed-top {
+    border-bottom: unset;
+    background: #000248 !important;
+}
+.product-details-head-area-update .pdha-btn ul li {
+    margin-left: 5px;
+}
+.product-details-similar-product-area-update
+.scbt-premium {
+    display: none;
+}
+
+/* gallery product details  */
+.product-details-area.pd-gallery-details ul li:first-child{
+    display: none;
+}
