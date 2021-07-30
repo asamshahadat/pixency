@@ -14,10 +14,20 @@
         margin: 0px 0px 0px auto;
     }
 
-    .service-hero-content .container {max-width: 1320px;}
+    .service-hero-content .container {
+        max-width: 1320px;
+    }
+
     .hero-area.hero-area-update {
         min-height: 100vh;
     }
+
+
+
+
+
+
+
 }
 
 
@@ -172,6 +182,11 @@
         max-width: 790px;
         margin: 0px auto;
         margin-right: 330px;
+    }
+
+    .product-details-gallary-update {
+        max-width: 100%;
+        margin-right: 0;
     }
     .product-gallary-carousel ol.carousel-indicators li { 
         max-width: 120px; 
@@ -1266,12 +1281,8 @@
 
     .countdown-timer-area h4 {
         font-weight: 800;
-        font-size: 32px;
-        line-height: 48px;
-    /* identical to box height */
-        
-    
-    /* Neutral/White */
+        font-size: 24px;
+        line-height: 34px;
         margin-bottom: 20px;
     }
     
@@ -1307,21 +1318,60 @@
     }
 }
 
-
 /* Wide Mobile Layout: 480px. */
-
-@media only screen and (min-width: 481px) and (max-width: 767px) {
-    
+@media only screen and (min-width: 991px) and (max-width: 1460px){
+    ul.aabbro-category-lists li {
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width: 1366px){
+    .pdg-box-v1 {
+        margin-left: -300px;
+    }
+    .download-wrapper-v1 {
+        right: 90px;
+    }
+    .schedule-meeting-v1 {
+        right: 90px;
+    }
 }
 
 
-/* Wide Mobile Layout: 480px. */
-
-@media only screen and (min-width: 240px) and (max-width: 480px) {
-    
+@media only screen and (min-width: 991px) and (max-width: 1226px){
+    .dashboard-header-v1 a.navbar-brand .mobile-logo p {
+        font-size: 18px;
+    }
+    .dashboard-header-v1 nav {
+        padding: 26.01px 10px !important;
+    }
+    .dashboard-header-v1 ul.navbar-nav.ms-auto.mb-2.mb-lg-0 li {
+        margin-left: 9px;
+    }
 }
 
+@media screen and (max-width: 1008px){
+    /* download area here  */
+    .filtered-result-box-download span.timeBtn {
+        display: none;
+    }
+    .filtered-result-box-download ul.filterbyIcon {
+        display: none;
+    }
+}
 
+/* edit profile  */
+@media only screen and (min-width: 991px) and (max-width: 1300px){
+    .dashboard-edit-profile-two .nav-pills-v1 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .dashboard-edit-profile-two .ep_tab_content-v1 {
+        width: 100%;
+    }
+    .nav-pills-v1 button {
+        padding-left: 40px;
+    }
+}
 
 /* responsive  */
 /*################################################### 
@@ -1344,13 +1394,9 @@ Extra large: ---------
         font-size: 30px;
         line-height: 40px;
     }
-
     .aabbro-pricing-area-update .single-pricing {
         padding: 24px;
     }
-
-
-
     .lifetime-deal-box ul li:first-child {
         margin-right: 40px;
     }
@@ -1381,15 +1427,182 @@ Extra large: ---------
         font-size: 18px;
     }
 
+    ul.resources-icon-list li {
+        margin-right: inherit;
+        margin-bottom: inherit;
+    }
 
+    /*********************** 
+    Resources icon Area
+    ***********************/
+    .container-fluid-update-v3 ul.resources-icon-list {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .hero-area-update .hero-content h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .hero-area-update-v1.hero-area-update .hero-img-video {
+        margin-top: 80px;
+    }
+    .hero-area-update .hero-img-video video.aabbro-video-player {
+        height: 520px;
+        margin-bottom: -170px;
+    }
+    .product-category-area-update {
+        padding-top: 300px;
+    }
+
+    /* services page  */
+    /* features-area here  */
+    .features-area-v2 {
+        padding: 120px 0px;
+    }
+    /* How Aabbro Work  */
+    .how-aabbro-work-area-v1 {
+        padding: 120px 0px;
+    }
+    .service-pricing-area {
+        position: relative;
+        padding: 120px 0px;
+    }
+    .perfect-plan-area-v1{
+        padding: 120px 0px;
+    }
+    .testimonial-area-v2{
+        padding: 120px 0px;
+    }
+    .service-faq-area-v1{
+        padding: 120px 0px;
+    }
+
+    /* dashboard-pricing-plan  */
+    .dashboard-pricing-plan-v1 .single-pricing .sprice-head ul li img {
+        width: 40px;
+        height: 40px;
+    }
+    .dashboard-pricing-plan-v1 .single-pricing {
+        padding: 24px;
+    }
+    .dashboard-pricing-plan-v1 .sprice-head ul li:nth-child(2) {
+        padding-left: 6px;
+    }
+    .dashboard-pricing-plan-v1 .single-pricing .sprice-head ul li h5 {
+        margin-top: 0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .dashboard-pricing-plan-v1 .single-pricing .sprice-head ul li p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .dashboard-pricing-plan .sprice-head ul li:last-child h4 {
+        font-size: 24px;
+        padding-top: 10px;
+    }
+    .dashboard-pricing-plan-v1 .single-pricing .sprice-head {
+        padding-bottom: 24px;
+    }
+    .dashboard-pricing-plan-v1 .single-pricing .sprice-features {
+        padding: 24px 0px;
+    }
+
+    .dashboard-pricing-plan-v1 .single-pricing .sprice-bottom a.pbtn-4 {
+        padding: 19px 20px;
+    }
+    .dashboard-pricing-plan-v1 a.pricing-btn.pbtn-1 {
+        padding: 19px 20px;
+    }
+
+    /* billing-history-wrapper  */
+    .billing-history-wrapper-v1 h4 {
+        font-size: 18px;
+    }
+    .billing-history-wrapper-v1 table.billing-history-table tr th {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 9.5px 0px;
+    }
+    .billing-history-wrapper-v1 table.billing-history-table tr td {
+        font-size: 12px;
+        padding: 7.5px 0px;
+    }
+    .invoice-view-btn a {
+        font-size: 12px;
+    }
+    .billing-history-wrapper-v1 .paymnet-m-file {
+        position: relative;
+        margin-top: 0;
+    }
+    .billing-history-wrapper-v1 .paymnet-m-file h4 {
+        padding-bottom: 14px;
+        margin-bottom: 14px;
+    }
+    .paymnet-m-file p {
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .billing-history-wrapper-v1 {
+        padding: 24px;
+    }
+
+    /* dashboard-collections  */
+    .dashboard-collections-v1 .single-collection .scb-text h4 {
+        margin-bottom: 6px;
+        font-size: 18px;
+    }
+    .dashboard-collections-v1 .single-collection .scb-text p {
+        font-size: 14px;
+        line-height: 100%;
+    }
+    .dashboard-collections-v1 .single-collection .scb-img {
+        margin-bottom: 16px;
+    }
+
+    /* ticket  */
+    .dash-board-content-wrapper-ticket {
+        min-height: 770px;
+    }
+    /* dash board  */
+    .dashboard-sidebar-v1 .schedule-meeting-btn {
+        margin: 80px 50px 0px 50px;
+    }
+
+    /* services area here  */
+    .service-hero-content-v1 {
+        min-height: 640px;
+    }
+    .service-hero-content-v1 .service-hero-img img {
+        max-height: 570px;
+    }
+    ul.services-custom-dots-v1 li {
+        padding: 23px 10px !important;
+        width: 220px;
+    }
+    ul.services-custom-dots-v1 li p {
+        font-size: 14px;
+        line-height: 100%;
+    }
+    .service-hero-content-v1 .service-hero-text {
+        margin-top: 86px;
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+    .service-hero-content-v1 .service-hero-text h2 {
+        line-height: 72px;
+        font-size: 42px;
+        line-height: 52px;
+    }
 }
-
 
 /*############################## 
 Extra large: ---------
 2. 1200 xlarge devices
 ##############################*/
 @media screen and (max-width: 1200px){
+    .hero-area-update-v1.hero-area-update .hero-img-video {
+        margin-top: 60px;
+    }
     /*********************** 
     Pricing Area
     ***********************/
@@ -1423,15 +1636,28 @@ Extra large: ---------
     /*********************** 
     Product Details Area
     ***********************/
+    .pdg-box-v1 {
+        margin-left: 0px;
+    }
+    .download-wrapper-v1 {
+        right: 0px;
+        margin: 20px auto 40px;
+        width: 300px !important;
+    }
+    .schedule-meeting-v1 {
+        right: 0px;
+    }
+    .schedule-meeting-v1 .container {
+        padding: inherit;
+    }
     .schedule-meeting-update {
         width: 80%;
         position: relative;
         top: unset;
-        right: unset;
         border-radius: 20px;
         margin: 45px auto;
+        width: 300px !important;
     }
-
     .schedule-meeting-update .sch-btn {
         text-align: center;
     }
@@ -1440,7 +1666,89 @@ Extra large: ---------
         width: unset;
     }
 
+    /*********************** 
+    Resources ul Area
+    ***********************/
+    .aabbro-main-resources-area-v2 ul.filterbyIcon li img {
+        width: 17px;
+        max-width: 100%;
+    }
 
+    /*********************** 
+    Resources icon Area
+    ***********************/
+    .container-fluid-update-v3 ul.resources-icon-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    /* Service Pricing Area  */
+    ul.pricing-list-box li {
+        max-width: 24%;
+    }
+
+    /* services page  */
+    /* features-area here  */
+    .features-area-v2 {
+        padding: 80px 0px;
+    }
+    /* How Aabbro Work  */
+    .how-aabbro-work-area-v1 {
+        padding: 80px 0px;
+    }
+    .service-pricing-area {
+        padding: 80px 0px;
+    }
+
+    .perfect-plan-area-v1{
+        padding: 80px 0px;
+    }
+
+    .testimonial-area-v2{
+        padding: 80px 0px;
+    }
+
+    .service-faq-area-v1{
+        padding: 80px 0px;
+    }
+
+    /* dashboard-pricing-plan  */
+    .dashboard-pricing-plan-v1 .single-pricing {
+        margin: 0 auto 30px;
+    }
+    .filtered-result-box-download ul.filterbyIcon {
+        margin-right: 80px !important;
+    }
+    .filtered-result-box-download .filterd-btn-box {
+        top: -12px;
+    }
+    .filtered-result-box-download span.timeBtn {
+        margin-left: 20px !important;
+    }
+
+
+    /* services  */
+    .service-hero-content-v1 {
+        min-height: 600px;
+    }
+    .service-hero-content-v1 .service-hero-img img {
+        max-height: 520px;
+    }
+
+    ul.services-custom-dots-v1 li {
+        padding: 23px 10px !important;
+        width: 200px;
+    }
+
+    .service-hero-content-v1 .service-hero-text h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .service-hero-content-v1 .aabbro-btn-a, .service-hero-content-v1 .aabbro-btn-c {
+        line-height: 24px;
+        padding: 12px 20px;
+    }
+    .service-hero-content-v1 .aabbro-btn-c {
+        margin-left: 10px;
+    }
 
 }
 
@@ -1507,8 +1815,14 @@ large layout:  ---------
         justify-content: center;
     }
 
-    
-    
+    .product-details-similar-product-area.product-details-similar-product-area-update h2 {
+        margin-bottom: 4px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .product-details-area.product-details-area-updates .product-details-text {
+        padding-bottom: 30px;
+    }
     /*********************** 
     Text Image Area
     ***********************/
@@ -1599,10 +1913,6 @@ large layout:  ---------
     Resources Area
     ***********************/
     .aabbro-resources-area {
-        /* padding-left: 0;
-        padding-right: 0; */
-    }
-    .aabbro-resources-area {
         padding-left: 14px;
         padding-right: 14px;
         padding-top: 0;
@@ -1659,7 +1969,7 @@ large layout:  ---------
     Breadcrumb Area
     ***********************/
     .breadcrumb-area-blog {
-        padding: 99px 0px 40px;
+        padding: 100px 0px 40px;
     }
     
     /*********************** 
@@ -1732,8 +2042,6 @@ large layout:  ---------
         font-size: 16px;
         line-height: 26px;
     }
-
-
     .product-details-gallary-update .download-wrapper h4 {
         font-size: 18px;
     }
@@ -1769,7 +2077,409 @@ large layout:  ---------
         padding-top: 30px;
     }
 
+    /*********************** 
+    Resources Area
+    ***********************/
+    .filtered-fs-title-update p:nth-child(2) span {
+        display: unset;
+    }
+    .filtered-fs-title-update p:nth-child(1) {
+        padding-left: 0;
+    }
 
+
+    /*********************** 
+    Resources ul Area
+    ***********************/
+    .aabbro-main-resources-area-v2 .filtered-result-box p span {
+        display: inherit;
+    }
+    .aabbro-main-resources-area-v2 .aabbro-resources-area {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .container-fluid-update-v2 .row>* {
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+    .container-fluid-update-v2 .single-category-block {
+        margin-bottom: 28px;
+    }
+    .aabbro-main-resources-area-v2 .filtered-result-box {
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    .aabro-resource-filter-area.showMobileCat {
+        padding-top: 60px;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .aabbro-category.showMobileCat {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 20px;
+    }
+    .aabro-resource-filter-tab {
+        display: none;
+    }
+    .aabbro-main-resources-area-v2 span.filterPcount {
+        display: block;
+    }
+
+    /* Category Area  */
+    ul.mcatfilter-btn-update {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    ul.mcatfilter-btn-update li {
+        width: max-content;
+    }
+    ul.mcatfilter-btn-update li:first-child {
+        order: 2;
+    }
+    ul.mcatfilter-btn-update li:last-child {
+        order: 1;
+    }
+    ul.mcatfilter-btn-update li .mcat-btn{}
+    ul.mcatfilter-btn-update li .mcat-btn span {
+        display: flex;
+        align-items: center;
+        width: inherit;
+        height: 44px;
+        padding: 0 20px;
+        font-size: 20px;
+    }
+    ul.mcatfilter-btn-update li .mcat-btn span img{
+        width: 20px;
+        margin-left: 8px;
+    }
+    ul.mcatfilter-btn-update li .m-filter {
+        position: initial;
+    }
+    ul.mcatfilter-btn-update li .m-filter span {
+        width: inherit;
+        height: 44px;
+        padding: 0 20px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+    ul.mcatfilter-btn-update li .m-filter span i{
+        font-size: 20px;
+        margin-left: 8px;
+    }
+
+    /* Service Pricing Area  */
+    ul.pricing-list-box li {
+        max-width: 100%;
+    }
+    .single-service-pricing {
+        max-width: max-content;
+        margin-bottom: 60px;
+    }
+    .service-pricing-area.service-pricing-area-v1 .row .col-md-12 {
+        padding: 0px 24px;
+    }
+    .single-service-pricing {
+        max-width: max-content;
+        margin-bottom: 40px;
+        background: #f9f9f9;
+        border-radius: 26px;
+    }
+    .price-tab-content {
+        background: inherit;
+    }
+    .single-service-pricing.best-price, .single-service-pricing:hover {
+        top: 0;
+    }
+    .price-tab-nav {
+        margin-bottom: 40px;
+    }
+    .service-pricing-area-v1 .single-service-pricing.best-price, .single-service-pricing:hover {
+        box-shadow: 0px 10px 34px rgb(82 67 194 / 30%);
+    }
+
+    /* services page  */
+    /* features-area here  */
+    .features-area-v2 {
+        padding: 60px 0px;
+    }
+    /* How Aabbro Work  */
+    .how-aabbro-work-area-v1 {
+        padding: 60px 0px;
+    }
+    .service-pricing-area {
+        padding: 60px 0px;
+    }
+    .perfect-plan-area-v1{
+        padding: 60px 0px;
+    }
+    .testimonial-area-v2 {
+        padding: 60px 0px !important;
+    }
+    .service-faq-area-v1{
+        padding: 60px 0px;
+    }
+    .plan-btn {
+        margin-top: 40px;
+    }
+
+    /* dashboard  */
+    .dashboard-header-v1 {
+        background: linear-gradient(98.11deg, #6235E5 0.36%, #B37AFB 131.41%);
+    }
+
+    .dashboard-header-v1 a.navbar-brand .mobile-logo p {
+        display: none;
+    }
+    .dashboard-header-v1 a.navbar-brand .mobile-logo img {
+        display: block;
+        max-width: 111px;
+    }
+
+    .dashboard-header-v1 button.navbar-toggler {
+        background-color: transparent;
+    }
+    .dashboard-header-v1 nav {
+        padding: 26.01px 24px !important;
+    }
+    .dash-board-content-wrapper {
+        padding: 0;
+    }
+    /* sidemenu-toggler  */
+    .sidemenu-toggler-v1 {
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 24px;
+    }
+    .sidemenu-toggler-logo-v1 span {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .sidemenu-toggler-v1 button.navbar-toggler span.navbar-toggler-icon {
+        border: 2px solid #000248;
+        border-left: none;
+        border-right: none;
+    }
+    .sidemenu-toggler-v1 button.navbar-toggler span.navbar-toggler-icon:after {
+        background-color: #000248;
+    }
+    .sidemenu-toggler-v1 button.navbar-toggler {
+        background: #fff;
+        border-radius: 5px;
+    }
+
+    /* dashboard-sidebar  */
+    .dashboard-sidebar-v1 .ds-menu {
+        padding: 70px 24px 50px;
+    }
+    .dashboard-sidebar-v1 span.close-dm {
+        right: 24px;
+        top: 24px;
+        background-color: rgb(0,2,72, 0.4);
+        height: 35px;
+        width: 35px;
+        padding-left: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dashboard-sidebar-v1 span.close-dm i.fa.fa-times {
+        font-size: 18px;
+        position: relative;
+        top: -1px;
+        left: 0px;
+    }
+    .dashboard-sidebar-v1 .schedule-meeting-btn {
+        margin: 0px 24px;
+        padding: 20px;
+    }
+    .dashboard-sidebar-v1 {
+        left: -200%;
+    }
+    .dashboard-sidebar-v1 ul.dsm-list li a {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    /* dashboard-pricing-plan  */
+    .dashboard-pricing-plan-v1 .row .col-xl-4 {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .dashboard-pricing-plan-v1 .sprice-head ul li:first-child {
+        display: inline-block;
+    }
+    .billing-history-wrapper-v1 {
+        margin: 0px 24px 60px;
+    }
+
+    /* dashboard-collections  */
+    .dashboard-collections-v1 {
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+
+    /* download area here  */
+    .filtered-result-box-download p {
+        display: none;
+    }
+    .aabbro-r-download .aabbro-resources-area {
+        padding: 0px 0px 50px !important;
+    }
+    .sidemenu-toggler-download {
+        display: block !important;
+        position: relative;
+    }
+    .sidemenu-toggler-download button.navbar-toggler {
+        position: absolute;
+    }
+    .sidemenu-toggler-download .sidemenu-toggler-logo-v1 {
+        text-align: center;
+    }
+    .sidemenu-toggler-logo-v1 span {
+        letter-spacing: 0.2px;
+    }
+    .filtered-result-box-download .filterd-btn-box {
+        top: 14px;
+    }
+    .sidemenu-toggler-download {
+        padding: 24px 0px;
+    }
+    .filtered-result-box.filtered-result-box-download {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 0;
+    }
+    .filtered-result-box-download .filterd-btn-box ul.filter-lists {
+        top: 65px;
+        right: 0px;
+    }
+    .container-fluid-download {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    /* dashboard-sidebar menu  */
+    .dashboard-sidebar.showInMobile {
+        z-index: 99;
+    }
+
+    /* edit profile  */
+    .dashboard-edit-profile-two {
+        margin: 0px 24px 40px;
+    }
+    .edit-profile-basic-info-v1 .ep-form-group.ep-img-uploader {
+        width: 80px;
+    }
+    .edit-profile-basic-info-v1 .ep-form-group input {
+        padding: 5px 20px;
+    }
+    .edit-profile-basic-info-v1 .ep-form-group-submit button {
+        padding: 14px 0px;
+    }
+    .ep_tab_content-v1 .tab-pane {
+        padding: 24px 0px;
+    }
+    .edit-profile-basic-info-v1 .ep-form-group {
+        margin-bottom: 16px;
+    }
+    .edit-profile-basic-info-v1 .ep-form-group label {
+        margin-bottom: 10px;
+    }
+    .edit-profile-basic-info-v1 .socialMform-input label {
+        margin-top: 3px;
+    }
+    .edit-profile-basic-info-v1 button.social-add-btn {
+        margin-top: 7px;
+    }
+    .support-ticket-area-v1 a.newTicket-btn {
+        right: 24px;
+        font-size: 12px;
+        padding: 6px 15px;
+        margin-bottom: 0;
+    }
+    .support-ticket-area-ticket h4 {
+        padding-left: 24px  !important;
+        font-size: 18px;
+        margin-top: 0;
+        line-height: 32px;
+    }
+    .support-ticket-area-v1 a.newTicket-btn span {
+        font-size: 12px;
+        top: 1px;
+    }
+    .support-ticket-area-ticket .support-ticket-table {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .support-ticket-table {
+        padding: 20px;
+    }
+    .support-ticket-area-ticket .dataTables_wrapper .dataTables_paginate {
+        margin-top: 0.5em;
+        margin-bottom: 20px;
+    }
+    .dash-board-content-wrapper-td .support-ticket-details .std-msg h5 {
+        font-size: 18px;
+    }
+    .dash-board-content-wrapper-td .support-ticket-details .std-msg p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .dash-board-content-wrapper-td .support-ticket-area {
+        margin: 0px 24px 60px 24px;
+    }
+    .dash-board-content-wrapper-td .support-ticket-details {
+        padding: 16px;
+        margin-bottom: 24px;
+    }
+    .dash-board-content-wrapper-td .support-ticket-details-reply {
+        padding: 16px;
+    }
+    .dash-board-content-wrapper-td .std-reply h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .dashboard-edit-profile-open .add-ticket {
+        margin: 0px 24px 40px;
+        padding: 20px;
+    }
+
+    .dashboard-edit-profile-open h4 {
+        margin-left: 24px;
+    }
+    .dashboard-edit-profile-open .col-md-6, .dashboard-edit-profile-open .col-md-4, .dashboard-edit-profile-open .col-md-12 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .ep-form-group-submit-open button {
+        padding: 11px 15px;
+        margin-top: 5px;
+    }
+
+    /* services  */
+    .service-hero-content-v1 {
+        min-height: 530px;
+    }
+    .service-hero-content-v1 .service-hero-img img {
+        max-height: 460px;
+    }
+    .service-hero-content-v1 .service-hero-text h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .service-hero-content-v1 .service-hero-text {
+        margin-top: 48px;
+        margin-bottom: 20px;
+    }
+    .service-hero-content-v1 .aabbro-btn-a, .service-hero-content-v1 .aabbro-btn-c {
+        padding: 9px 15px;
+        font-size: 12px;
+    }
 
 }
 
@@ -1786,6 +2496,7 @@ Medium Layout: ---------
         margin-right: auto;
         margin-left: auto;
     }
+
     /* 
     #home-768-------------------]
     */
@@ -1942,17 +2653,17 @@ Medium Layout: ---------
     }
 
     .filtered-result-box {
-        margin-bottom: 20px;
+        margin-bottom: 24px;
     }
     .filter-submit-btn {
-        top: 5px;
+        top: -6px;
     }
     .breadcrumb-area-help .page-title-area-update ul.bc-list {
         display: block;
     }
 
     .breadcrumb-area {
-        padding: 110px 0px 60px;
+        padding: 100px 0px 40px;
     }
     .help-details-area .atca-content {
         margin-top: 60px;
@@ -2067,8 +2778,211 @@ Medium Layout: ---------
         text-align: center;
     }
 
+    /*********************** 
+    Resources Area
+    ***********************/
+    .filtered-fs-title-update p:nth-child(1) span.fs-title {
+        margin-bottom: 0px;
+        padding-top: 0px;
+    }
+    .reasources-pagination-update {
+        display: none;
+    }
+
+    /*********************** 
+    Resources icon Area
+    ***********************/
+    .container-fluid-update-v3 ul.resources-icon-list {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+
+    /* help area here  */
+    .breadcrumb-area.breadcrumb-area-help-v1 {
+        padding: 100px 0px 100px;
+    }
+
+    .breadcrumb-area.breadcrumb-area-help-v2 {
+        padding: 90px 0px 90px;
+    }
+    .aabbro-acordion .accordion-header button.accordion-button {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .accordion-body-update a {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .aabbro-acordion .accordion-body p {
+        font-size: 14px;
+    }
+    /* product details  */
+    .product-gallary-carousel li.list-inline-item a.carousel-thumb img {
+        border-radius: 6px;
+    }
+    .product-gallary-carousel-update ol.carousel-indicators li a img {
+        border-radius: 6px;
+    }
+    .product-details-similar-product-area.product-details-similar-product-area-update .single-category-block {
+        margin-bottom: 24px;
+    }
+
+    /* services page area here  */
+    /* client carousel area  */
+    .client-carousel-area.client-carousel-area-v1 .container {
+        max-width: 100%;
+    }
+    .client-carousel-area-v1 .row .col-md-12:first-child {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .client-carousel-area-v1 .row .col-md-12:last-child {
+        padding: 0;
+    }
+    .client-carousel-v1 .singlec-client img {
+        max-width: 100px;
+    }
+    .client-carousel-v1 .owl-nav.disabled+.owl-dots {
+        margin-top: 30px;
+    }
+    .service-p-title {
+        margin: 0px auto 24px;
+    }
+    .client-carousel-area-v1 .service-p-title h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    /* Features Area  */
+    .features-area-v2 .service-p-title h3 {
+        font-size: 24px;
+    }
+
+    .features-area-v2 .service-p-title {
+        margin: 0px auto 30px;
+    }
+
+    .features-area-v2 .single-features h4 {
+        margin: 24px auto 16px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .features-area-v2 .single-features {
+        padding: 50px 20px 30px;
+        box-shadow: inherit;
+    }
+    .features-area-v2 .single-features:hover {
+        box-shadow: 0px 20px 99px rgba(149, 149, 149, 0.16);
+    }
+    .features-area-v2 .single-features-col .col-md-6 {
+        margin-bottom: 24px;
+    }
+    .features-area-v2 {
+        margin-bottom: unset;
+    }
+
+    /* How Aabbro Work  */
+    .how-aabbro-work-area-v1 .col-md-4 {
+        margin-bottom: 24px;
+        padding: 0px 24px;
+    }
+    .how-aabbro-work-area-v1 .service-p-title {
+        margin: 0px auto 30px;
+    }
+
+    .how-aabbro-work-area-v1 .service-p-title h3 {
+        font-size: 24px;
+    }
+    .how-aabbro-work-area-v1 .sf-steps-single h4 {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 24px auto 16px;
+    }
+    .how-aabbro-work-area-v1 .sf-steps-single {
+        padding: 60px 20px 50px;
+    }
+
+    .service-pricing-area-v1 .service-p-title h3 {
+        font-size: 24px;
+    }
+    /* Perfect Plan Area  */
+    .perfect-plan-area-v1 .service-p-title h3{
+        font-size: 24px;
+    }
+    .service-faq-area-v1 .service-p-title h3 {
+        font-size: 24px;
+    }
+    .service-faq-area-v1  .service-p-title {
+        margin: 0px auto 30px;
+    }
+    .plan-btn {
+        margin-top: 20px;
+    }
+    ul#pickPlanTab li button {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    /* paymnet-m-file  */
+    .paymnet-m-file-v1 .pmf-edit-remove {
+        text-align: start;
+        margin-top: 16px;
+    }
+    .billing-history-wrapper-v1 a.er-btn {
+        margin: 0px 10px 0px 0px;
+    }
+
+    /* collections area here  */
+    .dashboard-collections-v1 {
+        padding-bottom: 40px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .dashboard-collections-v1 .row .col-md-3 {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .dashboard-collections-v1 .single-collection .scb-text h4 {
+        margin-bottom: 8px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .filtered-result-box-download .filterd-btn-box .filter-submit-btn {
+        top: 0px !important;
+    }
+
+    /* services  */
+    .service-hero-content-v1 .service-hero-img {
+        position: inherit;
+    }
+    .service-hero-content-v1 .service-hero-text {
+        min-height: inherit;
+        margin-top: 50px;
+        margin-bottom: 24px;
+    }
+    .service-hero-content-v1 .service-hero-text {
+    }
+    .service-hero-content-v1 .service-hero-text h2 br {
+        display: none;
+    }
+    .service-hero-content-v1 .aabbro-btn-c {
+        margin-left: 0;
+    }
+    .service-hero-content-v1 a.aabbro-btn-a {
+        margin: 0;
+    }
+    .service-hero-content-v1 .service-hero-btn a {
+        margin: 0px 5px !important;
+    }
+    ul.services-custom-dots li:first-child {
+        border-top-left-radius: 30px !important;
+    }
+    ul.services-custom-dots li:last-child {
+        border-top-right-radius: 30px !important;
+    }
 
 }
+
 
 
 /*############################## 
@@ -2128,7 +3042,6 @@ Small Layout: ---------
         padding-right: 24px;
     }
 
-
     /*********************** 
     Footer Area
     ***********************/
@@ -2143,7 +3056,6 @@ Small Layout: ---------
         padding-right: 24px;
         padding-left: 24px;
     }
-
 
     /*********************** 
     Help Area
@@ -2175,9 +3087,94 @@ Small Layout: ---------
         padding-right: 0;
         padding-left: 0;
     }
+
+    /*********************** 
+    Resources Area
+    ***********************/
+    .filtered-fs-title-update p:nth-child(2) {
+        /* display: none; */
+    }
+    .filtered-fs-title-update {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+    .filtered-fs-title-update p:nth-child(2) {
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+
+    /* hero area here  */
+    .hero-area-update-v1 .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    /* Category Area  */
+    ul.mcatfilter-btn-update li .mcat-btn span {
+        font-size: 14px;
+    }
+    ul.mcatfilter-btn-update li .mcat-btn span img {
+        width: 14px;
+    }
+    ul.mcatfilter-btn-update li .m-filter span {
+        font-size: 14px;
+    }
+    ul.mcatfilter-btn-update li .m-filter span i {
+        font-size: 14px;
+    }
+    .schedule-meeting-update {
+        width: 100% !important;
+    }
+    .download-wrapper-v1 {
+        width: 100% !important;
+    }
+    .features-area.features-area-v2.servicePageFeatures .service-p-title p br{
+        display: none;
+    }
+    .single-service-pricing {
+        margin-bottom: 30px;
+    }
+
+    /* Coming Soon Area  */
+    .cnl-box input {
+        font-size: 14px;
+    }
+    .edit-profile-basic-info-v1 .socialMform-input input {
+        width: calc(100% - 130px);
+    }
+
+    /* services  */
+    .service-hero-content-v1 {
+        min-height: 640px;
+    }
+    .service-hero-content-v1 .service-hero-img img {
+        max-height: 280px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .service-hero-content-v1 .service-hero-btn a {
+        margin: 0px 0px 13px 0px !important;
+    }
+    .service-hero-content-v1 .service-hero-text {
+        margin-top: 60px;
+        padding: 0px 20px;
+        margin-bottom: 24px;
+    }
+    .service-hero-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    ul.services-custom-dots-v1 {
+        display: none;
+    }
+
 }
-
-
 /*########################
 #theEndRESPONSIVE########################
 ########################*/

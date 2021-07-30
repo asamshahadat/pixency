@@ -50,14 +50,13 @@
     <div id="preloader"></div>
 
     <!-- Header Area -->
-    <header class="aabbro-header aabbro-headerV2"> 
+    <header class="aabbro-header aabbro-header-update aabbro-header-updateV2"> 
         <nav class="navbar navbar-expand-lg aabbro-navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <div class="logo">
                         <img src="assets/img/main-logo.png" alt="Logo" class="main-logo">
                         <img src="assets/img/main-logo-2.png" alt="Logo" class="sticky-logo">
-
                     </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -65,12 +64,6 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="search-form-header">
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                    </form>
-                </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -97,36 +90,26 @@
                         <li class="nav-item">
                             <a class="nav-link sign-in-btn" href="#">Sign In</a>
                         </li>
-                        <li>
-                            <div class="search-form-header">
-                                <form class="d-flex">
-                                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                    <button class="btn btn-outline-success" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                                </form>
-                            </div>
-                        </li>
                     </ul>
-                    
                 </div>
             </div>
         </nav>
-    
     </header>
     <!-- /Header Area -->
 
     <!-- Category Area -->
-    <div class="aabbro-category-area">
+    <div class="aabbro-category-area aabbro-category-area-update">
         <div class="mobile-cat-filter-btn">
             <div class="container-fluid">
-                 <ul class="mcatfilter-btn">
+                 <ul class="mcatfilter-btn mcatfilter-btn-update">
                      <li>
                         <div class="mcat-btn">
-                            <span class="mobilecategorybtn"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                            <span class="mobilecategorybtn">filter<img src="assets/img/icons/manu-bar.png" alt=""></span>
                         </div>
                      </li>
                      <li>
                          <div class="m-filter">
-                             <span class="mobilefilter-btn">Menu<img src="assets/img/icons/manu-bar.png" alt=""></span>
+                             <span class="mobilefilter-btn">Category<i class="fa fa-bars" aria-hidden="true"></i></span>
                          </div>
                      </li>
                  </ul>
@@ -138,8 +121,8 @@
                 <div class="col-md-9">
                     <div class="aabbro-category">
                         <ul class="aabbro-category-lists">
-                            <li><a href="resources-all.html">All</a></li>
-                            <li class="active"><a href="#">UI Template</a></li>
+                            <li class="active"><a href="#">All</a></li>
+                            <li><a href="resources.html">UI Template</a></li>
                             <li><a href="#">Mobile Apps</a></li>
                             <li><a href="#">Illustration</a></li>
                             <li><a href="#">Social Media</a></li>
@@ -148,13 +131,20 @@
                             <li><a href="resources-icon.html">Icons</a></li>
                             <li><a href="#">Logo</a></li>
                             <li><a href="#">Print</a></li>
+                            <li><a href="#">Digital Marketing</a></li>
+                            <li><a href="#">Event</a></li>
                             
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="category-promo-name">
-                        <p>Flash Sale For <a href="#">Illustration</a><span>25%Off</span></p>
+                    <div class="category-search-box">
+                        <div class="search-form-header">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -163,7 +153,7 @@
     <!-- /Category Area -->
 
     <!-- Resources Area -->
-    <div class="aabbro-main-resources-area">
+    <div class="aabbro-main-resources-area aabbro-main-resources-area-v2">
         <div class="aabro-resource-filter-area">
             
             <div class="aabro-resource-filter-tab">
@@ -358,9 +348,6 @@
                 <p>UI Template : <span>1425</span></p>
                 <ul>
                     <li>Security <span class="remove"><i class="fa fa-times" aria-hidden="true"></i></span></li>
-                     
-                    
-
                 </ul>
                 <span class="clear-all-btn">Clear All</span>
 
@@ -392,7 +379,7 @@
                 </ul>
 
                 <div class="filterd-btn-box">
-                    <button class="filter-submit-btn">Filter Resources <img src="assets/img/icons/manu-bar.png" alt=""></button>
+                    <button class="filter-submit-btn">Newest<img src="assets/img/icons/manu-bar.png" alt=""></button>
                     <ul class="filter-lists hide">
                         <li>
                             <label for="filterCheck-0">
@@ -432,29 +419,16 @@
                     </ul>
                 </div>
             </div>
-            <div class="container-fluid">
+            
+            <!-- single container  -->
+            <div class="container-fluid container-fluid-update-v2">
                 <div class="row">
+
                     <div class="col-md-3">
                         <div class="single-category-block">
                             <a href="product-details.html">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
-                                </div>
-                                <div class="scb-text">
-                                    <h4>Web Template Design</h4>
-                                    <ul>
-                                        <li><div class="scbt-download"><img src="assets/img/icons/download.png" alt=""><span>2360</span></div></li>
-                                        <li><div class="scbt-premium"><img src="assets/img/icons/premium-yellow.png" alt=""></div></li>
-                                    </ul>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="single-category-block">
-                            <a href="product-details.html">
-                                <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -470,7 +444,7 @@
                         <div class="single-category-block">
                             <a href="product-details.html">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -486,7 +460,23 @@
                         <div class="single-category-block">
                             <a href="product-details.html">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
+                                </div>
+                                <div class="scb-text">
+                                    <h4>Web Template Design</h4>
+                                    <ul>
+                                        <li><div class="scbt-download"><img src="assets/img/icons/download.png" alt=""><span>2360</span></div></li>
+                                        <li><div class="scbt-premium"><img src="assets/img/icons/premium-yellow.png" alt=""></div></li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-category-block">
+                            <a href="product-details.html">
+                                <div class="scb-img">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -502,7 +492,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -518,7 +508,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -534,7 +524,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -550,7 +540,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -566,7 +556,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -582,7 +572,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -598,7 +588,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -614,7 +604,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -637,7 +627,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -653,7 +643,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -669,7 +659,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -685,7 +675,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -701,7 +691,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -717,7 +707,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -733,7 +723,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -749,7 +739,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -765,7 +755,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -781,7 +771,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -797,7 +787,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -813,7 +803,7 @@
                         <div class="single-category-block">
                             <a href="#">
                                 <div class="scb-img">
-                                    <img src="assets/img/category/cat-1.png" alt="">
+                                    <img src="assets/img/category/cat-33.png" alt="">
                                 </div>
                                 <div class="scb-text">
                                     <h4>Web Template Design</h4>
@@ -825,16 +815,26 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-12">
-                        <!-- <div class="er-btn text-center">
-                            <a href="#" class="aabbro-btn-a">Load More</a>
-                        </div> -->
 
-
-                        <div class="reasources-pagination">
-                            <h3>Pagination Will Be Place Here</h3>
+                    <!-- pagination area here  -->
+                    <div class="col-md-12 reasources-pagination-update-v1">
+                        <div class="er-btn text-center">
+                            <a href="#" class="aabbro-btn-a">Next Page 
+                                <img src="assets/img/icons/arrow-right.png" alt="">
+                            </a>
                         </div>
-                    </div>
+                        <div class="reasources-pagination-update">
+                            <ul>
+                                <li>page</li>
+                                <li><a href="#!">02</a></li>
+                                <li>of 200</li>
+                                <li>
+                                    <a href="#"><i class="fa fa-chevron-left"></i></a>
+                                    <a href="#"><i class="fa fa-chevron-right"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> <!-- pagination area ends here  -->
                 </div>
             </div>
         </div>

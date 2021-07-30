@@ -49,8 +49,9 @@
 <body>
     <div id="preloader"></div>
 
-    <div class="dashboard-main-wrapper">
-        <div class="dashboard-sidebar">
+    <div class="dashboard-main-wrapper dashboard-main-wrapper-v1">
+        <!-- dashboard-sidebar  -->
+        <div class="dashboard-sidebar dashboard-sidebar-v1">
             <span class="close-dm">
                 <i class="fa fa-times" aria-hidden="true"></i>
             </span>
@@ -86,16 +87,17 @@
                     <a href="#" class="aabbro-btn-a">Schedule a Meeting</a>
                 </div>
             </div>
-        </div>
+        </div> <!-- dashboard-sidebar area ends here  --> 
+        <!-- dashboard-body  -->
         <div class="dashboard-body">
-            <div class="dashboard-header">
+            <!-- dashboard-header  -->
+            <div class="dashboard-header dashboard-header-v1">
                 <nav class="navbar navbar-expand-lg aabbro-navbar">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">
                             <div class="logo mobile-logo">
-                                
-                                <img src="assets/img/main-logo-2.png" alt="Logo">
-        
+                                <p>Plan & Billing</p>
+                                <img src="assets/img/main-logo.png" alt="Logo">
                             </div>
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -103,7 +105,6 @@
                             aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                       
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
@@ -116,8 +117,7 @@
                                     <a class="nav-link" href="#">Coustom Service</a>
                                 </li>
                                
-                              
-                                  <li class="nav-item dropdown profile-loggedin-btn">
+                                  <li class="nav-item dropdown profile-loggedin-btn profile-loggedin-btn-v1">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         <img src="https://via.placeholder.com/150" alt=""> Alex Hales
@@ -139,11 +139,8 @@
                                         <li><a class="dropdown-item" href="#">Logout</a></li> 
                                     </ul>
                                 </li>
-                              
                             </ul>
-                            
                         </div>
-
                         <div class="dash-board-mobile-menu">
                             <span class="close-dm">
                                 <i class="fa fa-times" aria-hidden="true"></i>
@@ -168,16 +165,22 @@
                         </div>
                     </div>
                 </nav>
-            </div>
-            <div class="dash-board-content-wrapper">
-                <div class="sidemenu-toggler">
+            </div><!-- dashboard-header area ends here -->
+            <div class="dash-board-content-wrapper dash-board-content-wrapper-v1">
+                <!-- sidemenu-toggler  -->
+                <div class="sidemenu-toggler sidemenu-toggler-v1">
                     <button class="navbar-toggler" type="button">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                </div>
-                <div class="dashboard-pricing-plan">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="sidemenu-toggler-logo-v1">
+                        <span>Plan & Billing</span>
+                    </div>
+                </div> <!-- sidemenu-toggler ends here -->
+                
+                <!-- dashboard-pricing-plan  -->
+                <div class="dashboard-pricing-plan dashboard-pricing-plan-v1">
                     <div class="row">
-                        <div class="col-md-4 wow slideInUp" data-wow-duration=".33s">
+                        <div class="col-xl-4 col-lg-6 wow slideInUp" data-wow-duration=".33s">
                             <div class="single-pricing">
                                 <div class="sprice-head">
                                     <ul>
@@ -206,7 +209,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 wow slideInUp" data-wow-duration=".66s">
+                        <div class="col-xl-4 col-lg-6 wow slideInUp" data-wow-duration=".66s">
                             <div class="single-pricing">
                                 <div class="sprice-head">
                                     <ul>
@@ -235,7 +238,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 wow slideInUp" data-wow-duration=".99s">
+                        <div class="col-xl-4 col-lg-6 wow slideInUp" data-wow-duration=".99s">
                             <div class="single-pricing">
                                 <div class="sprice-head">
                                     <ul>
@@ -266,7 +269,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="billing-history-wrapper">
+                <!-- billing-history-wrapper-v1  -->
+                <div class="billing-history-wrapper billing-history-wrapper-v1">
                     <h4>Billing History</h4>
                     <table class="table billing-history-table">
                         <thead>
@@ -330,17 +334,16 @@
                                     </div>
                                 </td>
                             </tr>
-
-                            
                         </tbody>
                     </table>
-                    <div class="paymnet-m-file">
+                    <!-- paymnet-m-file  -->
+                    <div class="paymnet-m-file paymnet-m-file-v1">
                         <h4>Payment Method on File :</h4>
                         <div class="row">
-                            <div class="col-md-8">
+                            <div class="col-xl-8 col-md-6">
                                 <p>MasterCard ending in 1985 expiring 03/2023</p>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-xl-4 col-md-6">
                                 <div class="pmf-edit-remove">
                                     <a href="#" class="er-btn erb-1">Edit</a>
                                     <a href="#" class="er-btn erb-2">Remove</a>
@@ -350,10 +353,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> <!-- dashboard-body area ends here  -->
     </div>
- 
- 
 
 
     <!-- Scripts -->

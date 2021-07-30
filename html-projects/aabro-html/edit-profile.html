@@ -50,7 +50,8 @@
     <div id="preloader"></div>
 
     <div class="dashboard-main-wrapper">
-        <div class="dashboard-sidebar">
+        <!-- dashboard-sidebar  -->
+        <div class="dashboard-sidebar dashboard-sidebar-v1">
             <span class="close-dm">
                 <i class="fa fa-times" aria-hidden="true"></i>
             </span>
@@ -63,7 +64,7 @@
                 <div class="ds-menu">
                     <ul class="dsm-list">
                         <li>
-                            <a href="#">Edit Profile</a>
+                            <a href="#" class="active">Edit Profile</a>
                         </li>
                         <li>
                             <a href="#">Plan & Billing</a>
@@ -72,7 +73,7 @@
                             <a href="#">Collection</a>
                         </li>
                         <li>
-                            <a href="#" class="active">Download</a>
+                            <a href="#">Download</a>
                         </li>
                         <li>
                             <a href="#">Support Tickets</a>
@@ -86,16 +87,16 @@
                     <a href="#" class="aabbro-btn-a">Schedule a Meeting</a>
                 </div>
             </div>
-        </div>
+        </div> <!-- dashboard-sidebar area ends here  -->
         <div class="dashboard-body">
-            <div class="dashboard-header">
+            <!-- dashboard-header  -->
+            <div class="dashboard-header dashboard-header-v1">
                 <nav class="navbar navbar-expand-lg aabbro-navbar">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">
                             <div class="logo mobile-logo">
-                                
-                                <img src="assets/img/main-logo-2.png" alt="Logo">
-        
+                                <p>Edit Profile</p>
+                                <img src="assets/img/main-logo.png" alt="Logo">
                             </div>
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -103,7 +104,6 @@
                             aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                       
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
@@ -116,8 +116,7 @@
                                     <a class="nav-link" href="#">Coustom Service</a>
                                 </li>
                                
-                              
-                                  <li class="nav-item dropdown profile-loggedin-btn">
+                                  <li class="nav-item dropdown profile-loggedin-btn profile-loggedin-btn-v1">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         <img src="https://via.placeholder.com/150" alt=""> Alex Hales
@@ -139,11 +138,8 @@
                                         <li><a class="dropdown-item" href="#">Logout</a></li> 
                                     </ul>
                                 </li>
-                              
                             </ul>
-                            
                         </div>
-
                         <div class="dash-board-mobile-menu">
                             <span class="close-dm">
                                 <i class="fa fa-times" aria-hidden="true"></i>
@@ -168,17 +164,21 @@
                         </div>
                     </div>
                 </nav>
-            </div>
-            <div class="dash-board-content-wrapper">
-                <div class="sidemenu-toggler">
+            </div><!-- dashboard-header area ends here -->
+            <div class="dash-board-content-wrapper dash-board-content-wrapper-edit">
+                <!-- sidemenu-toggler  -->
+                <div class="sidemenu-toggler sidemenu-toggler-v1">
                     <button class="navbar-toggler" type="button">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                </div>
-                <div class="dashboard-edit-profile">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="sidemenu-toggler-logo-v1">
+                        <span>Edit Profile</span>
+                    </div>
+                </div> <!-- sidemenu-toggler ends here -->
+                <div class="dashboard-edit-profile dashboard-edit-profile-two">
                     <div class="edit-profile-tab-box">
                         <div class="d-flex align-items-start epTab">
-                            <div class="nav flex-column nav-pills me-3 ep_tab_nav" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <div class="nav flex-column nav-pills nav-pills-v1 me-3 ep_tab_nav" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                 <button class="nav-link active" id="v-pills-basic-info" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-basicInfo" type="button" role="tab" aria-controls="v-pills-basicInfo"
                                     aria-selected="true">Basic Information</button>
@@ -188,12 +188,12 @@
                                 <button class="nav-link" id="v-pills-social-media-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-socialMediaTab" type="button" role="tab"
                                     aria-controls="v-pills-socialMediaTab" aria-selected="false">Social Media</button>
-                
                             </div>
-                            <div class="tab-content ep_tab_content" id="v-pills-tabContent">
+                            <div class="tab-content ep_tab_content ep_tab_content-v1" id="v-pills-tabContent">
+
                                 <div class="tab-pane fade show active" id="v-pills-basicInfo" role="tabpanel"
                                     aria-labelledby="v-pills-basic-info">
-                                    <div class="edit-profile-basic-info">
+                                    <div class="edit-profile-basic-info edit-profile-basic-info-v1">
                                         <div class="ep-form-wrapper">
                                             <h4>BASIC INFORMATION</h4>
                                             <form action="">
@@ -228,7 +228,7 @@
                                                     <div class="col-md-6">
                                                         <div class="ep-form-group">
                                                             <label for="">Address</label>
-                                                            <input type="text" name="" id="" placeholder="First Name">
+                                                            <input type="text" name="" id="" placeholder="Address">
                                                         </div>
                                                         <div class="ep-form-group">
                                                             <label for="">Zip Code</label>
@@ -253,9 +253,10 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="tab-pane fade" id="v-pills-changePass" role="tabpanel"
                                     aria-labelledby="v-pills-change-pass">
-                                    <div class="change-password-info">
+                                    <div class="change-password-info edit-profile-basic-info-v1">
                                         <div class="ep-form-wrapper">
                                             <h4>CHANGE PASSWORD</h4>
                                             <form action="">
@@ -288,9 +289,10 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="tab-pane fade" id="v-pills-socialMediaTab" role="tabpanel"
                                     aria-labelledby="v-pills-social-media-tab">
-                                    <div class="social-media-info">
+                                    <div class="social-media-info edit-profile-basic-info-v1">
                                         <div class="ep-form-wrapper">
                                             <h4>SOCIAL MEDIA</h4>
                                             <form action="">
@@ -329,7 +331,7 @@
                                         </div>
                                     </div>
                                 </div>
-                
+
                             </div>
                         </div>
                     </div>

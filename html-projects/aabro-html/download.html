@@ -50,7 +50,8 @@
     <div id="preloader"></div>
 
     <div class="dashboard-main-wrapper">
-        <div class="dashboard-sidebar">
+        <!-- dashboard-sidebar  -->
+        <div class="dashboard-sidebar dashboard-sidebar-v1">
             <span class="close-dm">
                 <i class="fa fa-times" aria-hidden="true"></i>
             </span>
@@ -86,16 +87,16 @@
                     <a href="#" class="aabbro-btn-a">Schedule a Meeting</a>
                 </div>
             </div>
-        </div>
+        </div> <!-- dashboard-sidebar area ends here  -->
         <div class="dashboard-body">
-            <div class="dashboard-header">
+            <!-- dashboard-header  -->
+            <div class="dashboard-header dashboard-header-v1">
                 <nav class="navbar navbar-expand-lg aabbro-navbar">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">
                             <div class="logo mobile-logo">
-                                
-                                <img src="assets/img/main-logo-2.png" alt="Logo">
-        
+                                <p>Download</p>
+                                <img src="assets/img/main-logo.png" alt="Logo">
                             </div>
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -103,7 +104,6 @@
                             aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                       
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
@@ -116,8 +116,7 @@
                                     <a class="nav-link" href="#">Coustom Service</a>
                                 </li>
                                
-                              
-                                  <li class="nav-item dropdown profile-loggedin-btn">
+                                  <li class="nav-item dropdown profile-loggedin-btn profile-loggedin-btn-v1">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         <img src="https://via.placeholder.com/150" alt=""> Alex Hales
@@ -139,11 +138,8 @@
                                         <li><a class="dropdown-item" href="#">Logout</a></li> 
                                     </ul>
                                 </li>
-                              
                             </ul>
-                            
                         </div>
-
                         <div class="dash-board-mobile-menu">
                             <span class="close-dm">
                                 <i class="fa fa-times" aria-hidden="true"></i>
@@ -168,211 +164,318 @@
                         </div>
                     </div>
                 </nav>
-            </div>
-            <div class="dash-board-content-wrapper">
-                <div class="sidemenu-toggler">
-                    <button class="navbar-toggler" type="button">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                </div>
-                <div class="dashboard-collections">
-                    <div class="row">
-                         
-                        <div class="col-md-3">
-                            <div class="single-download">
-                                <a href="product-details.html">
-                                    <div class="sdb-img">
-                                        <img src="assets/img/download-img/download-1.png" alt=""> 
-                                    </div>
-                                    <div class="sdb-text">
-                                        <h4>Seceurity Web UI</h4> 
-                                    </div>
-                                </a>
+            </div><!-- dashboard-header area ends here -->
+            <!-- Resources Area -->
+            <div class="aabbro-main-resources-area aabbro-r-download aabbro-main-resources-area-v2">
+                <div class="aabbro-resources-area">
+                    <div class="filtered-result-box filtered-result-box-download">
+                        <!-- sidemenu-toggler  -->
+                        <div class="sidemenu-toggler sidemenu-toggler-download sidemenu-toggler-v1">
+                            <button class="navbar-toggler" type="button">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="sidemenu-toggler-logo-v1">
+                                <span>Download</span>
                             </div>
+                        </div> <!-- sidemenu-toggler ends here -->
+                        <p>Total Download : <span>1245</span></p>
+                        <span class="timeBtn">25 July 2022</span>
+        
+                        <ul class="filterbyIcon">
+                            <li>
+                                <a href="#"><img src="assets/img/icons/resources/1.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="assets/img/icons/resources/2.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="assets/img/icons/resources/3.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="assets/img/icons/resources/4.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="assets/img/icons/resources/5.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="assets/img/icons/resources/6.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="assets/img/icons/resources/7.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="assets/img/icons/resources/8.png" alt=""></a>
+                            </li>
+                        </ul>
+        
+                        <div class="filterd-btn-box">
+                            <button class="filter-submit-btn">Filter<img src="assets/img/icons/manu-bar.png" alt=""></button>
+                            <ul class="filter-lists hide">
+                                <li>
+                                    <label for="filterCheck-0">
+                                        <input type="checkbox" id="filterCheck-0">Newest
+                                    </label>
+                                </li>
+                                <li class="fl-border-bottom">
+                                    <label for="filterCheck-1">
+                                        <input type="checkbox" id="filterCheck-1">Popular
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="filterCheck-2">
+                                        <input type="checkbox" id="filterCheck-2">Figma
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="filterCheck-3">
+                                        <input type="checkbox" id="filterCheck-3">XD
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="filterCheck-4">
+                                        <input type="checkbox" id="filterCheck-4">Sketch
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="filterCheck-5">
+                                        <input type="checkbox" id="filterCheck-5">SVG
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="filterCheck-6">
+                                        <input type="checkbox" id="filterCheck-6">EPS
+                                    </label>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="col-md-3">
-                            <div class="single-download">
-                                <a href="product-details.html">
-                                    <div class="sdb-img">
-                                        <img src="assets/img/download-img/download-1.png" alt=""> 
-                                    </div>
-                                    <div class="sdb-text">
-                                        <h4>Seceurity Web UI</h4> 
-                                    </div>
-                                </a>
+                    </div>
+                    <!-- single container  -->
+                    <div class="container-fluid container-fluid-download container-fluid-update-v2">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="single-category-block">
+                                    <a href="product-details.html">
+                                        <div class="scb-img">
+                                            <img src="assets/img/category/cat-33.png" alt="">
+                                        </div>
+                                        <div class="scb-text">
+                                            <h4>Web Template Design</h4>
+                                            <ul>
+                                                <li><div class="scbt-download"><img src="assets/img/icons/download.png" alt=""><span>2360</span></div></li>
+                                                <li><div class="scbt-premium"><img src="assets/img/icons/premium-yellow.png" alt=""></div></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="single-download">
-                                <a href="product-details.html">
-                                    <div class="sdb-img">
-                                        <img src="assets/img/download-img/download-1.png" alt=""> 
-                                    </div>
-                                    <div class="sdb-text">
-                                        <h4>Seceurity Web UI</h4> 
-                                    </div>
-                                </a>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="single-category-block">
+                                    <a href="product-details.html">
+                                        <div class="scb-img">
+                                            <img src="assets/img/category/cat-33.png" alt="">
+                                        </div>
+                                        <div class="scb-text">
+                                            <h4>Web Template Design</h4>
+                                            <ul>
+                                                <li><div class="scbt-download"><img src="assets/img/icons/download.png" alt=""><span>2360</span></div></li>
+                                                <li><div class="scbt-premium"><img src="assets/img/icons/premium-yellow.png" alt=""></div></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="single-download">
-                                <a href="product-details.html">
-                                    <div class="sdb-img">
-                                        <img src="assets/img/download-img/download-1.png" alt=""> 
-                                    </div>
-                                    <div class="sdb-text">
-                                        <h4>Seceurity Web UI</h4> 
-                                    </div>
-                                </a>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="single-category-block">
+                                    <a href="product-details.html">
+                                        <div class="scb-img">
+                                            <img src="assets/img/category/cat-33.png" alt="">
+                                        </div>
+                                        <div class="scb-text">
+                                            <h4>Web Template Design</h4>
+                                            <ul>
+                                                <li><div class="scbt-download"><img src="assets/img/icons/download.png" alt=""><span>2360</span></div></li>
+                                                <li><div class="scbt-premium"><img src="assets/img/icons/premium-yellow.png" alt=""></div></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="single-download">
-                                <a href="product-details.html">
-                                    <div class="sdb-img">
-                                        <img src="assets/img/download-img/download-1.png" alt=""> 
-                                    </div>
-                                    <div class="sdb-text">
-                                        <h4>Seceurity Web UI</h4> 
-                                    </div>
-                                </a>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="single-category-block">
+                                    <a href="product-details.html">
+                                        <div class="scb-img">
+                                            <img src="assets/img/category/cat-33.png" alt="">
+                                        </div>
+                                        <div class="scb-text">
+                                            <h4>Web Template Design</h4>
+                                            <ul>
+                                                <li><div class="scbt-download"><img src="assets/img/icons/download.png" alt=""><span>2360</span></div></li>
+                                                <li><div class="scbt-premium"><img src="assets/img/icons/premium-yellow.png" alt=""></div></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="single-download">
-                                <a href="product-details.html">
-                                    <div class="sdb-img">
-                                        <img src="assets/img/download-img/download-1.png" alt=""> 
-                                    </div>
-                                    <div class="sdb-text">
-                                        <h4>Seceurity Web UI</h4> 
-                                    </div>
-                                </a>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="single-category-block">
+                                    <a href="#">
+                                        <div class="scb-img">
+                                            <img src="assets/img/category/cat-33.png" alt="">
+                                        </div>
+                                        <div class="scb-text">
+                                            <h4>Web Template Design</h4>
+                                            <ul>
+                                                <li><div class="scbt-download"><img src="assets/img/icons/download.png" alt=""><span>2360</span></div></li>
+                                                <li><div class="scbt-premium"><img src="assets/img/icons/premium-yellow.png" alt=""></div></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="single-download">
-                                <a href="product-details.html">
-                                    <div class="sdb-img">
-                                        <img src="assets/img/download-img/download-1.png" alt=""> 
-                                    </div>
-                                    <div class="sdb-text">
-                                        <h4>Seceurity Web UI</h4> 
-                                    </div>
-                                </a>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="single-category-block">
+                                    <a href="#">
+                                        <div class="scb-img">
+                                            <img src="assets/img/category/cat-33.png" alt="">
+                                        </div>
+                                        <div class="scb-text">
+                                            <h4>Web Template Design</h4>
+                                            <ul>
+                                                <li><div class="scbt-download"><img src="assets/img/icons/download.png" alt=""><span>2360</span></div></li>
+                                                <li><div class="scbt-premium"><img src="assets/img/icons/premium-yellow.png" alt=""></div></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="single-download">
-                                <a href="product-details.html">
-                                    <div class="sdb-img">
-                                        <img src="assets/img/download-img/download-1.png" alt=""> 
-                                    </div>
-                                    <div class="sdb-text">
-                                        <h4>Seceurity Web UI</h4> 
-                                    </div>
-                                </a>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="single-category-block">
+                                    <a href="#">
+                                        <div class="scb-img">
+                                            <img src="assets/img/category/cat-33.png" alt="">
+                                        </div>
+                                        <div class="scb-text">
+                                            <h4>Web Template Design</h4>
+                                            <ul>
+                                                <li><div class="scbt-download"><img src="assets/img/icons/download.png" alt=""><span>2360</span></div></li>
+                                                <li><div class="scbt-premium"><img src="assets/img/icons/premium-yellow.png" alt=""></div></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="single-download">
-                                <a href="product-details.html">
-                                    <div class="sdb-img">
-                                        <img src="assets/img/download-img/download-1.png" alt=""> 
-                                    </div>
-                                    <div class="sdb-text">
-                                        <h4>Seceurity Web UI</h4> 
-                                    </div>
-                                </a>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="single-category-block">
+                                    <a href="#">
+                                        <div class="scb-img">
+                                            <img src="assets/img/category/cat-33.png" alt="">
+                                        </div>
+                                        <div class="scb-text">
+                                            <h4>Web Template Design</h4>
+                                            <ul>
+                                                <li><div class="scbt-download"><img src="assets/img/icons/download.png" alt=""><span>2360</span></div></li>
+                                                <li><div class="scbt-premium"><img src="assets/img/icons/premium-yellow.png" alt=""></div></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="single-download">
-                                <a href="product-details.html">
-                                    <div class="sdb-img">
-                                        <img src="assets/img/download-img/download-1.png" alt=""> 
-                                    </div>
-                                    <div class="sdb-text">
-                                        <h4>Seceurity Web UI</h4> 
-                                    </div>
-                                </a>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="single-category-block">
+                                    <a href="#">
+                                        <div class="scb-img">
+                                            <img src="assets/img/category/cat-33.png" alt="">
+                                        </div>
+                                        <div class="scb-text">
+                                            <h4>Web Template Design</h4>
+                                            <ul>
+                                                <li><div class="scbt-download"><img src="assets/img/icons/download.png" alt=""><span>2360</span></div></li>
+                                                <li><div class="scbt-premium"><img src="assets/img/icons/premium-yellow.png" alt=""></div></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="single-download">
-                                <a href="product-details.html">
-                                    <div class="sdb-img">
-                                        <img src="assets/img/download-img/download-1.png" alt=""> 
-                                    </div>
-                                    <div class="sdb-text">
-                                        <h4>Seceurity Web UI</h4> 
-                                    </div>
-                                </a>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="single-category-block">
+                                    <a href="#">
+                                        <div class="scb-img">
+                                            <img src="assets/img/category/cat-33.png" alt="">
+                                        </div>
+                                        <div class="scb-text">
+                                            <h4>Web Template Design</h4>
+                                            <ul>
+                                                <li><div class="scbt-download"><img src="assets/img/icons/download.png" alt=""><span>2360</span></div></li>
+                                                <li><div class="scbt-premium"><img src="assets/img/icons/premium-yellow.png" alt=""></div></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="single-download">
-                                <a href="product-details.html">
-                                    <div class="sdb-img">
-                                        <img src="assets/img/download-img/download-1.png" alt=""> 
-                                    </div>
-                                    <div class="sdb-text">
-                                        <h4>Seceurity Web UI</h4> 
-                                    </div>
-                                </a>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="single-category-block">
+                                    <a href="#">
+                                        <div class="scb-img">
+                                            <img src="assets/img/category/cat-33.png" alt="">
+                                        </div>
+                                        <div class="scb-text">
+                                            <h4>Web Template Design</h4>
+                                            <ul>
+                                                <li><div class="scbt-download"><img src="assets/img/icons/download.png" alt=""><span>2360</span></div></li>
+                                                <li><div class="scbt-premium"><img src="assets/img/icons/premium-yellow.png" alt=""></div></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="single-download">
-                                <a href="product-details.html">
-                                    <div class="sdb-img">
-                                        <img src="assets/img/download-img/download-1.png" alt=""> 
-                                    </div>
-                                    <div class="sdb-text">
-                                        <h4>Seceurity Web UI</h4> 
-                                    </div>
-                                </a>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="single-category-block">
+                                    <a href="#">
+                                        <div class="scb-img">
+                                            <img src="assets/img/category/cat-33.png" alt="">
+                                        </div>
+                                        <div class="scb-text">
+                                            <h4>Web Template Design</h4>
+                                            <ul>
+                                                <li><div class="scbt-download"><img src="assets/img/icons/download.png" alt=""><span>2360</span></div></li>
+                                                <li><div class="scbt-premium"><img src="assets/img/icons/premium-yellow.png" alt=""></div></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="single-download">
-                                <a href="product-details.html">
-                                    <div class="sdb-img">
-                                        <img src="assets/img/download-img/download-1.png" alt=""> 
-                                    </div>
-                                    <div class="sdb-text">
-                                        <h4>Seceurity Web UI</h4> 
-                                    </div>
-                                </a>
+                            <div class="col-md-12">
+                                <div class="single-promotion-banner">
+                                    <a href="#">
+                                        <img src="assets/img/promo.png" alt="">
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="single-download">
-                                <a href="product-details.html">
-                                    <div class="sdb-img">
-                                        <img src="assets/img/download-img/download-1.png" alt=""> 
-                                    </div>
-                                    <div class="sdb-text">
-                                        <h4>Seceurity Web UI</h4> 
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="single-download">
-                                <a href="product-details.html">
-                                    <div class="sdb-img">
-                                        <img src="assets/img/download-img/download-1.png" alt=""> 
-                                    </div>
-                                    <div class="sdb-text">
-                                        <h4>Seceurity Web UI</h4> 
-                                    </div>
-                                </a>
-                            </div>
+                            <!-- pagination area here  -->
+                            <!-- <div class="col-md-12 reasources-pagination-update-v1">
+                                <div class="er-btn text-center">
+                                    <a href="#" class="aabbro-btn-a">Next Page 
+                                        <img src="assets/img/icons/arrow-right.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="reasources-pagination-update">
+                                    <ul>
+                                        <li>page</li>
+                                        <li><a href="#!">02</a></li>
+                                        <li>of 200</li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-chevron-left"></i></a>
+                                            <a href="#"><i class="fa fa-chevron-right"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>  -->
+                            <!-- pagination area ends here  -->
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- /Resources Area -->
         </div>
     </div>
  

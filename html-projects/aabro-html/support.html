@@ -51,7 +51,8 @@
     <div id="preloader"></div>
 
     <div class="dashboard-main-wrapper">
-        <div class="dashboard-sidebar">
+        <!-- dashboard-sidebar  -->
+        <div class="dashboard-sidebar dashboard-sidebar-v1">
             <span class="close-dm">
                 <i class="fa fa-times" aria-hidden="true"></i>
             </span>
@@ -87,16 +88,16 @@
                     <a href="#" class="aabbro-btn-a">Schedule a Meeting</a>
                 </div>
             </div>
-        </div>
+        </div> <!-- dashboard-sidebar area ends here  -->
         <div class="dashboard-body">
-            <div class="dashboard-header">
+            <!-- dashboard-header  -->
+            <div class="dashboard-header dashboard-header-v1">
                 <nav class="navbar navbar-expand-lg aabbro-navbar">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">
                             <div class="logo mobile-logo">
-                                
-                                <img src="assets/img/main-logo-2.png" alt="Logo">
-        
+                                <p>Support Tickets</p>
+                                <img src="assets/img/main-logo.png" alt="Logo">
                             </div>
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -104,7 +105,6 @@
                             aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                       
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
@@ -117,8 +117,7 @@
                                     <a class="nav-link" href="#">Coustom Service</a>
                                 </li>
                                
-                              
-                                  <li class="nav-item dropdown profile-loggedin-btn">
+                                  <li class="nav-item dropdown profile-loggedin-btn profile-loggedin-btn-v1">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         <img src="https://via.placeholder.com/150" alt=""> Alex Hales
@@ -140,11 +139,8 @@
                                         <li><a class="dropdown-item" href="#">Logout</a></li> 
                                     </ul>
                                 </li>
-                              
                             </ul>
-                            
                         </div>
-
                         <div class="dash-board-mobile-menu">
                             <span class="close-dm">
                                 <i class="fa fa-times" aria-hidden="true"></i>
@@ -169,14 +165,18 @@
                         </div>
                     </div>
                 </nav>
-            </div>
-            <div class="dash-board-content-wrapper">
-                <div class="sidemenu-toggler">
+            </div><!-- dashboard-header area ends here -->
+            <div class="dash-board-content-wrapper dash-board-content-wrapper-ticket">
+                <!-- sidemenu-toggler  -->
+                <div class="sidemenu-toggler sidemenu-toggler-v1">
                     <button class="navbar-toggler" type="button">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                </div>
-                <div class="support-ticket-area">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="sidemenu-toggler-logo-v1">
+                        <span>Support Tickets</span>
+                    </div>
+                </div> <!-- sidemenu-toggler ends here -->
+                <div class="support-ticket-area support-ticket-area-ticket support-ticket-area-v1">
                     <h4>My Tickets</h4>
                     <div class="support-ticket-table">
                         <a href="#" class="newTicket-btn"><span>+</span> Open New Ticket</a>
@@ -198,254 +198,6 @@
                                     <td>13-06-2021</td>
                                     <td>High</td>
                                     <td><span class="ticketStatusClosed">Closed</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785463</td>
-                                    <td>Why domain status is Running</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusOpen">Open</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785464</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusClosed">Closed</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785465</td>
-                                    <td>Why domain status is Approved</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusOpen">Open</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785466</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusClosed">Closed</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785467</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusOpen">Open</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785468</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusClosed">Closed</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785469</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusOpen">Open</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusClosed">Closed</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusOpen">Open</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusClosed">Closed</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusOpen">Open</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusClosed">Closed</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusOpen">Open</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusClosed">Closed</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusOpen">Open</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusClosed">Closed</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusOpen">Open</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusClosed">Closed</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusOpen">Open</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusClosed">Closed</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusOpen">Open</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusClosed">Closed</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusOpen">Open</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusClosed">Closed</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusOpen">Open</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusClosed">Closed</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusOpen">Open</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusClosed">Closed</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusOpen">Open</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusClosed">Closed</span></td>
-                                    <td><a href="ticket-details.html">View Details</a></td>
-                                </tr>
-                                <tr>
-                                    <td>785462</td>
-                                    <td>Why domain status is pending</td>
-                                    <td>13-06-2021</td>
-                                    <td>High</td>
-                                    <td><span class="ticketStatusOpen">Open</span></td>
                                     <td><a href="ticket-details.html">View Details</a></td>
                                 </tr>
                             </tbody>

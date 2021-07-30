@@ -242,7 +242,7 @@
             navigation: true,
             navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
             nav: false,
-            items: 4,
+            items: 1,
             smartSpeed: 2000,
             dots: true,
             autoplay: false,
@@ -250,13 +250,14 @@
             center: false,
             responsive: {
                 0: {
-                    items: 1
+                    items: 2,
+                    center: true
                 },
-                480: {
-                    items: 1
+                768: {
+                    items: 3
                 },
-                760: {
-                    items: 4
+                1200: {
+                    items: 5
                 }
             }
         });
