@@ -34,6 +34,16 @@
     }
 }
 
+@media only screen and (max-width: 1400px) {
+    ul.resources-icon-list li {
+        margin-right: 20px;
+        margin-bottom: 23px;
+    }
+    
+}
+
+
+
 @media (min-width: 992px) and (max-width: 1366px) {
     .aabbro-resources-area .col-md-3 {
         width: 33.3333333%;
