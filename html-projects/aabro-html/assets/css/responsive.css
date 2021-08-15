@@ -24,9 +24,14 @@
 
 
 
+    .scb-hosted-video .scb-img {
+        position: relative;
+        max-height: 345px;
+    }
 
-
-
+    .scb-img.scb-vimeo-video iframe {
+        height: 345px;
+    }
 
 }
 
