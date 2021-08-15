@@ -265,4 +265,11 @@
     sclient_carousel(); 
     
 
+
+    // $(".scb-video").mouseover(function(){
+    //     $('.autoplayOnload').trigger('play');
+    // });
+
+   
+
 }(jQuery));

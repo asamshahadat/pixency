@@ -7507,7 +7507,28 @@ a.load-more-btn-all {
     border-radius: 6px;
 }
 
+.scb-hosted-video {}
 
+.scb-hosted-video .scb-img {
+    position: relative;
+    max-height: 225px;
+}
+
+.scb-hosted-video .scb-img video {
+    width: 100%;
+}
+
+.scb-img.scb-vimeo-video {
+    position: relative;
+    max-height: 225px;
+    height: 100%;
+}
+
+.scb-img.scb-vimeo-video iframe {
+    width: 100%;
+    height: 225px;
+    background-color: #000;
+}
 /********************* 
 help / breadcrumb-area-help
 *********************/
@@ -7844,7 +7865,54 @@ header.aabbro-header-pop-update a {
 .product-details-area.pd-gallery-details ul li:first-child{
     display: none;
 }
+.product-gallary-carousel .carousel-item.active {
+    position: relative;
+    overflow: hidden;
+    overflow-y: scroll;
+}
 
+
+.product-gallary-carousel .carousel-item.active::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  .product-gallary-carousel .carousel-item.active::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .product-gallary-carousel .carousel-item.active::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+
+  /* Handle on hover */
+  .product-gallary-carousel .carousel-item.active::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+
+  .product-gallary-carousel .carousel-item.active img {
+      max-height: unset;
+  }
+
+
+
+  .carousel-item.casth-video video {
+    width: 100%;
+    height: auto;
+}
+
+
+.videogalslide .scb-img.scb-vimeo-video {
+    max-height: 830px;
+    height: 830px;
+}
+.videogalslide .scb-img.scb-vimeo-video iframe {
+    height: 100%;
+}
 /* New Icon Filter */
 .filtered-result-box  ul.filterbyIcon {
     position: relative;
