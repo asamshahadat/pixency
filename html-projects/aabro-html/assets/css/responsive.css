@@ -166,6 +166,11 @@
     .product-details-area .container {
         max-width: 900px;
     }
+
+
+    .pd-gallery-details .container {
+        max-width: 95%;
+    }
     .features-area .container, 
     .testimonial-area .container, 
     .aabbro-pricing-area .container, 

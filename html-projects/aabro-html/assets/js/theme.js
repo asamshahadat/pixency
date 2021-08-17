@@ -272,4 +272,35 @@
 
    
 
+
+    $("a.carousel-control-next").on("click",function(){ 
+        var parentofslide = $('.product-gallary-carousel .carousel-inner').children();
+        var i = $(parentofslide).filter('.active').index();
+        $(parentofslide[i]).removeClass('active');
+        $(parentofslide[(i+1)%parentofslide.length]).addClass('active'); 
+    });
+
+    $("a.carousel-control-prev").on("click",function(){ 
+        //alert("prev");
+       var prevCustSlide = $(".product-gallary-carousel .carousel-inner .carousel-item.active").prev();
+
+       if ($(".product-gallary-carousel .carousel-inner .carousel-item.active").prev().length === 0) {
+            console.log("No Prev Slide Available");
+            $(".product-gallary-carousel .carousel-inner .carousel-item:last-child").addClass("active"); 
+        }else {
+            $(".product-gallary-carousel .carousel-inner .carousel-item").removeClass("active"); 
+        } 
+        prevCustSlide.addClass('active');
+    });
+
+
+    $("#custCarousel .carousel-indicators li a").on("click", function(){
+        var custslidenumber = $(this).attr("id").replace('carousel-selector-','');
+        var custNumberFinal = parseInt(custslidenumber) + 1;
+        // alert(custNumberFinal);
+         $(".product-details-area .product-gallary-carousel .carousel-item").removeClass("active");
+         $(".product-details-area .product-gallary-carousel .carousel-item:nth-child("+custNumberFinal+")").addClass("active");
+    });
+    //data-bs-slide-to
+
 }(jQuery));
