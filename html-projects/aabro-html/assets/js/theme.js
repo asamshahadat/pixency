@@ -266,13 +266,7 @@
     
 
 
-    // $(".scb-video").mouseover(function(){
-    //     $('.autoplayOnload').trigger('play');
-    // });
-
-   
-
-
+    // Gallery Carousel Slider 
     $("a.carousel-control-next").on("click",function(){ 
         var parentofslide = $('.product-gallary-carousel .carousel-inner').children();
         var i = $(parentofslide).filter('.active').index();
@@ -300,7 +294,8 @@
         // alert(custNumberFinal);
          $(".product-details-area .product-gallary-carousel .carousel-item").removeClass("active");
          $(".product-details-area .product-gallary-carousel .carousel-item:nth-child("+custNumberFinal+")").addClass("active");
-    });
-    //data-bs-slide-to
+    }); 
+    // Gallery Carousel Slider End
+
 
 }(jQuery));
