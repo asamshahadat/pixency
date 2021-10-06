@@ -2555,6 +2555,7 @@ ul.download-list li span.dl-format img {
     border-radius: 50%;
     margin: 15px;
     top: calc(40% - 30px);
+    cursor: pointer;
 }
 
 
