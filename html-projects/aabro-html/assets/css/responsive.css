@@ -2,10 +2,12 @@
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1140px;
     }
-    .features-area .container,
     .testimonial-area .container,
     .aabbro-pricing-area .container{
         max-width: 1530px;
+    }
+    .features-area .container{
+        max-width: 1290px;
     }
     .service-hero-img img {
         width: auto !important;
@@ -169,7 +171,7 @@
 
 
     .pd-gallery-details .container {
-        max-width: 95%;
+        /* max-width: 95%; */
     }
     .features-area .container, 
     .testimonial-area .container, 
@@ -2207,7 +2209,10 @@ large layout:  ---------
         margin-bottom: 40px;
     }
     .service-pricing-area-v1 .single-service-pricing.best-price, .single-service-pricing:hover {
-        box-shadow: 0px 10px 34px rgb(82 67 194 / 30%);
+        /* box-shadow: 0px 10px 34px rgb(82 67 194 / 30%); */
+    }
+    .single-service-pricing:hover {
+        background: #f9f9f9;
     }
 
     /* services page  */
@@ -3185,6 +3190,106 @@ Small Layout: ---------
     }
 
 }
+
+/* new update  */
+@media only screen and (min-width: 1200px) and (max-width: 1367px){
+    .product-details-area.product-details-area-updates .container {
+        max-width: 960px;
+    }
+    ul.download-list li {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .product-dl-btn {
+        font-size: 12px;
+        border-radius: 4px;
+        padding: 8px 10px;
+    }
+}
+@media screen and (max-width: 1400px){
+    ul.download-list li {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .product-dl-btn {
+        font-size: 12px;
+        border-radius: 4px;
+        padding: 8px 10px;
+    }
+    .down-sched-items {
+        height: 500px;
+    }
+    .pdg-box.pdg-box-v1 .carousel-inner {
+        height: 500px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .download-wrapper-v1 {
+        width: 100% !important;
+        margin-bottom: 20px;
+        margin-top: 0;
+
+    }
+    .schedule-meeting-update {
+        width: 100% !important;
+        margin: 0;
+    }
+    .schedule-meeting-update .schedule-banner h3 {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .schedule-meeting-update .aabbro-btn-a {
+        padding: 10px 10px;
+        width: unset;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .schedule-meeting-update .schedule-banner {
+        padding: 18px;
+    }
+}
+@media screen and (max-width: 991px){
+    .product-gallary-carousel-update ol.carousel-indicators {
+        display: none;
+    }
+    .pdg-box.pdg-box-v1 {
+        margin-right: 0;
+    }
+    .product-details-head-area-update .pdha-box {
+        margin-right: 0;
+    }
+    .down-sched-items {
+        height: auto;
+    }
+    .download-wrapper-v1 {
+        width: 100% !important;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .schedule-meeting-update .aabbro-btn-a {
+        padding: 13px 14px;
+        font-size: 14px;
+    }
+    .product-details-gallary {
+        margin-bottom: 60px;
+    }
+}
+@media screen and (max-width: 767px){
+    .pdg-box.pdg-box-v1 .carousel-inner {
+        height: 350px;
+    }
+    .product-details-area  .product-gallary-carousel .carousel-item,
+    .product-details-area  .product-gallary-carousel .carousel-item.active {
+        height: 100%;
+    }
+    .product-gallary-carousel .carousel-control-next, .product-gallary-carousel .carousel-control-prev {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+    }
+}
+
 /*########################
 #theEndRESPONSIVE########################
 ########################*/

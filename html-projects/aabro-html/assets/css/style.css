@@ -8419,7 +8419,7 @@ a.choose-plan-btn {
     background: linear-gradient(98.11deg, #6235E5 0.36%, #B37AFB 131.41%);
     color: #fff;
 }
-.single-service-pricing.best-price a.choose-plan-btn, .single-service-pricing:hover a.choose-plan-btn {
+.best-price a.choose-plan-btn, a.choose-plan-btn {
     background-color: #FF8A00;
     color: #fff;
     background-image: linear-gradient(#ff8a00, #ff8a00);
@@ -8955,6 +8955,230 @@ ul.services-custom-dots-v1 li p {
 ul.services-custom-dots-v1 li {
     padding: 40px 10px;
 }
+
+
+
+
+/* Product Details Area  */
+.pdg-box-v1 {
+    margin-left: 0 !important;
+}
+
+.pdg-box.pdg-box-v1 {
+    margin-right: 16px;
+}
+.download-wrapper {
+    position: inherit;
+    width: auto;
+}
+.download-wrapper-v1 {
+    margin-bottom: 30px;
+}
+.schedule-meeting-update {
+    position: inherit;
+    width: auto;
+}
+.product-details-head-area-update .pdha-box {
+    max-width: 100%;
+    margin-right: 16px;
+}
+.pdg-box.pdg-box-v1 .carousel-inner{
+    width: 100%;
+    height: 602px;
+    margin-right: 0;
+}
+.down-sched-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 602px;
+}
+.product-details-area  .product-gallary-carousel .carousel-item.active {
+    max-height: 100%;
+}
+.product-details-area  .product-gallary-carousel .carousel-item{
+    max-height: 100%;
+}
+.product-details-area  .product-gallary-carousel .carousel-item.active  img {
+    max-height: 100%;
+    width: 100%;
+}
+.product-details-area  .product-gallary-carousel .carousel-item img{
+    max-height: 100%;
+    width: 100%;
+}
+.schedule-meeting-update .aabbro-btn-a {
+    font-size: 14px;
+    line-height: 18px;
+}
+.down-sched-items {
+    background: #F9F9F9;
+}
+.download-wrapper {
+    background: none;
+    box-shadow: none;
+}
+.download-wrapper h4 {
+    font-size: 18px;
+    color: #fff;
+    background: #693FE6;
+    border-radius: 10px 10px 0px 0px;
+}
+.schedule-meeting-update .schedule-banner {
+    padding: 20px 10px;
+    margin: 16px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.schedule-meeting-update .schedule-banner h3 {
+    margin-bottom: 22px;
+}
+.schedule-meeting-update .aabbro-btn-a {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 13px 10px !important;
+}
+
+.product-gallary-carousel ol.carousel-indicators li {
+    max-width: 124px;
+    height: 96px;
+}
+
+.carousel-indicators.list-inline li.list-inline-item {
+    margin-left: 6px !important;
+    margin-right: 6px !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* services area here  */
+ul.spp-list li a {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+ul.spp-list li.buy a::after {
+    content: 'Buy Now';
+}
+ul.spp-list li.free a::after{
+    content: 'Schedule A Call';
+}
+ul.spp-list li.buy a::after,
+ul.spp-list li.free a::after{
+    background: #38B268;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+}
+ul.spp-list li:hover a::after {
+    z-index: 1;
+    visibility: visible;
+    opacity: 1;
+    color: #fff !important;
+}
+.single-service-pricing:hover ul.splan-features li,
+.single-service-pricing:hover ul.splan-features li i,
+.single-service-pricing:hover .splan-name h4,
+.single-service-pricing:hover .splan-name p,
+.single-service-pricing:hover .splan-price h4,
+.single-service-pricing:hover .splan-price h4 span {
+    color: #231D4F;
+}
+.single-service-pricing:hover ul.splan-features li, 
+.single-service-pricing:hover ul.splan-features li i, 
+.single-service-pricing:hover .splan-name p, 
+.single-service-pricing:hover .splan-price h4 span {
+    color: #757589;
+}
+.single-service-pricing.best-price:hover ul.splan-features li,
+.single-service-pricing.best-price:hover ul.splan-features li i,
+.single-service-pricing.best-price:hover .splan-name h4,
+.single-service-pricing.best-price:hover .splan-name p,
+.single-service-pricing.best-price:hover .splan-price h4,
+.single-service-pricing.best-price:hover .splan-price h4 span {
+    color: #fff !important;
+}
+.single-service-pricing:hover ul.splan-features li i {
+    color: #6235E5;
+    background: rgba(82, 67, 194, 0.103693);
+}
+a.choose-plan-btn {
+    background: linear-gradient(98.11deg, #6235E5 0.36%, #B37AFB 131.41%);
+    color: #fff;
+    transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+}
+.single-service-pricing:hover {
+    background: transparent;
+    box-shadow: inherit;
+    border-radius: 0;
+    top: 0;
+    position: relative;
+}
+.single-service-pricing.best-price {
+    background: linear-gradient(98.11deg, #6235E5 0.36%, #B37AFB 131.41%);
+    box-shadow: 0px 42px 34px rgba(82, 67, 194, 0.295755);
+    border-radius: 26px;
+    top: -65px;
+    position: relative;
+}
+
+.single-service-pricing:hover a.choose-plan-btn {
+    background: #FF8A00;
+    color: #fff;
+}
+.single-service-pricing.best-price:hover ul.splan-features li i {
+    background: rgb(255 255 255 / 10%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*########################
 #theEndSTYLE########################
 ########################*/
